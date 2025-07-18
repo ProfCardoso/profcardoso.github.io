@@ -1,14 +1,31 @@
-# Site Web Prof
 
-## Présentation
+---
+title: Bienvenue sur mes cours en ligne
+---
 
-## Cours 
+# 👩‍🏫 Mes cours en ligne
 
-### SNT
+Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouverez ici l'ensemble des leçons, supports et exercices.
 
-![Seconde SNT](cours_seconde/index.md)
+---
 
-### Première NSI
+## 📚 Sommaire des cours
 
-### Terminale NSI
+### 🔢 [Seconde SNT](./cours_seconde/lecon1.md)
+
+### 🌍 [Première NSI ](./histoire/lecon1.md)
+
+### 🧪 [Terminale NSI](./sciences/lecon1.md)
+
+---
+
+## 📂 Ressources utiles
+- 📌 [Planning des cours](./planning.md)
+- 📖 [Fiches de révision](./fiches.md)
+- 📝 [Exercices corrigés](./exercices.md)
+
+---
+
+## ✉️ Me contacter
+Si vous avez des questions, n'hésitez pas à [me contacter](mailto:prof@example.com).
 
