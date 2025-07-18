@@ -1,4 +1,3 @@
-
 ---
 title: Bienvenue sur mes cours en ligne
 ---
