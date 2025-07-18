@@ -10,18 +10,24 @@ Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouvere
 
 ## 📚 Sommaire des cours
 
-### 🔢 [Seconde SNT](./cours_seconde/lecon1.md)
+### 🔢 [Seconde SNT](./cours_seconde/seconde.md)
 
-### 🌍 [Première NSI ](./histoire/lecon1.md)
+<a href="./mathematiques/lecon1.md" style="display: inline-block; padding: 10px 15px; background-color: #4CAF50; color: white; border-radius: 5px; text-decoration: none;">📘 Leçon 1 : Les entiers</a>
 
-### 🧪 [Terminale NSI](./sciences/lecon1.md)
+
+### 🌍 [Première NSI ](./cours_premiere/premiere.md)
+
+<div style="border: 1px solid #007ACC; padding: 10px; border-radius: 5px; background-color: #E6F2FF;">
+  <strong>ℹ️ Info :</strong> Cette leçon est importante pour comprendre les bases du calcul.
+</div>
+
+### 🧪 [Terminale NSI](./cours_terminale/terminale.md)
 
 ---
 
 ## 📂 Ressources utiles
 - 📌 [Planning des cours](./planning.md)
 - 📖 [Fiches de révision](./fiches.md)
-- 📝 [Exercices corrigés](./exercices.md)
 
 ---
 

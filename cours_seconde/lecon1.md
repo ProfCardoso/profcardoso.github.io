@@ -46,3 +46,17 @@ Ils peuvent être **positifs** ou **négatifs**.
    - Le nombre de marches d’un escalier.
 
 </details>
+
+
+# 📚 Leçon 1 - Nombres entiers
+
+<a href="./exercices/lecon1.md" style="display:inline-block; padding:8px 12px; background:#4CAF50; color:#fff; border-radius:6px; text-decoration:none;">📝 Faire les exercices</a>
+
+<div style="margin-top:20px; border:1px solid #ccc; padding:12px; border-radius:6px; background:#f9f9f9;">
+  <strong>ℹ️ Objectif :</strong> Comprendre les nombres entiers positifs et négatifs.
+</div>
+
+<details>
+  <summary>📖 Lire la définition</summary>
+  Un nombre entier est un nombre sans virgule, pouvant être négatif, nul ou positif.
+</details>
