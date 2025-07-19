@@ -10,7 +10,7 @@ title: Cours de Seconde SNT
 
 ---
 
-## 📐 Mathématiques
+## Thème 1 : Internet
 
 <div class="cours-section">
   <div class="boites-lecons">
@@ -30,7 +30,7 @@ title: Cours de Seconde SNT
 
 ---
 
-## 🌍 Histoire-Géographie
+## Thème 2 : Le Web
 
 <div class="cours-section">
   <div class="boites-lecons">
@@ -50,7 +50,7 @@ title: Cours de Seconde SNT
 
 ---
 
-## 🧪 Sciences
+## Thème 3 : Les réseaux sociaux
 
 <div class="cours-section">
   <div class="boites-lecons">
@@ -67,3 +67,85 @@ title: Cours de Seconde SNT
 
   </div>
 </div>
+
+## Thème 4 : Les données structurées et leur traitement
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>💧 <a href="./sciences/lecon1.md">Les états de la matière</a></h3>
+      <p>Solide, liquide ou gaz : comprendre leurs différences.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🌦️ <a href="./sciences/lecon2.md">Le cycle de l'eau</a></h3>
+      <p>Étudier les étapes du cycle de l'eau dans la nature.</p>
+    </div>
+
+  </div>
+</div>
+
+## Thème 5 : Localisation, cartographie et mobilité
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>💧 <a href="./sciences/lecon1.md">Les états de la matière</a></h3>
+      <p>Solide, liquide ou gaz : comprendre leurs différences.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🌦️ <a href="./sciences/lecon2.md">Le cycle de l'eau</a></h3>
+      <p>Étudier les étapes du cycle de l'eau dans la nature.</p>
+    </div>
+
+  </div>
+</div>
+
+## Thème 6 : Informatique embarquée et objet connectés
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>💧 <a href="./sciences/lecon1.md">Les états de la matière</a></h3>
+      <p>Solide, liquide ou gaz : comprendre leurs différences.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🌦️ <a href="./sciences/lecon2.md">Le cycle de l'eau</a></h3>
+      <p>Étudier les étapes du cycle de l'eau dans la nature.</p>
+    </div>
+
+  </div>
+</div>
+
+## Thème 7 : La photographie numérique
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>💧 <a href="./sciences/lecon1.md">Les états de la matière</a></h3>
+      <p>Solide, liquide ou gaz : comprendre leurs différences.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🌦️ <a href="./sciences/lecon2.md">Le cycle de l'eau</a></h3>
+      <p>Étudier les étapes du cycle de l'eau dans la nature.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🌦️ <a href="./sciences/lecon2.md">TEST</a></h3>
+      <p>Étudier les étapes du cycle de l'eau dans la nature.</p>
+    </div>
+
+  </div>
+</div>
+
+---
+
+Le bulletin officiel est trouvable ici : [BO SNT](BO_SNT.pdf)
+
