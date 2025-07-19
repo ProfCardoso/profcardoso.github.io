@@ -2,8 +2,6 @@
 title: Cours de Seconde SNT
 ---
 
-[TOC]
-
 # Cours de Seconde
 
 ---
