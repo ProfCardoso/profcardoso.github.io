@@ -1,3 +1,71 @@
 ---
 title: Cours de Seconde SNT
 ---
+
+# Cours de Seconde
+
+[TOC]
+
+---
+
+<link rel="stylesheet" href="../assets/style.css" />
+
+---
+
+## 📐 Mathématiques
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>🔢 <a href="./mathematiques/lecon1.md">Les nombres entiers</a></h3>
+      <p>Comprendre et comparer les nombres positifs et négatifs.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🧮 <a href="./mathematiques/lecon2.md">Les fractions</a></h3>
+      <p>Apprendre à manipuler les fractions simples.</p>
+    </div>
+
+  </div>
+</div>
+
+---
+
+## 🌍 Histoire-Géographie
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>⚔️ <a href="./histoire/lecon1.md">La Révolution française</a></h3>
+      <p>Découverte des grands événements de 1789 à 1799.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🧭 <a href="./histoire/lecon2.md">Les grandes découvertes</a></h3>
+      <p>Explorer le monde au XVe et XVIe siècle.</p>
+    </div>
+
+  </div>
+</div>
+
+---
+
+## 🧪 Sciences
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>💧 <a href="./sciences/lecon1.md">Les états de la matière</a></h3>
+      <p>Solide, liquide ou gaz : comprendre leurs différences.</p>
+    </div>
+
+    <div class="boite">
+      <h3>🌦️ <a href="./sciences/lecon2.md">Le cycle de l'eau</a></h3>
+      <p>Étudier les étapes du cycle de l'eau dans la nature.</p>
+    </div>
+
+  </div>
+</div>

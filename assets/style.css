@@ -1,0 +1,34 @@
+/* style.css */
+
+.boites-lecons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boite {
+  flex: 1 1 300px;
+  border: 2px solid #007ACC;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.boite:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
+
+.boite h3 {
+  margin-top: 0;
+}
+
+.boite a {
+  text-decoration: none;
+  color: #007ACC;
+}
+
+.boite a:hover {
+  text-decoration: underline;
+}
