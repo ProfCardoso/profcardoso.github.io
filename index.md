@@ -24,5 +24,5 @@ Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouvere
 ---
 
 ## ✉️ Me contacter
-Si vous avez des questions, n'hésitez pas à [me contacter](Mathieu.Cardoso@ac-montpellier.fr).
+Si vous avez des questions, n'hésitez pas à me contacter : Mathieu.Cardoso@ac-montpellier.fr 
 
