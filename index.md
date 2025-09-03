@@ -10,20 +10,19 @@ Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouvere
 
 ## 📚 Sommaire des cours
 
-### 🔢 [Seconde SNT](./cours_seconde/seconde.md)
+### 🟩 [Seconde SNT](./cours_seconde/seconde.md)
 
-### 🌍 [Première NSI ](./cours_premiere/premiere.md)
+### 🟥 [Première NSI ](./cours_premiere/premiere.md)
 
-### 🧪 [Terminale NSI](./cours_terminale/terminale.md)
+### 🟦 [Terminale NSI](./cours_terminale/terminale.md)
 
 ---
 
 ## 📂 Ressources utiles
-- 📌 [Planning des cours](./planning.md)
 - 📖 [Fiches de révision](./fiches.md)
 
 ---
 
 ## ✉️ Me contacter
-Si vous avez des questions, n'hésitez pas à [me contacter](mailto:prof@example.com).
+Si vous avez des questions, n'hésitez pas à [me contacter](Mathieu.Cardoso@ac-montpellier.fr).
 
