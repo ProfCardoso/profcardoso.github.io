@@ -7,6 +7,7 @@ title: Initialisation à Python
 
 <link rel="stylesheet" href="../assets/style.css" />
 
+---
 
 ## Qu'est-ce qu'une variable ?
 
@@ -16,12 +17,12 @@ Dans un programme, pour les variables, on distingue :
 
 - L'affectation d'une valeur à une variable ;
 - L'utilisation de la variable.
-L'affectation se fait à l'aide du signe =. Les étapes sont les suivantes :
+L'affectation se fait à l'aide du signe `=` . Les étapes sont les suivantes :
 
-1) Le code à droite du signe = est évalué.
-2) Le résultat est créé en mémoire.
-3) Le nom placé à gauche du signe = est associé à cette mémoire.
-Lors de l'affectation, si la variables n'existait pas, elle est créée.
+1) Le code à droite du signe = est évalué.  
+2) Le résultat est créé en mémoire.  
+3) Le nom placé à gauche du signe = est associé à cette mémoire.  
+Lors de l'affectation, si la variables n'existait pas, elle est créée.  
 
 ### Application
 
@@ -84,7 +85,7 @@ Sur l'ordinateur, avec Thonny :
 
 ### A faire
 
-Le langage python dispose de la fonction type(...) qui permet de connaitre le type du contenu d'une variable.
+Le langage python dispose de la fonction `type(...)` qui permet de connaitre le type du contenu d'une variable.
 
 Copier le code ci-dessous dans Thonny.
 
@@ -103,13 +104,13 @@ Faire la liste des types d'objets.
 
 Les types d'objets avec lesquels nous travaillerons cette année sont :
 
-🔾 int pour les entiers relatifs ;
-🔾 float pour les rationnels ;
-🔾 bool pour les booléens ;
-🔾 str pour les chaines de caractères ;
-🔾 list pour les listes ;
-🔾 tuple pour les tuples ;
-🔾 dict pour les dictionnaires.
+🔾 `int` pour les entiers relatifs ;  
+🔾 `float` pour les rationnels ;  
+🔾 `bool` pour les booléens ;  
+🔾 `str` pour les chaines de caractères ;  
+🔾 `list` pour les listes ;  
+🔾 `tuple` pour les tuples ;  
+🔾 `dict` pour les dictionnaires.  
 
 
 ## Obtenir un objet d'un type donné à partir d'un objet d'un autre type
@@ -118,10 +119,10 @@ Les types d'objets avec lesquels nous travaillerons cette année sont :
 
 En python, pour chaque type d'objet, il existe une fonction qui permet de créer un objet de ce type à partir d'un autre objet d'un autre type.
 
-- Pour les entiers, la fonction est int(...).
-- Pour les flottants, la fonction est float(...).
-- Pour les chaine de caractères, la fonction est str(...).
-- Pour les booléen, la fonction est bool(...)
+- Pour les entiers, la fonction est `int(...)`.
+- Pour les flottants, la fonction est `float(...)`.
+- Pour les chaine de caractères, la fonction est `str(...)`.
+- Pour les booléen, la fonction est `bool(...)`
 ...
 
 Exemples

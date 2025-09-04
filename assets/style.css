@@ -29,15 +29,34 @@
   background-color: #e6f2ff;
 }
 
+.boite-tp:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
+
 .boite h3 {
   margin-top: 0;
 }
+
+.boite-tp h3 {
+  margin-top: 0;
+}
+
 
 .boite a {
   text-decoration: none;
   color: #007ACC;
 }
 
+.boite-tp a {
+  text-decoration: none;
+  color: #cccc00;
+}
+
 .boite a:hover {
+  text-decoration: underline;
+}
+
+.boite-tp a:hover {
   text-decoration: underline;
 }

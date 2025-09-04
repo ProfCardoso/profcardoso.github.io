@@ -7,6 +7,7 @@ title: Cours de Première NSI
 
 <link rel="stylesheet" href="../assets/style.css" />
 
+---
 
 ## Thème 1 : Initialisation à Python
 
@@ -22,7 +23,23 @@ title: Cours de Première NSI
     </div>
 
     <div class="boite">
-      <h3> <a href="./intro_python/variable_type.html">Opérateurs</a></h3>
+      <h3> <a href="./intro_python/operateur.html">Opérateurs</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Fonctions</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Conditions</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Chaines de caractères, print et input</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Boucles</a></h3>
     </div>
 
     <div class="boite-tp">

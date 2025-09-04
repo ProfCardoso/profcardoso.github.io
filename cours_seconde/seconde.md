@@ -4,7 +4,6 @@ title: Cours de Seconde SNT
 
 # Cours de Seconde
 
----
 
 <link rel="stylesheet" href="../assets/style.css" />
 
