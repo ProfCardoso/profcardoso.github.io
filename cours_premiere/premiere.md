@@ -7,7 +7,6 @@ title: Cours de Première NSI
 
 <link rel="stylesheet" href="../assets/style.css" />
 
----
 
 ## Thème 1 : Initialisation à Python
 

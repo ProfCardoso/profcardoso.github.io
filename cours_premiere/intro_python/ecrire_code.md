@@ -7,7 +7,6 @@ title: Initialisation à Python
 
 <link rel="stylesheet" href="../assets/style.css" />
 
----
 
 ## Le langage Python
 

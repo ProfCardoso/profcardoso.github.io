@@ -4,10 +4,8 @@ title: Initialisation à Python
 
 # Variables et types d'objets
 
-
 <link rel="stylesheet" href="../assets/style.css" />
 
----
 
 ## Qu'est-ce qu'une variable ?
 
@@ -19,9 +17,9 @@ Dans un programme, pour les variables, on distingue :
 - L'utilisation de la variable.
 L'affectation se fait à l'aide du signe `=` . Les étapes sont les suivantes :
 
-1) Le code à droite du signe = est évalué.  
+1) Le code à droite du signe `=` est évalué.  
 2) Le résultat est créé en mémoire.  
-3) Le nom placé à gauche du signe = est associé à cette mémoire.  
+3) Le nom placé à gauche du signe `=` est associé à cette mémoire.  
 Lors de l'affectation, si la variables n'existait pas, elle est créée.  
 
 ### Application
