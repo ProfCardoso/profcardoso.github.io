@@ -5,12 +5,8 @@ title: Cours de Première NSI
 # Cours de Première
 
 
-
----
-
 <link rel="stylesheet" href="../assets/style.css" />
 
----
 
 ## Thème 1 : Initialisation à Python
 
@@ -26,11 +22,18 @@ title: Cours de Première NSI
     </div>
 
     <div class="boite">
-      <h3> <a href="./intro_python/tp_pyrate.html">Opérateur</a></h3>
+      <h3> <a href="./intro_python/variable_type.html">Opérateurs</a></h3>
+    </div>
+
+    <div class="boite-tp">
+      <h3> <a href="./intro_python/tp_pyrate.html">Tp Py-Rates</a></h3>
     </div>
 
   </div>
 </div>
+
+
+<!-- 
 
 ## Thème 2 : Les fonctions
 
@@ -300,6 +303,7 @@ title: Cours de Première NSI
 
   </div>
 </div>
+-->
 
 ---
 

@@ -4,17 +4,18 @@ title: Initialisation à Python
 
 # Ecrire du code
 
----
 
 <link rel="stylesheet" href="../assets/style.css" />
 
----
 
 ## Le langage Python
 
 Python est un language de programmation créé en 1989 par le néerlandais Guido van Rossum. Il continue d'évoluer depuis, grâce à une communauté de contributeurs.
 
-[logo de Python](../../images/python.png)
+<div style="text-align: center;">
+  <img src="../../images/python.png" alt="Python" width="400" />
+</div>
+
 
 Python est un langage interprété, il nécessite donc un environnement de développement (en anglais IDE, Integrated Development Environment) pour être testé.
 
@@ -26,8 +27,15 @@ Cette année, nous programmerons principalement à l'aide du logiciel Thonny. Vo
 
 Choix des zones visibles de l'interface :
 
-[Interface du logiciel Thonny](../../images/thonny_2_menu_affichage.png)
-[Interface du logiciel Thonny](../../images/thonny_1.png)
+
+<div style="text-align: center;">
+  <img src="../../images/thonny_2_menu_affichage.png" alt="Thonny_1" width="400" />
+</div>
+
+
+<div style="text-align: center;">
+  <img src="../../images/thonny_1.png" alt="Thonny_2" width="400" />
+</div>
 
 Repérer les zones suivantes :
 

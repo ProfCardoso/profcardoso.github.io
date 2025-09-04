@@ -4,11 +4,9 @@ title: Initialisation à Python
 
 # Variables et types d'objets
 
----
 
 <link rel="stylesheet" href="../assets/style.css" />
 
----
 
 ## Qu'est-ce qu'une variable ?
 

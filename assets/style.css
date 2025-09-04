@@ -15,6 +15,15 @@
   transition: transform 0.2s ease;
 }
 
+.boite-tp {
+  flex: 1 1 300px;
+  border: 2px solid #cccc00;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
 .boite:hover {
   transform: scale(1.02);
   background-color: #e6f2ff;
