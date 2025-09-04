@@ -18,13 +18,15 @@ title: Cours de Première NSI
   <div class="boites-lecons">
 
     <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
+      <h3> <a href="./intro_python/ecrire_code.html">Ecrire du code</a></h3>
     </div>
 
     <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
+      <h3> <a href="./intro_python/variable_type.html">Variables et types des objets</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3> <a href="./intro_python/tp_pyrate.html">Opérateur</a></h3>
     </div>
 
   </div>
