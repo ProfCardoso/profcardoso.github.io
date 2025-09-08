@@ -27,12 +27,12 @@ couleurs_cartes = "♠♣♥♦"
 
 - Certains caractères (on parle des caractère d'échappement) s'obtiennent à l'aide du symbole \ :
 
-`\n` : saut de ligne
-`\t` : tabulation
-`\'` : apostrophe (guillemet simple)
-`\"` : guillement (guillemet double)
-`\\` : antislash
-`texte_sur_deux_lignes = "Bonjour !\nÇa va ?"`
+`\n` : saut de ligne  
+`\t` : tabulation  
+`\'` : apostrophe (guillemet simple)  
+`\"` : guillement (guillemet double)  
+`\\` : antislash  
+`texte_sur_deux_lignes = "Bonjour !\nÇa va ?"`  
 
 # La fonction print
 
@@ -102,7 +102,7 @@ Si le paramètre sep n'est pas renseigné, sa valeur par défaut est un espace, 
 
 ### Le paramètre end
 
-Il est possible de choisir la chaine de caractère de fin d'affichage avec le paramètre end.
+Il est possible de choisir la chaine de caractère de fin d'affichage avec le paramètre `end`.
 
 **Exemple :**
 
@@ -110,7 +110,7 @@ Il est possible de choisir la chaine de caractère de fin d'affichage avec le pa
 print("Bonjour", end="")
 print(" et à bientôt...")  #Affiche 'Bonjour et à bientôt' sur une seule ligne.
 ```
-Si le paramètre end n'est pas renseigné, sa valeur par défaut est un retour à la ligne, c'est-à-dire `\n`.
+Si le paramètre `end` n'est pas renseigné, sa valeur par défaut est un retour à la ligne, c'est-à-dire `\n`.
 
 # La fonction input
 

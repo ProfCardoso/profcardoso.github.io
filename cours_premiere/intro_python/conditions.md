@@ -6,14 +6,12 @@ title: Initialisation à Python
 
 ## Un peu d'histoire
 
-### 
-
-<div style="border: 1px solid #ccc; padding: 10px; text-align: center; border-radius: 8px;">
+<div style="display: flex; flex-direction:column;  border: 1px solid #ccc; text-align: center; border-radius: 8px;">
   <img src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
   <span style="font-style: italic; color: gray;">George BOOLE (1815-1864)</span>
 </div>
 
-Mathématicien anglais, il publie en 1854 les "Lois de la pensée". Dans ce livre, il décrit comment toute la logique peut être définie par un principe simple : le binaire.
+Mathématicien anglais, il publie en 1854 les "Lois de la pensée". Dans ce livre, il décrit comment toute la logique peut être définie par un principe simple : *le binaire*.
 
 ## Les opérateurs booléens
 

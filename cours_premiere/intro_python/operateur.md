@@ -28,7 +28,7 @@ type_de_resultat = type(resultat)
 __Compte rendu sur feuille__ : Pour chaque test (faire une vingtaine de tests), ajouter une ligne du tableau ci-dessous.
 
 | Opérateur | Type du premier objet	| Type du deuxième objet	| Type du résultat	| Rôle	| Exemple |
-|*---*|*---*|*---*|*---*|*---*|*---*|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |`+` |	int |	int	 | int	| Addition |	8 + 6 renvoie 14 |
 |`+` |	str	|str	|str	|Concaténation	|"a" + "b" renvoie "ab"|
 |`+` |	str	|int	|Erreur !|	---	|"A" + 310 renvoie une erreur|

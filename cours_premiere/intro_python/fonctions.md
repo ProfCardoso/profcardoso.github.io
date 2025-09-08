@@ -16,7 +16,7 @@ Dans un programme en python, proposer différentes instructions de façon à com
 
 
 |Fonction native |	Type de la valeur renvoyée |	Description |
-|*-*|*-*|*-*|
+|:---:|:---:|:---:|
 |int(...)	|   |   |
 |chr(...)	|   |   |		
 |len(...)	|   |   |		
