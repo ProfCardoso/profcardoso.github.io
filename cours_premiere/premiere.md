@@ -26,19 +26,19 @@ title: Cours de Première NSI
     </div>
 
     <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Fonctions</a></h3>
+      <h3 <a href="./intro_python/fonctions.html">Les Fonctions</a></h3>
     </div>
 
     <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Conditions</a></h3>
+      <h3> <a href="./intro_python/conditions.html">Les Conditions</a></h3>
     </div>
 
     <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Chaines de caractères, print et input</a></h3>
+      <h3> <a href="./intro_python/string.html">Chaines de caractères, `print` et `input`</a></h3>
     </div>
 
     <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Boucles</a></h3>
+      <h3> <a href="./intro_python/boucles.html">Les Boucles</a></h3>
     </div>
 
     <div class="boite-tp">
