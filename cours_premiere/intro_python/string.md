@@ -13,7 +13,7 @@ Les chaines de caractères sont constituées de caractères, c'est-à-dire de po
 ## Généralité
 ### Création d'une chaine
 
-- Les chaines de caractères s'écrivent entre apostrophes (guillements simples) '...' ou entre guillements (guillemets doubles) "...".
+- Les chaines de caractères s'écrivent entre apostrophes (guillements simples) `'...'` ou entre guillements (guillemets doubles) `"..."`.
 
 ```python
 alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -38,7 +38,7 @@ couleurs_cartes = "♠♣♥♦"
 
 ## Usage basique avec un seul paramètre
 
-La fonction print() permet d'afficher des données dans la console.
+La fonction `print()` permet d'afficher des données dans la console.
 
 ```python
 print("Bonjour")  #Affiche Bonjour
@@ -66,7 +66,7 @@ print("Voici " + prenom + ", elle a " + str(age) + " ans !")  #Affiche Voici Sim
 
 ## Usage avancé avec plusieurs paramètres
 
-Il est possible d'utiliser la fonction print() avec plusieurs paramètres.
+Il est possible d'utiliser la fonction `print()` avec plusieurs paramètres.
 
 Dans ce cas :
 
@@ -88,8 +88,9 @@ print(prenom, "a", age, "ans !")  #Affiche Albert a 26 ans !
 ```
 
 
-### Le paramètre sep
-Il est possible de choisir la chaine de caractère de séparation des valeurs avec le paramètre sep.
+### Le paramètre `sep`
+
+Il est possible de choisir la chaine de caractère de séparation des valeurs avec le paramètre `sep`.
 
 **Exemple :**
 

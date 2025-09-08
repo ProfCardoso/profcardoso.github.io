@@ -6,16 +6,18 @@ title: Initialisation à Python
 
 ## Un peu d'histoire
 
-### George BOOLE (1815-1864)
+### 
 
 <div style="border: 1px solid #ccc; padding: 10px; text-align: center; border-radius: 8px;">
   <img src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
-  <span style="font-style: italic; color: gray;">Carte de la France avec ses régions (2025)</span>
+  <span style="font-style: italic; color: gray;">George BOOLE (1815-1864)</span>
 </div>
 
 Mathématicien anglais, il publie en 1854 les "Lois de la pensée". Dans ce livre, il décrit comment toute la logique peut être définie par un principe simple : le binaire.
 
 ## Les opérateurs booléens
+
+Un booléen en Python est un type de données qui ne peut prendre que deux valeurs possibles : `True` (vrai) ou `False` (faux).
 
 ### Applications
 
@@ -29,30 +31,60 @@ Exemple de code pour tester les opérateurs :
 r = not False
 ```
 
-|A	|not A|
-|False|	 |
-|True|	| 
-
-
-|A	|B	|A or B|
-|False|	False|	 |
-|False|	True|	 |
-|True|	False|	| 
-|True|	True|	 |
-
-
-|A	|B	|A and B|
-|False|	False|	 |
-|False|	True|	 |
-|True|	False|	 |
-|True|	True|	 |
+<div style="display: flex; flex-direction: row; justify-content: space-evenly">
+    <table>
+        <tr>
+            <th>A</th><th>not A</th>
+        </tr>
+        <tr>
+            <td>False</td><td></td>
+        </tr>
+        <tr>
+            <td>True</td><td></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>A</th><th>B</th><th>A or B</th>
+        </tr>
+        <tr>
+            <td>False</td><td>False</td><td></td>
+        </tr>
+        <tr>
+            <td>False</td><td>True</td><td></td>
+        </tr>
+        <tr>
+            <td>True</td><td>False</td><td></td>
+        </tr>
+        <tr>
+            <td>True</td><td>True</td><td></td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>A</th><th>B</th><th>A and B</th>
+        </tr>
+        <tr>
+            <td>False</td><td>False</td><td></td>
+        </tr>
+        <tr>
+            <td>False</td><td>True</td><td></td>
+        </tr>
+        <tr>
+            <td>True</td><td>False</td><td></td>
+        </tr>
+        <tr>
+            <td>True</td><td>True</td><td></td>
+        </tr>
+    </table>
+</div>
 
 
 **Application II**
 
 <u>Sur feuille</u>, puis vérifier sur l'ordinateur
 
-Donner la valeur (True ou False) des expressions suivantes :
+Donner la valeur (`True` ou `False`) des expressions suivantes :
 
 ```python
 15 <= 20 or 1> 150

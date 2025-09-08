@@ -24,7 +24,7 @@ Lors de l'affectation, si la variables n'existait pas, elle est créée.
 
 ### Application
 
-Sur feuille : Pour chaque programme ci-dessous, indiquer les valeurs des variables a, b et r en fin d'exécution.
+<u>Sur feuille :</u> Pour chaque programme ci-dessous, indiquer les valeurs des variables a, b et r en fin d'exécution.
 
 🔾 Programme 1 :
 
@@ -73,7 +73,7 @@ a = 4
 r = r * a
 ```
 
-Sur l'ordinateur, avec Thonny :
+<u>Sur l'ordinateur :</u> avec Thonny :
 
 - lancer le programme en mode débogage  (Ctrl+F5),
 - avancer pas à pas  (F7),
@@ -123,7 +123,7 @@ En python, pour chaque type d'objet, il existe une fonction qui permet de créer
 - Pour les booléen, la fonction est `bool(...)`
 ...
 
-Exemples
+**Exemples**  
 Tester le code suivant dans Thonny.
 
 ```python
@@ -136,10 +136,11 @@ c = bool(pi)
 
 ### Applications
 
-Sur feuille : proposer les instructions qui permettent :
+<u>Sur feuille :</u> proposer les instructions qui permettent :
 
 - de transformer "8" en un entier.
 - de transformer 5.8 en un entier. Le résultat est-il l'entier 5 ou l'entier 6 ?
 - de transformer 9 en "9".
 - de transformer 3.14 en "3.14"
-Sur ordinateur : Tester vos propositions.
+
+<u>Sur ordinateur :</u> Tester vos propositions.

@@ -26,15 +26,15 @@ title: Cours de Première NSI
     </div>
 
     <div class="boite">
-      <h3 <a href="./intro_python/fonctions.html">Les Fonctions</a></h3>
-    </div>
-
-    <div class="boite">
       <h3> <a href="./intro_python/conditions.html">Les Conditions</a></h3>
     </div>
 
     <div class="boite">
       <h3> <a href="./intro_python/string.html">Chaines de caractères, `print` et `input`</a></h3>
+    </div>
+    
+    <div class="boite">
+      <h3> <a href="./intro_python/fonctions.html">Les Fonctions</a></h3>
     </div>
 
     <div class="boite">

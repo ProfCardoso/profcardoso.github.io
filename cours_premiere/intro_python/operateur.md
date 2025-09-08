@@ -18,7 +18,7 @@ Les principaux opérateurs en Python sont : `+` `-` `*` `**` `/` `//` `%` `<` `>
 
 __Sur l'ordinateur__ : Tester ces différents opérateurs sur des objets de différents types.
 
-Exemple :
+**Exemple :**
 
 ```python
 resultat = 8 + 6

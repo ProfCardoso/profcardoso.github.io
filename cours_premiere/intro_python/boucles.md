@@ -4,7 +4,6 @@ title: Initialisation à Python
 
 # Boucle `for`
 
-
 L'instruction `for` permet de répéter un bloc de code en considérant successivement les valeurs d'une séquence (donnée itérable).
 
 ## Syntaxe
