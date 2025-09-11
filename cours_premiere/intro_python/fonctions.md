@@ -115,3 +115,43 @@ Par ailleurs, les arguments nommés doivent être passés après les arguments p
 
 🔾 Pour permettre une flexibilité accrue, Python permet de définir des fonctions acceptant un nombre variable d'arguments. Cela se fait en utilisant la syntaxe `*args` pour les arguments positionnels variables, qui sont regroupés dans un tuple, et `**kwargs` pour les arguments nommés variables, qui sont regroupés dans un dictionnaire.
 Ces syntaxes sont particulièrement utiles pour créer des fonctions génériques comme une somme ou une concaténation où le nombre d'arguments n'est pas connu à l'avance.
+
+## Applications
+
+### Application : Un peu de math ... 
+
+Pour les fonctions ci-dessous, on utilisera la valeur de `pi` et la méthode `sqrt` du module `math`.  
+
+1) Écrire une fonction `distance(x1, y1, x2, y2)` qui calcule la distance entre deux points du plan à l’aide de la formule :
+
+\[
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+
+2) Écrire une fonction `aire_cercle(r)` qui calcule l’aire d’un cercle de rayon `r`. Pour rappel, la formule mathématique est la suivante : 
+
+\[
+A = \pi \times r^2
+\]
+
+### Application : ... et d'aléatoire !
+
+Pour les fonctions ci-dessous, on utilisera la méthode `randint` du module `random`. 
+
+On considère le code ci-dessous.
+
+```python
+def fct():
+    m = randint(1,12)
+    j = randint(1,31)
+    a = randint(1900,2100)
+    return str(j) + "/" + str(m) + "/" + str(a)
+```
+
+1) Expliquer en une phrase l'utilité de cette fonction. Changer le nom de la fonction en conséquence.
+
+2) Expliquer les différents éléments de la syntaxe python de la ligne 5.
+
+
+
+
