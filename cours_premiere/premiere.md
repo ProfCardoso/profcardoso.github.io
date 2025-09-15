@@ -323,5 +323,21 @@ title: Cours de Première NSI
 
 ---
 
+## Projet 1 : Initialisation à Python
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a href="./projet_1/liste_sujet_consignes.html">
+    <div class="boite">
+      <h3> Ecrire du code</h3>
+    </div>
+    </a>
+
+  </div>
+</div>
+
+---
+
 Le bulletin officiel est trouvable ici : [BO NSI Première](BO_PREM.pdf)
 
