@@ -2,6 +2,8 @@
 title: Initialisation à Python
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # Les Fonctions
 
 ## Quelques fonctions natives
@@ -17,13 +19,13 @@ Dans un programme en python, proposer différentes instructions de façon à com
 
 |Fonction native |	Type de la valeur renvoyée |	Description |
 |:---:|:---:|:---:|
-|int(...)	|   |   |
-|chr(...)	|   |   |		
-|len(...)	|   |   |		
-|abs(...)	|   |   |
-|max(...,...)|   |   |
-|round(nb) |   |   |
-|round(nb,n)	|  |   |
+|int("mot")	|   |   |
+|chr(97)	|   |   |		
+|len("Abracadabra")	|   |   |		
+|abs(-15)	|   |   |
+|max(21,6)|   |   |
+|round(3.1416) |   |   |
+|round(3.1416,3)	|  |   |
 |     |   |   |
 
 
