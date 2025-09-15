@@ -13,52 +13,36 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a href="./intro_python/ecrire_code.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/ecrire_code.html">
       <h3> Ecrire du code</h3>
-    </div>
     </a>
 
-    <a href="./intro_python/variable_type.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/variable_type.html">
       <h3> Variables et types des objets</h3>
-    </div>
     </a>
 
-    <a href="./intro_python/operateur.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/operateur.html">
       <h3> Opérateurs</h3>
-    </div>
     </a>
 
-    <a href="./intro_python/conditions.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/conditions.html">
       <h3>Les Conditions</h3>
-    </div>
     </a>
 
-    <a href="./intro_python/string.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/string.html">
       <h3> Chaines de caractères, `print` et `input`</h3>
-    </div>
     </a>
     
-    <a href="./intro_python/fonctions.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/fonctions.html">
       <h3> Les Fonctions</h3>
-    </div>
     </a>
 
-    <a href="./intro_python/boucles.html">
-    <div class="boite">
+    <a class="boite" href="./intro_python/boucles.html">
       <h3> Les Boucles</h3>
-    </div>
     </a>
 
-    <a href="./intro_python/tp_pyrate.html">
-    <div class="boite-tp">
+    <a class="boite" href="./intro_python/tp_pyrate.html">
       <h3> Tp Py-Rates</h3>
-    </div>
     </a>
 
   </div>

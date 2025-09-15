@@ -52,11 +52,3 @@
   text-decoration: none;
   color: #cccc00;
 }
-
-.boites-lecons a:hover {
-  text-decoration: underline;
-}
-
-.boite-tp a:hover {
-  text-decoration: underline;
-}
