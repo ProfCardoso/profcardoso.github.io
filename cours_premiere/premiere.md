@@ -339,5 +339,22 @@ title: Cours de Première NSI
 
 ---
 
+## 📖 Aide et fiche de révision
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a href="./aide/docstring.html">
+    <div class="boite">
+      <h3> Ecrire des docstrings</h3>
+    </div>
+    </a>
+
+  </div>
+</div>
+
+
+---
+
 Le bulletin officiel est trouvable ici : [BO NSI Première](BO_PREM.pdf)
 

@@ -125,13 +125,13 @@ Pour les fonctions ci-dessous, on utilisera la valeur de `pi` et la méthode `sq
 1) Écrire une fonction `distance(x1, y1, x2, y2)` qui calcule la distance entre deux points du plan à l’aide de la formule :
 
 
-$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
+$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
 
 2) Écrire une fonction `aire_cercle(r)` qui calcule l’aire d’un cercle de rayon `r`. Pour rappel, la formule mathématique est la suivante : 
 
 
-$A = \pi \times r^2$
+$$A = \pi \times r^2$$
 
 
 ### Application : ... et d'aléatoire !
