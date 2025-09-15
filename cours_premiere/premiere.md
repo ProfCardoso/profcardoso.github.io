@@ -41,7 +41,7 @@ title: Cours de Première NSI
       <h3> Les Boucles</h3>
     </a>
 
-    <a class="boite" href="./intro_python/tp_pyrate.html">
+    <a class="boite-tp" href="./intro_python/tp_pyrate.html">
       <h3> Tp Py-Rates</h3>
     </a>
 
