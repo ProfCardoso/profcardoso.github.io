@@ -59,25 +59,19 @@ title: Cours de Seconde SNT
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a href="./res_sociaux_graphe/res_soc.html">
-    <div class="boite">
+    <a class="boite" href="./res_sociaux_graphe/res_soc.html">
       <h3>Les réseaux sociaux</h3>
       <p>Qu'est ce qu'un réseau social ?</p>
-    </div>
     </a>
 
-    <a href="./res_sociaux_graphe/graphe.html">
-    <div class="boite">
+    <a class="boite" href="./res_sociaux_graphe/graphe.html">
       <h3>🚧 Les graphes</h3>
       <p>Qu'est ce qu'un graphe ?</p>
-    </div>
     </a>
 
-    <a href="./res_sociaux_graphe/milgram.html">
-    <div class="boite">
+    <a class="boite" href="./res_sociaux_graphe/milgram.html">
       <h3>🚧 Le petit monde de Milgram</h3>
       <p>Le petit monde de Milgram</p>
-    </div>
     </a>
 
   </div>
