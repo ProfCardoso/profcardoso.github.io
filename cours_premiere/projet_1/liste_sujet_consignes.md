@@ -4,6 +4,8 @@ title: Projet Python
 
 # Projet Python
 
+<link rel="stylesheet" href="../assets/style.css" />
+
 
 ## Consignes
 
@@ -50,7 +52,7 @@ Par groupe de 2, choisissez un sujet parmis la liste ci-dessous **( ⚠️ 1 gro
       <h3>Sujet 5</h3>
       <p>Calculatrice </p>
     </a>
-    
+
   </div>
 </div>
 
