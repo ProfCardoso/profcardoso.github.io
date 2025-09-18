@@ -19,42 +19,43 @@ Par groupe de 2, choisissez un sujet parmis la liste ci-dessous **( ⚠️ 1 gro
     - 1 point pour la réalisation des objectifs fixés, 1 point si vous allez plus loin dans le projet
     - 2 points sur le document de recherche en classe,
     - 1 point pour les commentaires et la documentation,
+- A la fin de la séance, le projet complet (fichier(s) python + documentation) sera a envoyé à mon adresse mail : Mathieu.Cardoso@ac-montpellier.fr 
 
 ## Liste des projets :
 
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a href="./sujet1.html">
-    <div class="boite">
+    <a class="boite" href="./sujet1.html">
+    <div >
       <h3>Sujet 1</h3>
       <p>Fonction et conditionnelles</p>
     </div>
     </a>
     
-    <a href="./sujet2.html">
-    <div class="boite">
+    <a class="boite"href="./sujet2.html">
+    <div>
       <h3>Sujet 2</h3>
       <p>Logiciel d'apprentissage des tables de multiplication</p>
     </div>
     </a>
 
-    <a href="./sujet3.html">
-    <div class="boite">
+    <a class="boite" href="./sujet3.html">
+    <div >
       <h3>Sujet 3</h3>
       <p>Analyseur de mots de passe</p>
     </div>
     </a>
         
-    <a href="./sujet4.html">
-    <div class="boite">
+    <a class="boite" href="./sujet4.html">
+    <div >
       <h3>Sujet 4</h3>
       <p>Nombre mystère</p>
     </div>
     </a>
     
-    <a href="./sujet5.html">
-    <div class="boite">
+    <a class="boite" href="./sujet5.html">
+    <div>
       <h3>Sujet 5</h3>
       <p>Calculatrice </p>
     </div>

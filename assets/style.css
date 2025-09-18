@@ -43,11 +43,19 @@
   background-color: #e6f2ff;
 }
 
+.boite-projet:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
 .boite h3 {
   margin-top: 0;
 }
 
 .boite-tp h3 {
+  margin-top: 0;
+}
+
+.boite-projet h3 {
   margin-top: 0;
 }
 

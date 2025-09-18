@@ -4,10 +4,9 @@ title: Projet Python
 
 # Projet Python
 
+Le but de ce projet est de créer le jeu du nombre mystère, dans lequel un joueur A choisit un nombre aléatoire entre 1 et 100 et un joueur B doit le retrouver. À chaque essai du joueur B, le joueur A indique si le nombre mystère est plus grand ou plus petit que le nombre proposé.
 
 ## Nombre mystère 
-
-Le but de ce projet est de créer le jeu du nombre mystère, dans lequel un joueur A choisit un nombre aléatoire entre 1 et 100 et un joueur B doit le retrouver. À chaque essai du joueur B, le joueur A indique si le nombre mystère est plus grand ou plus petit que le nombre proposé.
 
 Vous devrez programmer deux modes de jeu : le mode où l'ordinateur choisit le nombre et l'utilisateur le cherche, et le mode où l'utilisateur choisit le nombre et l'ordinateur le cherche.
 
