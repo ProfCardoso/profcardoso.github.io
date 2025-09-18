@@ -329,7 +329,7 @@ title: Cours de Première NSI
   <div class="boites-lecons">
 
     <a href="./projet_1/liste_sujet_consignes.html">
-    <div class="boite">
+    <div class="boite-projet">
       <h3> Mini Projet </h3>
     </div>
     </a>

@@ -24,6 +24,15 @@
   transition: transform 0.2s ease;
 }
 
+.boite-projet {
+  flex: 1 1 300px;
+  border: 2px solid #cc0000;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
 .boite:hover {
   transform: scale(1.02);
   background-color: #e6f2ff;
@@ -42,7 +51,17 @@
   margin-top: 0;
 }
 
-.boites-lecons a {
+.boites-lecons .boite {
   text-decoration: none;
   color: #007ACC;
+}
+
+.boites-lecons .boite-tp {
+  text-decoration: none;
+  color: #cccc00;
+}
+
+.boites-lecons .boite-projet {
+  text-decoration: none;
+  color: #cc0000;
 }
