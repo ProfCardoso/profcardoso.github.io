@@ -27,39 +27,30 @@ Par groupe de 2, choisissez un sujet parmis la liste ci-dessous **( ⚠️ 1 gro
   <div class="boites-lecons">
 
     <a class="boite" href="./sujet1.html">
-    <div >
       <h3>Sujet 1</h3>
       <p>Fonction et conditionnelles</p>
-    </div>
     </a>
     
-    <a class="boite"href="./sujet2.html">
-    <div>
+    <a class="boite" href="./sujet2.html">
       <h3>Sujet 2</h3>
       <p>Logiciel d'apprentissage des tables de multiplication</p>
-    </div>
     </a>
 
     <a class="boite" href="./sujet3.html">
-    <div >
       <h3>Sujet 3</h3>
       <p>Analyseur de mots de passe</p>
-    </div>
     </a>
         
     <a class="boite" href="./sujet4.html">
-    <div >
       <h3>Sujet 4</h3>
       <p>Nombre mystère</p>
-    </div>
     </a>
     
     <a class="boite" href="./sujet5.html">
-    <div>
       <h3>Sujet 5</h3>
       <p>Calculatrice </p>
-    </div>
     </a>
+    
   </div>
 </div>
 
