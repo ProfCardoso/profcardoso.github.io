@@ -4,7 +4,7 @@ title: Projet Python
 
 # Projet Python
 
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="../../assets/style.css" />
 
 
 ## Consignes
