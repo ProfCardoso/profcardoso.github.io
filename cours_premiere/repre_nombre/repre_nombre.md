@@ -134,11 +134,8 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 > *A faire (sans ordinateur et sans calculatrice)*
 >
 > Le roi Belkib (en Indes) promit une récompense fabuleuse à qui lui proposerait une distraction qui le satisferait.
->
 > Lorsque le sage Sissa, fils du Brahmine Dahir, lui présenta le jeu d'échecs, le souverain satisfait, demanda à Sissa ce que > celui-ci souhaitait comme récompense de ce jeu extraordinaire.
->
 > Sissa demanda au prince de déposer un grain de riz sur la première case, deux sur la deuxième, quatre sur la troisième, et ainsi de suite en doublant le nombre de grain à chaque case, et de lui donner l'ensemble du riz obtenu.
->
 >Le prince accorda immédiatement cette récompense... Mais le royaume du roi Belkib sera-t-il en mesure de donner tout ce riz au sage Sissa ?
 >
 > 1) Écrire un programme qui affiche successivement (ligne par ligne) le nombre de grain de riz de chacune des 64 cases.
