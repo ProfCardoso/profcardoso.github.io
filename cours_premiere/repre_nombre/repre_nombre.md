@@ -93,8 +93,6 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 
 > ## Applications
 >
-> ---
->
 > ### Application I
 >
 > **Passer de la base 10 à la base 2 et inversement**
@@ -129,6 +127,7 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 > 2. Utiliser ces trois fonctions pour faire quelques conversions.
 > 3. Utiliser la fonction `print()` sur un nombre représenté en binaire. Quel est le résultat ?
 >
+> ---
 >
 > ### Application IV : Puissances de 2  
 >
@@ -153,13 +152,15 @@ Case 3 : 4
 ...
 Case 64 :
 ```
-
->  2) Proposer une formule pour calculer directement le nombre de grain de riz qu'il y a sur la ième case.
+>
+> 2) Proposer une formule pour calculer directement le nombre de grain de riz qu'il y a sur la ième case.
 >   
 > 3) Compléter le programme précédent pour qu'il calcul le nombre total de grains de riz déposés sur l'ensemble des cases du plateau de jeu.
 > 
 > 4) En supposant que la masse de 1 grain est de 0,04 g, calculer la masse totale de riz.
 > 
+> ---
+>
 > ### Application V : Conversions
 > 
 > 1) Convertir le nombre binaire 1110 en base 8, 10 puis 16.
@@ -170,6 +171,8 @@ Case 64 :
 > 
 > 4) Convertir le nombre décimal 124 en base 2 et en base 16.
 > 
+> ---
+>
 > ### Application VI : Un peu de python
 > 
 > 1) Écrire une fonction `dec_to_bin(nb:int)->str` qui prend un nombre entier positif en paramètre et renvoie une chaine de caractère correspondant à ce nombre en base 2.  
@@ -186,3 +189,4 @@ Case 64 :
 >>> bin_to_dec('1100')
 12
 ```
+> ---
