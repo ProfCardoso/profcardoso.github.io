@@ -7,6 +7,17 @@ title: Représentation des nombres
 
 # Représentation des entiers naturels
 
+Vus de l’extérieur, les ordinateurs que nous utilisons tous les jours permettent de mémoriser, transmettre et transformer des nombres, des textes, des images, des sons, etc. Pour effectuer toutes ces manipulations, ceux-ci utilisent des courants électriques, des aimants, des rayons de lumière, ..., qui peuvent être représentés par deux états possibles :
+
+- tension nulle ou tension non nulle (5V par exemple) pour les courants électriques,
+- aimantation dans un sens ou dans l’autre sens pour les aimants,
+- lumière ou pas de lumière pour les rayons, etc.
+D’un point de vue pratique, les informaticiens ont décidé de représenter et traduire ces deux états à l’aide des deux chiffres 0 et 1.
+
+<div style="text-align: center;">
+  <img src="../../images/Binary_counter.gif alt="Python" width="400" />
+</div>
+
 ## Comprendre le principe des différentes bases
 
 ### Compter dans les différentes bases
