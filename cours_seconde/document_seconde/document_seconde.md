@@ -42,6 +42,8 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+---
+
 ## Thème 4 : Les données structurées et leur traitement
 
 <div class="cours-section">
@@ -50,6 +52,8 @@ title: Cours de Seconde SNT
 
   </div>
 </div>
+
+---
 
 ## Thème 5 : Localisation, cartographie et mobilité
 
@@ -61,6 +65,8 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+---
+
 ## Thème 6 : Informatique embarquée et objet connectés
 
 <div class="cours-section">
@@ -69,6 +75,8 @@ title: Cours de Seconde SNT
 
   </div>
 </div>
+
+---
 
 ## Thème 7 : La photographie numérique
 

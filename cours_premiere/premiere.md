@@ -49,97 +49,23 @@ title: Cours de Première NSI
 </div>
 
 
+## Thème 2 : Représentation des nombres
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-tp" href="./repre_nombre/activite_prep.html">
+      <h3>Activité préparatoire</h3>
+    </a>
+
+  </div>
+</div>
+
+
 <!-- 
 
-## Thème 2 : Les fonctions
 
-<div class="cours-section">
-  <div class="boites-lecons">
 
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 3 : Les conditions
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 4 : Chaines de caractères
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 5 : Les boucles
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
-
-## Thème 6 : Représentation des nombres
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
 
 ## Thème 7 : Encodage des caractères
 
