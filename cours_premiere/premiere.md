@@ -59,7 +59,7 @@ title: Cours de Première NSI
     </a>
 
     <a class="boite" href="./repre_nombre/repre_nombre.html">
-      <h3>Activité préparatoire</h3>
+      <h3>Représentation des entiers naturels</h3>
     </a>
 
   </div>

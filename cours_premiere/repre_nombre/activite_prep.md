@@ -22,20 +22,20 @@ Les ordinateurs ne comprennent que les 0 et les 1. Toutes les informations stock
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <div class="boite>
+    <div class="boite">
     <h3>Bit</h3>
     <p>Le bit est l'unité en binaire.
     bit ne peut prendre que deux valeurs que l'on note en général 0 et 1.</p>
     </div>
 
-    <div class="boite>
+    <div class="boite">
     <h3>Octet</h3>
     <p>L'octet est un ensemble de 8 bits. Exemple : 10011011.
     L'octet peut prendre 256 valeurs, de 0 à 255.
     En hexadécimal, l'octet s'écrit avec deux symboles. Exemple : A6.</p>
     </div>
 
-    <div class="boite>
+    <div class="boite">
     <h3>Bit de poids fort ou bit de poids faible</h3>
     <p>Dans un nombre binaire, le bit de gauche est appelé bit de poids fort, celui de droite bit de poids faible.</p>
     </div>
