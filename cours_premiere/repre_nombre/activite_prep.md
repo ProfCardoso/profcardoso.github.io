@@ -23,7 +23,7 @@ Les ordinateurs ne comprennent que les 0 et les 1. Toutes les informations stock
     <div class="boite">
     <h3>Bit</h3>
     <p>Le bit est l'unité en binaire.
-    bit ne peut prendre que deux valeurs que l'on note en général 0 et 1.</p>
+    Le bit ne peut prendre que deux valeurs que l'on note en général 0 et 1.</p>
     </div>
 
     <div class="boite">
