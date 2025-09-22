@@ -58,6 +58,10 @@ title: Cours de Première NSI
       <h3>Activité préparatoire</h3>
     </a>
 
+    <a class="boite" href="./repre_nombre/repre_nombre.html">
+      <h3>Activité préparatoire</h3>
+    </a>
+
   </div>
 </div>
 
