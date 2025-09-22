@@ -6,8 +6,6 @@ title: Représentation des nombres
 
 # Activité préparatoire
 
-**Activité sans ordinateur et sans calculatrice**
-
 ## Prendre connaissance : Quel language les ordinateurs parlent-ils ?
 
 ### Présentation

@@ -29,59 +29,59 @@ Remarques :
 
 **Exemples**
 
-- Le nombre $(4532)_{10}$ a pour valeur en base 10 :  
-  $4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}$
+- Le nombre $$(4532)_{10}$$ a pour valeur en base 10 :  
+  $$4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}$$
 
-- Le nombre $(4301)_{5}$ a pour valeur en base 10 :  
-  $4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$
+- Le nombre $$(4301)_{5}$$ a pour valeur en base 10 :  
+  $$4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$$
 
 ➜ Il en est de même pour toutes les bases.
 
 ### Généralisation
 
-> La valeur en base 10 du nombre qui s’écrit $a_n \dots a_3 a_2 a_1 a_0$ en base $x$ répond à l’égalité suivante :  
+> La valeur en base 10 du nombre qui s’écrit $$a_n \dots a_3 a_2 a_1 a_0$$ en base $$x$$ répond à l’égalité suivante :  
 >
-> $a_n \dots a_3 a_2 a_1 a_0 = a_n \times x^{n} + \dots + a_3 \times x^{3} + a_2 \times x^{2} + a_1 \times x^{1} + a_0 \times x^{0}$
+> $$a_n \dots a_3 a_2 a_1 a_0 = a_n \times x^{n} + \dots + a_3 \times x^{3} + a_2 \times x^{2} + a_1 \times x^{1} + a_0 \times x^{0}$$
 >
 > Cette relation permet de calculer la valeur en base dix d’un nombre écrit dans n’importe quelle base.
 
 **À faire (sans ordinateur et sans calculatrice)**
 
-1. Convertir $(323)_{4}$ en base 10.  
+1. Convertir $$(323)_{4}$$ en base 10.  
 
-2. Donner la valeur en base 10 de $(110011)_{2}$.  
+2. Donner la valeur en base 10 de $$(110011)_{2}$$.  
 
-3. Convertir $(B9)_{16}$ en base 10.
+3. Convertir $$(B9)_{16}$$ en base 10.
 
 <div style="text-align: center;">
   <img src="../../images/conversion_en_base2.png" alt="Python" width="400" />
 </div>
 
-## Valeur en base $x$ d'un nombre écrit en base 10
+## Valeur en base $$x$$ d'un nombre écrit en base 10
 
-# I.3 – Valeur en base $x$ d’un nombre écrit en base 10
+# I.3 – Valeur en base $$x$$ d’un nombre écrit en base 10
 
 **Exemple**
 
-On souhaite écrire $(89)_{10}$ en base 2.
+On souhaite écrire $$(89)_{10}$$ en base 2.
 
 *(schéma des divisions successives à insérer ici sous forme d’image)*  
 
-Donc $(89)_{10} = (1011001)_{2}$
+Donc $$(89)_{10} = (1011001)_{2}$$
 
 ---
 
 ### Généralisation
 
-> L’écriture en base $x$ d’un nombre en base dix nécessite de faire des divisions successives par $x$ et de garder les restes.
+> L’écriture en base $$x$$ d’un nombre en base dix nécessite de faire des divisions successives par $$x$$ et de garder les restes.
 
 ---
 
 **À faire (sans ordinateur et sans calculatrice)**  
 
-1. Convertir $(202)_{10}$ en base 2.  
+1. Convertir $$(202)_{10}$$ en base 2.  
 
-2. Écrire $(101)_{10}$ en base 3.
+2. Écrire $$(101)_{10}$$ en base 3.
 
 
 
