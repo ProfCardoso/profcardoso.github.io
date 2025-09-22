@@ -29,59 +29,59 @@ Remarques :
 
 **Exemples**
 
-- Le nombre \((4532)_{10}\) a pour valeur en base 10 :  
-  \(4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}\)
+- Le nombre $(4532)_{10}$ a pour valeur en base 10 :  
+  $4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}$
 
-- Le nombre \((4301)_{5}\) a pour valeur en base 10 :  
-  \(4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}\)
+- Le nombre $(4301)_{5}$ a pour valeur en base 10 :  
+  $4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$
 
 ➜ Il en est de même pour toutes les bases.
 
 ### Généralisation
 
-> La valeur en base 10 du nombre qui s’écrit \(a_n \dots a_3 a_2 a_1 a_0\) en base \(x\) répond à l’égalité suivante :  
+> La valeur en base 10 du nombre qui s’écrit $a_n \dots a_3 a_2 a_1 a_0$ en base $x$ répond à l’égalité suivante :  
 >
-> \(a_n \dots a_3 a_2 a_1 a_0 = a_n \times x^{n} + \dots + a_3 \times x^{3} + a_2 \times x^{2} + a_1 \times x^{1} + a_0 \times x^{0}\)
+> $a_n \dots a_3 a_2 a_1 a_0 = a_n \times x^{n} + \dots + a_3 \times x^{3} + a_2 \times x^{2} + a_1 \times x^{1} + a_0 \times x^{0}$
 >
 > Cette relation permet de calculer la valeur en base dix d’un nombre écrit dans n’importe quelle base.
 
 **À faire (sans ordinateur et sans calculatrice)**
 
-1. Convertir \((323)_{4}\) en base 10.  
+1. Convertir $(323)_{4}$ en base 10.  
 
-2. Donner la valeur en base 10 de \((110011)_{2}\).  
+2. Donner la valeur en base 10 de $(110011)_{2}$.  
 
-3. Convertir \((B9)_{16}\) en base 10.
+3. Convertir $(B9)_{16}$ en base 10.
 
-<div style="display: flex; flex-direction:column;  border: 1px solid #ccc; text-align: center; border-radius: 8px;">
+<div style="text-align: center;">
   <img src="../../images/conversion_en_base2.png" alt="Python" width="400" />
 </div>
 
-## Valeur en base `x` d'un nombre écrit en base 10
+## Valeur en base $x$ d'un nombre écrit en base 10
 
-# I.3 – Valeur en base \(x\) d’un nombre écrit en base 10
+# I.3 – Valeur en base $x$ d’un nombre écrit en base 10
 
 **Exemple**
 
-On souhaite écrire \((89)_{10}\) en base 2.
+On souhaite écrire $(89)_{10}$ en base 2.
 
 *(schéma des divisions successives à insérer ici sous forme d’image)*  
 
-Donc \((89)_{10} = (1011001)_{2}\)
+Donc $(89)_{10} = (1011001)_{2}$
 
 ---
 
 ### Généralisation
 
-> L’écriture en base \(x\) d’un nombre en base dix nécessite de faire des divisions successives par \(x\) et de garder les restes.
+> L’écriture en base $x$ d’un nombre en base dix nécessite de faire des divisions successives par $x$ et de garder les restes.
 
 ---
 
 **À faire (sans ordinateur et sans calculatrice)**  
 
-1. Convertir \((202)_{10}\) en base 2.  
+1. Convertir $(202)_{10}$ en base 2.  
 
-2. Écrire \((101)_{10}\) en base 3.
+2. Écrire $(101)_{10}$ en base 3.
 
 
 
@@ -131,3 +131,62 @@ Passer de la base 10 à la base 16 et inversement
 2) Utiliser ces trois fonctions pour faire quelques conversions.
 
 3) Utiliser la fonction print() sur un nombre représenté en binaire. Quel est le résultat ?
+
+
+
+### Application IV : Puissances de 2  
+
+**A faire (sans ordinateur et sans calculatrice)**  
+
+Le roi Belkib (en Indes) promit une récompense fabuleuse à qui lui proposerait une distraction qui le satisferait.
+
+Lorsque le sage Sissa, fils du Brahmine Dahir, lui présenta le jeu d'échecs, le souverain satisfait, demanda à Sissa ce que celui-ci souhaitait comme récompense de ce jeu extraordinaire.
+
+Sissa demanda au prince de déposer un grain de riz sur la première case, deux sur la deuxième, quatre sur la troisième, et ainsi de suite en doublant le nombre de grain à chaque case, et de lui donner l'ensemble du riz obtenu.
+
+Le prince accorda immédiatement cette récompense... Mais le royaume du roi Belkib sera-t-il en mesure de donner tout ce riz au sage Sissa ?
+
+1) Écrire un programme qui affiche successivement (ligne par ligne) le nombre de grain de riz de chacune des 64 cases.
+
+Le résultat attendu dans la console est :
+
+```shell
+Case 1 : 1
+Case 2 : 2
+Case 3 : 4
+...
+Case 64 :
+```
+
+2) Proposer une formule pour calculer directement le nombre de grain de riz qu'il y a sur la ième case.
+
+3) Compléter le programme précédent pour qu'il calcul le nombre total de grains de riz déposés sur l'ensemble des cases du plateau de jeu.
+
+4) En supposant que la masse de 1 grain est de 0,04 g, calculer la masse totale de riz.
+
+### Application V : Conversions
+
+1) Convertir le nombre binaire 1110 en base 8, 10 puis 16.
+
+2) Convertir le nombre binaire 11101011 en base 8, 10 puis 16.
+
+3) Convertir le nombre entier décimal 48 en base 2 et en base 16.
+
+4) Convertir le nombre décimal 124 en base 2 et en base 16.
+
+### Application VI : Un peu de python
+
+1) Écrire une fonction `dec_to_bin(nb:int)->str` qui prend un nombre entier positif en paramètre et renvoie une chaine de caractère correspondant à ce nombre en base 2.  
+  
+On utilisera pour cette fonction un algorithme basée sur les divisions successives par 2.  
+  
+Par exemple : `dec_to_bin(25)` doit renvoyer `"11001"`
+
+2) Écrire une fonction `bin_to_dec(c:str)->int` qui prend une chaine de caractère représentant un nombre binaire et renvoie la valeur décimale correspondante.
+
+Exemple en ligne de commande :
+
+```shell
+>>> bin_to_dec('1100')
+12
+```

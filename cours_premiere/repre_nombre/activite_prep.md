@@ -2,7 +2,7 @@
 title: Représentation des nombres
 ---
 
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="../../assets/style.css" />
 
 # Activité préparatoire
 
@@ -58,4 +58,4 @@ Vous disposez de jetons dont l'une des faces est 0 et l'autre 1.
 
 ## Pour s'amuser...
 
-Lien (il faut des écouteurs) : https://binarypiano.com/
+Lien (il faut des écouteurs) : [binarypiano](https://binarypiano.com/)
