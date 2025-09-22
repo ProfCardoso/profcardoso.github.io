@@ -15,7 +15,7 @@ Vus de l’extérieur, les ordinateurs que nous utilisons tous les jours permett
 D’un point de vue pratique, les informaticiens ont décidé de représenter et traduire ces deux états à l’aide des deux chiffres 0 et 1.
 
 <div style="text-align: center;">
-  <img src="../../images/Binary_counter.gif alt="Python" width="400" />
+  <img src="../../images/Binary_counter.gif" alt="Python" width="400" />
 </div>
 
 ## Comprendre le principe des différentes bases
