@@ -156,15 +156,17 @@ title: Cours de Seconde SNT
 -->
 ---
 
-### Exercices supplémentaires
-
-Voici des exercices bonus à faire si le travail est fini en classe  :
+### Python
 
 <div class="cours-section">
   <div class="boites-lecons">
 
+    <a class="boite-tp" href="./document_seconde/autre/cours_prog.html">
+      <h3>Initiation à Python</h3>
+    </a>
+
     <a class="boite-tp" href="./exercice_supp/programmation.html">
-      <h3>Programmation 1</h3>
+      <h3>Exercice Bonus</h3>
     </a>
 
   </div>
