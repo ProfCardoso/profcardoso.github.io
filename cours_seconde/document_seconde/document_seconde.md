@@ -95,7 +95,7 @@
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./autre/cours_prog.html">
+    <a class="boite" href="./autre/cours_prog.pdf">
       <h3>Introduction Python</h3>
     </a>
 
