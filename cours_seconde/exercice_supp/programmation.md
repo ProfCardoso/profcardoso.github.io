@@ -27,5 +27,4 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 > 
 > (Pensez à écrire un texte clair à destination de l'utilisateur pour qu'il sache quoi saisir.)
 > 
-> ### Exercice 3 : 
 
