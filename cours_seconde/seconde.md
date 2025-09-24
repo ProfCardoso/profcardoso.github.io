@@ -9,6 +9,8 @@ title: Cours de Seconde SNT
 
 ---
 
+<!-- 
+
 ## Thème 1 : Internet
 
 <div class="cours-section">
@@ -54,7 +56,9 @@ title: Cours de Seconde SNT
 
 ---
 
-## Thème 3 : Les réseaux sociaux
+-->
+
+## Thème 1 : Les réseaux sociaux
 
 <div class="cours-section">
   <div class="boites-lecons">
@@ -77,6 +81,7 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+<!-- 
 ## Thème 4 : Les données structurées et leur traitement
 
 <div class="cours-section">
@@ -148,7 +153,23 @@ title: Cours de Seconde SNT
 
   </div>
 </div>
+-->
+---
 
+### Exercices supplémentaires
+
+Voici des exercices bonus à faire si le travail est fini en classe  :
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-tp" href="./exercice_supp/programmation.html">
+      <h3>Programmation 1</h3>
+    </a>
+
+  </div>
+</div>
+  
 ---
 
 ### Quelques documents

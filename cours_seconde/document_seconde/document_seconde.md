@@ -1,11 +1,24 @@
----
-title: Cours de Seconde SNT
----
-
 # Documents de Seconde
 
 
 <link rel="stylesheet" href="../assets/style.css" />
+
+
+---
+
+## Thème 1 : Les réseaux sociaux
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./rs_graphe/Milgram.zip">
+      <h3>Milgram</h3>
+    </a>
+
+  </div>
+</div>
+
+<!--
 
 ---
 
@@ -28,19 +41,6 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
----
-
-## Thème 3 : Les réseaux sociaux
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite" href="./rs_graphe/Milgram.zip">
-      <h3>Milgram</h3>
-    </a>
-
-  </div>
-</div>
 
 ---
 
@@ -88,6 +88,19 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+-->
+
+## Programmation :
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./autre/cours_prog.html">
+      <h3>Introduction Python</h3>
+    </a>
+
+  </div>
+</div>
 ---
 
 Le bulletin officiel est trouvable ici : [BO SNT](BO_SNT.pdf)
