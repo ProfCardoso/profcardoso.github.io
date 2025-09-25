@@ -40,11 +40,9 @@ Remarques :
 
 **Exemples**
 
-- Le nombre $$(4532)_{10}$$ a pour valeur en base 10 :  
-  $$4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}$$
+- Le nombre $$(4532)_{10}$$ a pour valeur en base 10 :  $$4 \times 10^{3} + 5 \times 10^{2} + 3 \times 10^{1} + 2 \times 10^{0}$$
 
-- Le nombre $$(4301)_{5}$$ a pour valeur en base 10 :  
-  $$4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$$
+- Le nombre $$(4301)_{5}$$ a pour valeur en base 10 :  $$4 \times 5^{3} + 3 \times 5^{2} + 0 \times 5^{1} + 1 \times 5^{0}$$
 
 ➜ Il en est de même pour toutes les bases.
 
