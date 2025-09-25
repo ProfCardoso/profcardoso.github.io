@@ -45,9 +45,9 @@ title: Représentation des nombres
 
 **Exemples**  
 
-> $$\begin{aligned}[t] (4301)_5 &= (4×5^3+3×5^2+0×5^1+1×5^0)_{10} \\ &= (576)_{10} \end{aligned}$$
+> $$\begin{aligned}[t] (4301)_5 &= (4×5^3+3×5^2+0×5^1+1×5^0)_{10} &= (576)_{10} \end{aligned}$$
 >
-> $$\begin{aligned}[t] (493)_{10} &= (4×10^2+9×10^1+3×10^0)_{10} \\ &= (493)_{10} \end{aligned}$$
+> $$\begin{aligned}[t] (493)_{10} &= (4×10^2+9×10^1+3×10^0)_{10} &= (493)_{10} \end{aligned}$$
 
 ## Écriture en base $$k$$ d'un nombre dont on connaît la valeur en base 10
 
