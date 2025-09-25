@@ -280,6 +280,12 @@ title: Cours de Première NSI
     </div>
     </a>
 
+    <a href="./aide/outil_repr_entier.html">
+    <div class="boite">
+      <h3> Outils : Décimal, binaire...</h3>
+    </div>
+    </a>
+
   </div>
 </div>
 
