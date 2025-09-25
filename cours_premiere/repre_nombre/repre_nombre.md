@@ -140,12 +140,10 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 >
 > ---
 >
-> ### Application IV : Puissances de 2  
->
-> *A faire (sans ordinateur et sans calculatrice)*
+> ### 🐍 Application IV : Puissances de 2  
 >
 > Le roi Belkib (en Indes) promit une récompense fabuleuse à qui lui proposerait une distraction qui le satisferait.
-> Lorsque le sage Sissa, fils du Brahmine Dahir, lui présenta le jeu d'échecs, le souverain satisfait, demanda à Sissa ce que > celui-ci souhaitait comme récompense de ce jeu extraordinaire.
+> Lorsque le sage Sissa, fils du Brahmine Dahir, lui présenta le jeu d'échecs, le souverain satisfait, demanda à Sissa ce que celui-ci souhaitait comme récompense de ce jeu extraordinaire.
 > Sissa demanda au prince de déposer un grain de riz sur la première case, deux sur la deuxième, quatre sur la troisième, et ainsi de suite en doublant le nombre de grain à chaque case, et de lui donner l'ensemble du riz obtenu.
 >Le prince accorda immédiatement cette récompense... Mais le royaume du roi Belkib sera-t-il en mesure de donner tout ce riz au sage Sissa ?
 >
@@ -154,7 +152,7 @@ L'écriture en base 2 conduisant à beaucoup de 0 et de 1, il est courant de rem
 > Le résultat attendu dans la console est :
 >
  ```shell
- Case 1 : 1
+Case 1 : 1
 Case 2 : 2
 Case 3 : 4
 ...
@@ -181,7 +179,7 @@ Case 64 :
 > 
 > ---
 >
-> ### Application VI : Un peu de python
+> ### 🐍 Application VI : (Encore) un peu de python 
 > 
 > 1) Écrire une fonction `dec_to_bin(nb:int)->str` qui prend un nombre entier positif en paramètre et renvoie une chaine de caractère correspondant à ce nombre en base 2.  
 >   

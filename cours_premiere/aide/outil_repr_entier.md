@@ -59,7 +59,7 @@ L'écriture en base $$k$$ s'obtient avec les restes, en commençant par le derni
 
 **Exemple**
 
-Cherchons l'écriture de $$(89)_{10}$$ en base 2.
-
-
-$$(89)_{10} = (1011001)_{2}$$
+> Cherchons l'écriture de $$(89)_{10}$$ en base 2.
+>
+>
+> $$(89)_{10} = (1011001)_{2}$$
