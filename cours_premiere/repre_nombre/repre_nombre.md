@@ -215,4 +215,5 @@ Case 64 :
 > 3) Convertir la couleur <span style="color: rgb(165,42,42);">brown</span> en binaire.
 >
 > 4) Quelle est cette couleur codée en binaire : 1111111 110100000 01111010 ?
+>
 > ---
