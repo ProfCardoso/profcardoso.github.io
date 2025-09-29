@@ -58,3 +58,17 @@ ___
 >
 >
 >
+
+___
+## Reponse caché
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Mais alors ? Pourquoi pas cette méthode ? 🤔</u></summary>
+  <div style="margin-top: 10px;">
+    <p>Voici le contenu qui s’affiche quand on clique sur la ligne ci-dessus.</p>
+    <ul>
+      <li>Point 1</li>
+      <li>Exemple : <code>print("Hello")</code></li>
+    </ul>
+  </div>
+</details>

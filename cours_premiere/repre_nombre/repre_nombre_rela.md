@@ -28,21 +28,13 @@ Par exemple, avec un codage sur 3 bits, des nombres entre -3 et 3:
 | 111                    | -3              |
 
 <details>
-  <summary style="cursor: pointer; font-weight: bold;"><u>Mais alors ? Pourquoi pas cette méthode ? 🤔</u></summary>
+  <summary style="cursor: pointer; font-weight: bold;">Mais alors ? Pourquoi pas cette méthode ? 🤔</summary>
   <div style="margin-top: 10px;">
-    <p>Voici le contenu qui s’affiche quand on clique sur la ligne ci-dessus.</p>
-    <ul>
-      <li>Point 1</li>
-      <li>Exemple : <code>print("Hello")</code></li>
-    </ul>
+    <p>
+    Malheureusement cette représentation possède deux inconvénients. Le premier (mineur) est que le nombre zéro (0) possède deux représentations. L’autre inconvénient (majeur) est que cette représentation impose de modifier l’algorithme d’addition ; si un des nombres est négatif, l’addition binaire usuelle donne un résultat incorrect.
+    </p>
   </div>
 </details>
 
---- 
+## Seconde méthode: Complément à 2
 
-<div class="hover-box" tabindex="0" aria-haspopup="true">
-  Passer la souris / focus ici
-  <div class="hidden" role="dialog" aria-label="Aperçu">
-    <p><strong>Aperçu :</strong> contenu affiché au hover (ou au focus clavier).</p>
-  </div>
-</div>
