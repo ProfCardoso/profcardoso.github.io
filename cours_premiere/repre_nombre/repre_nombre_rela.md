@@ -27,10 +27,8 @@ Par exemple, avec un codage sur 3 bits, des nombres entre -3 et 3:
 | 110                    | -2              |
 | 111                    | -3              |
 
-**Mais alors ? Pourquoi pas cette méthode ? 🤔**
-
 <details>
-  <summary style="cursor: pointer; font-weight: bold;">🛈 Voir la correction</summary>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Mais alors ? Pourquoi pas cette méthode ? 🤔</u></summary>
   <div style="margin-top: 10px;">
     <p>Voici le contenu qui s’affiche quand on clique sur la ligne ci-dessus.</p>
     <ul>
@@ -39,3 +37,12 @@ Par exemple, avec un codage sur 3 bits, des nombres entre -3 et 3:
     </ul>
   </div>
 </details>
+
+--- 
+
+<div class="hover-box" tabindex="0" aria-haspopup="true">
+  Passer la souris / focus ici
+  <div class="hidden" role="dialog" aria-label="Aperçu">
+    <p><strong>Aperçu :</strong> contenu affiché au hover (ou au focus clavier).</p>
+  </div>
+</div>
