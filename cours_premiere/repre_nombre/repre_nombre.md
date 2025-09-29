@@ -20,7 +20,7 @@ D’un point de vue pratique, les informaticiens ont décidé de représenter et
 
 ## Le binaire 
 
-Un ordinateur ne comprend dans le fond qu'un seul langage, le langage binaire. Voici une petite vidéo pour expliquer ce fameux langage : ![video](https://www.youtube.com/watch?v=VRdp_vaNRoY)
+Un ordinateur ne comprend dans le fond qu'un seul langage, le langage binaire. Voici une petite vidéo pour expliquer ce fameux langage : [video](https://www.youtube.com/watch?v=VRdp_vaNRoY)
 
 ## Comprendre le principe des différentes bases
 
