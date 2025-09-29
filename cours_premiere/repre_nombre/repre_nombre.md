@@ -197,3 +197,22 @@ Case 64 :
 12
 ```
 > ---
+>
+> ### Application VII : Conversion de couleur !
+> 
+> Le système hexadécimal est en particulier un mode de code informatique des couleurs.
+>
+> En effet une couleur (codage RGB) est composée de 3 valeurs correspondant aux composantes rouge, verte et bleue, et chacune de ces valeurs est un entier compris entre 0 et 255, c'est-à-dire entre 0 et FF en hexadécimal: on peut les écrire avec seulement deux chiffres.
+>
+> Par exemple, la couleur rouge a pour composantes (178, 26, 15), ce qui donne en hexadécimal : (B2, 1A, 0F), qu'on écrit en général de façon concaténée B21A0F et souvent précédée d'un #.
+>
+> Sur ce [site](http://www.proftnj.com/RGB3.htm), vous pouvez retrouver les couleurs de votre choix en codage RGB.
+>
+> 1) Convertir la couleur <span style="color: rgb(255,0,255);">fushia</span> en binaire.
+> 
+> 2) Convertir la couleur <span style="color: rgb(154,205,50);">yellowgreen</span> en binaire.
+>
+> 3) Convertir la couleur <span style="color: rgb(165,42,42);">brown</span> en binaire.
+>
+> 4) Quelle est cette couleur codée en binaire : 1111111 110100000 01111010 ?
+> ---

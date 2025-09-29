@@ -8,10 +8,10 @@ title: Représentation des nombres
 # Représentation des entiers relatifs
 
 ## Méthode naïve: utilisation d’un bit de signe
+ 
+La façon la plus simple de procéder serait de réserver le bit de poids fort pour le signe (0 pour positif et 1 pour négatif), et de garder le reste pour la représentation de la valeur absolue du nombre.
 
-La façon la plus simple de procéder serait de réserver le bit de poids fort pour le signe(0 pour positif et 1 pour négatif), et de garder le rester pour la représentation de la valeur absolue du nombre.
-
-Avec un codage utilisant des mots de n bits, on pourrait représenter des nombres entre 
+Avec un codage utilisant des mots de $$n$$ bits, on pourrait représenter des nombres entre 
 $$-2^{n-1} + 1 \text{ et } 2^{n-1} - 1$$.
 
 Par exemple, avec un codage sur 3 bits, des nombres entre -3 et 3:
