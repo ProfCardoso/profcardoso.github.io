@@ -18,6 +18,10 @@ D’un point de vue pratique, les informaticiens ont décidé de représenter et
   <img src="../../images/Binary_counter.gif" alt="Python" width="400" />
 </div>
 
+## Le binaire 
+
+Un ordinateur ne comprend dans le fond qu'un seul langage, le langage binaire. Voici une petite vidéo pour expliquer ce fameux langage : ![video](https://www.youtube.com/watch?v=VRdp_vaNRoY)
+
 ## Comprendre le principe des différentes bases
 
 ### Compter dans les différentes bases
@@ -62,9 +66,6 @@ Remarques :
 
 3. Convertir $$(B9)_{16}$$ en base 10.
 
-<div style="text-align: center;">
-  <img src="../../images/conversion_en_base2.png" alt="Python" width="400" />
-</div>
 
 ## Valeur en base $$x$$ d'un nombre écrit en base 10
 
@@ -74,7 +75,9 @@ Remarques :
 
 On souhaite écrire $$(89)_{10}$$ en base 2.
 
-*(schéma des divisions successives à insérer ici sous forme d’image)*  
+<div style="text-align: center;">
+  <img src="../../images/conversion_en_base2.png" alt="Python" width="400" />
+</div>
 
 Donc $$(89)_{10} = (1011001)_{2}$$
 

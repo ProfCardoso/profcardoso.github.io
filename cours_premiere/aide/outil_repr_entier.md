@@ -35,6 +35,8 @@ title: Représentation des nombres
 |31	|11111|	1011|	111|	37	|1F|
 |32	|100000	|1012	|112	|40	|20|
 
+Vous pouvez le retrouver ici en [pdf](./outil_repr_entier.pdf)
+
 ## Valeur en base 10 d'un nombre écrit en base $$k$$
 
 **Principe général**
