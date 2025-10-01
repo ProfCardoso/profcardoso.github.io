@@ -27,4 +27,23 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 > 
 > (Pensez à écrire un texte clair à destination de l'utilisateur pour qu'il sache quoi saisir.)
 > 
-
+> ### Exercice 3 : Pair ou Impair 
+> 
+> Ecrire un programme qui demande un nombre à l'utilisateur et test dans la console si celui-ci est pair ou impair. Attention, si ce n'est pas un entier ou un flottant, un message d'erreur devra être affiché pour prevenir l'utilisateur de son erreur.
+>
+>
+> ### Exercice 4 : Calculatrice simple
+>
+> Ecrire un programme qui demande deux nombres a et b et une opération (+, -, *, /) à l’utilisateur.
+> Le programme doit afficher le résultat correspondant.
+>
+> Exemple d’utilisation :
+>
+```shell
+Entrer un premier nombre : 4
+Entrer un deuxième nombre : 2
+Choisis une opération (+, -, *, /) : *
+Résultat : 8
+```
+>
+>

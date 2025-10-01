@@ -99,6 +99,10 @@
       <h3>Introduction Python</h3>
     </a>
 
+    <a class="boite" href="./autre/cours_prog_2.pdf">
+      <h3>Introduction Python 2</h3>
+    </a>
+
   </div>
 </div>
 ---
