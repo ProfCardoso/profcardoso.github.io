@@ -87,10 +87,10 @@ On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$.
 > 
 > 3) Donner les valeurs décimales des nombres dont les représentations binaires en complément à 2 sont les suivants :
 > 
->   &nbsp;a) 1111 1111  
->   &nbsp;b) 0000 0000  
->   &nbsp;c) 1001 1001  
->   &nbsp;d) 0110 0111  
+>   &nbsp;&nbsp;&nbsp;&nbsp;a) 1111 1111  
+>   &nbsp;&nbsp;&nbsp;&nbsp;b) 0000 0000  
+>   &nbsp;&nbsp;&nbsp;&nbsp;c) 1001 1001  
+>   &nbsp;&nbsp;&nbsp;&nbsp;d) 0110 0111  
 > 
 > 4) On s'intéresse au nombre relatif dont la représentation binaire en complément à 2 est 1010 0101
 > 
