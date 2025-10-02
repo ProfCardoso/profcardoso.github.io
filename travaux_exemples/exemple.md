@@ -72,3 +72,9 @@ ___
     </ul>
   </div>
 </details>
+
+___
+## Texte en couleur
+
+<span style="color: rgb(165,42,42);">brown</span>
+

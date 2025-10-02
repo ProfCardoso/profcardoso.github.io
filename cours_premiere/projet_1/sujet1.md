@@ -34,8 +34,8 @@ True
 "bien"
 
 >>> eleves(1)
-Nom de l'élève : Paul
-Note de l'élève : 12
+Nom de l élève : Paul
+Note de l élève : 12
 Paul a eu le bac mention "reçu"
 ```
 

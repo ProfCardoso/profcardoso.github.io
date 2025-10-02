@@ -39,27 +39,27 @@ Cas où l'utilisateur choisit le nombre mystère :
 
 ```shell
 Dans quel mode voulez-vous jouer ?
-1) L'ordinateur choisit le nombre
-2) L'utilisateur choisit le nombre
+1) L ordinateur choisit le nombre
+2) L utilisateur choisit le nombre
 Choix : 2
 Appuyez sur Entrée quand vous avez choisi un nombre...
 Je tente ma chance... 50 !
 Votre réponse :
-1) C'est ça !
+1) C est ça !
 2) Plus petit
 3) Plus grand
 Choix : 2
 Je tente ma chance... 25 !
 Votre réponse :
-1) C'est ça !
+1) C est ça !
 2) Plus petit
 3) Plus grand
 Choix : 3
 Je tente ma chance... 37 !
 Votre réponse :
-1) C'est ça !
+1) C est ça !
 2) Plus petit
 3) Plus grand
 Choix : 1
-L'ordinateur a trouvé en 3 coups !
+L ordinateur a trouvé en 3 coups !
 ```

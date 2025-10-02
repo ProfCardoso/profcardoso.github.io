@@ -26,14 +26,14 @@ Si le mot de passe suit les règles, le programme affiche un message indiquant q
 ```python
 >>> mot_de_passe()
 Saisissez votre mot de passe : Top NSI
-Ce mot de passe n'est pas sécurisé : il ne contient pas de chiffres.
+Ce mot de passe n est pas sécurisé : il ne contient pas de chiffres.
 Saisissez votre mot de passe : T0p NS1
 Ce mot de passe est sécurisé.
 Saisissez à nouveau votre mot de passe : Tob NS1
 Erreur : les mots de passe ne sont pas identiques. Merci de recommencer.
 
 Saisissez votre mot de passe : t0p ns1
-Ce mot de passe n'est pas sécurisé : il ne contient pas de majuscule.
+Ce mot de passe n est pas sécurisé : il ne contient pas de majuscule.
 Saisissez votre mot de passe : T0p NS1
 Ce mot de passe est sécurisé.
 Saisissez à nouveau votre mot de passe : T0p NS1
