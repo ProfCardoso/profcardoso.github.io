@@ -26,7 +26,7 @@ title: Projet Python
 
 **Exemple d'exécution :**
 
-```shell
+```python
 >>> bac(15)
 True
 

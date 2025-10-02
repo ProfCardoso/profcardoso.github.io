@@ -29,7 +29,7 @@ Votre programme continue de proposer à l'utilisateur de refaire une opération 
 
 Voici un exemple possible d'exécution de votre programme (le texte affiché par le programme est en bleu, tandis que le texte entré par l'utilisateur est en noir).
 
-``` python
+```python
 Entrez un nombre : 42
 Choisissez une opération :
 1) 42 + y

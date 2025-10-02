@@ -23,7 +23,7 @@ Si le mot de passe suit les règles, le programme affiche un message indiquant q
 
 **Exemple d'exécution :**
 
-```shell
+```python
 >>> mot_de_passe()
 Saisissez votre mot de passe : Top NSI
 Ce mot de passe n'est pas sécurisé : il ne contient pas de chiffres.

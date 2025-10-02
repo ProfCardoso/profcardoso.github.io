@@ -15,7 +15,7 @@ Votre programme demande d'abord à l'utilisateur quelle table de multiplication 
 
 **Exemple d'exécution :**
 
-``` shell
+```python
 >>> revision(5)
 Combien font 5 x 1 ? 5
 Combien font 5 x 2 ? 10

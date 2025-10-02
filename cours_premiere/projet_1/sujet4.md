@@ -22,7 +22,7 @@ Si le mode choisi est celui où le joueur choisit le nombre, le programme demand
 
 Cas où l'ordinateur choisit le nombre mystère :
 
-```shell
+```python
 Dans quel mode voulez-vous jouer ?
 1) L'ordinateur choisit le nombre
 2) L'utilisateur choisit le nombre
