@@ -58,16 +58,18 @@ On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$..
 > - on ajoute 1
 >
 > C'est tout !
-
+>
 > **Exemple**
+>
 > La valeur −1 a pour valeur absolue 1 codé `001` sur 3 bits.
 > On inverse les bits: `110`
 > On ajoute 1 : `111`
 
 **Deuxième Méthode** ( pas à connaître, mais pratique )
 > L’entier négatif $$x$$ est codé comme s’il s’agissait de l’entier $$x+2^n$$ ou n est la taille du mot binaire.
-
+>
 > **Exemple**
+>
 > Je prend -1 en représentation décimal que je souhaite encoder sur 3 bits
 > J'applique la formule en remplaçant x par -1 et n par 3 -> $$-1 + 2^3$$ qui donne 7 en base décimal
 > Je retranscris 7 en base 10 en base deux -> `111`
