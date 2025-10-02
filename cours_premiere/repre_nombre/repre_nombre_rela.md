@@ -46,7 +46,7 @@ Avec 4 bits, on dispose de $$2^4 = 16$$ valeurs.
 On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$..
 
 <div style="display: flex; flex-direction:column; text-align: center;">
-  <img src="../../images/tableau_complement_a_2.png" alt="Tableau des entiers signés sur 4 bits" width="800" />
+  <img src="../../images/tableau_complement_a_2.png" alt="Tableau des entiers signés sur 4 bits" width="1000" />
 </div>
 
 ### Méthodologie
