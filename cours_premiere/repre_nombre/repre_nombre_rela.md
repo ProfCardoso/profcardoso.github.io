@@ -43,7 +43,7 @@ Par exemple, avec un codage sur 3 bits, des nombres entre -3 et 3:
 ### Exemple avec 4 bits
 Avec 4 bits, on dispose de $$2^4 = 16$$ valeurs.
 
-On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$..
+On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$.
 
 <div style="display: flex; flex-direction:column; text-align: center;">
   <img src="../../images/tableau_complement_a_2.png" alt="Tableau des entiers signés sur 4 bits" width="1000" />
@@ -57,7 +57,7 @@ On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$..
 > - on inverse tous les bits
 > - on ajoute 1
 >
-> C'est tout !
+> C'est tout ! 😱
 >
 > **Exemple**
 >
