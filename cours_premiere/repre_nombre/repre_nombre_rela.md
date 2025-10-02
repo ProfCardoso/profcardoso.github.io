@@ -92,10 +92,10 @@ On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$.
 >   &nbsp;&nbsp;&nbsp;&nbsp;c) 1001 1001  
 >   &nbsp;&nbsp;&nbsp;&nbsp;d) 0110 0111  
 > 
-> 4) On s'intéresse au nombre relatif dont la représentation binaire en complément à 2 est 1010 0101
+> 4) On s'intéresse au nombre relatif dont la représentation binaire en complément à 2 est 1010 0101  
 > 
-> a/ Ce nombre est-il positif ou négatif ?
-> b/ Donner la représentation binaire de l'opposé de ce nombre.
+> &nbsp;&nbsp;&nbsp;&nbsp;a) Ce nombre est-il positif ou négatif ?
+> &nbsp;&nbsp;&nbsp;&nbsp;b) Donner la représentation binaire de l'opposé de ce nombre.
 > 
 > ### Application II : Additionner des entiers relatifs
 > Dans toutes cette partie, on travaillera sur 6 bits.
