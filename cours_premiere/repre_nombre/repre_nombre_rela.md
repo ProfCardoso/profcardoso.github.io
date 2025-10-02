@@ -87,10 +87,10 @@ On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$..
 > 
 > 3) Donner les valeurs décimales des nombres dont les représentations binaires en complément à 2 sont les suivants :
 > 
-> a/ 1111 1111
-> b/ 0000 0000
-> c/ 1001 1001
-> d/ 0110 0111
+>   a) 1111 1111  
+>   b) 0000 0000  
+>   c) 1001 1001  
+>   d) 0110 0111  
 > 
 > 4) On s'intéresse au nombre relatif dont la représentation binaire en complément à 2 est 1010 0101
 > 
@@ -129,8 +129,8 @@ On choisit de représenter les entiers relatifs de $$-8$$ à $$7$$..
 >>> print(to_binary(-5, 8)) 
 "11111011"
 ```
-
-### 🐍 Application V : 
+>
+> ### 🐍 Application V : 
 > Écrire une fonction `addition_binaire(n, m, b)` qui prend deux entiers n et m ainsi que leur représentation binaire sur b bits et les additionnes et retourne le résultat de l'addition.
 > 
 > Exemple :
