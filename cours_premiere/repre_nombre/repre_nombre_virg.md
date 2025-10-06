@@ -50,9 +50,9 @@ Les résultats vous semble-t-ils normaux ?
 
 En Python, un nombre flottant est du type `float`.
 
-```python
+```
 >>> type(0.5)
-<class "float">
+<class 'float'>
 ```
 
 ## Écriture binaire vers décimale
@@ -97,18 +97,18 @@ A la manière des divisions successives, l'obtention de la partie décimale d'un
 
 **Exemple**
 
-Prenons le nombre \(3,6875_10\). Il comporte une partie entière (3), et une partie décimale (0,6875).
+Prenons le nombre $$3,6875_10$$. Il comporte une partie entière (3), et une partie décimale (0,6875).
 
-* On écrit la partie entière "comme d'habitude" : \( 3_10 = 11_2 \).
+* On écrit la partie entière "comme d'habitude" : $$ 3_10 = 11_2 $$.
 * On convertit la partie décimale par des multiplications successives par 2 :
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
   <img src="../../images/conversion_puissance2neg.png" alt="Multiplications successives par 2" width="400" />
 </div>
 
-* On prend les parties entières des résultats dans l'ordre: \(0,6875 = 0, 1011_2\)
+* On prend les parties entières des résultats dans l'ordre: $$0,6875 = 0, 1011_2$$
 
--> Donc \(3,6875_10 = 11, 1011_2\)
+→ Donc $$3,6875_10 = 11, 1011_2$$
 
 ### Remarque
 
@@ -116,6 +116,8 @@ Prenons le nombre \(3,6875_10\). Il comporte une partie entière (3), et une par
 >
 >Le nombre de bits utilisé pour le codage d'un nombre à virgule étant limité, il y a nécessairement des arrondis. C'est cela qui explique les problèmes de calculs qui ont été soulevés dans la paragraphe I.
 >
+
+---
 
 > ## Applications
 >
@@ -130,4 +132,3 @@ Prenons le nombre \(3,6875_10\). Il comporte une partie entière (3), et une par
 >4) Écrire, en binaire, le nombre dont la valeur en base 10 est 8,8 (on s'arrêtera à 4 bits pour la partie décimale).
 >
 >
-> ### Application II : 
