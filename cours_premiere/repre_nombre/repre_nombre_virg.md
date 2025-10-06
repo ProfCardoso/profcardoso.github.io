@@ -42,7 +42,7 @@ Les résultats vous semble-t-ils normaux ?
 <details>
   <summary style="cursor: pointer; font-weight: bold;">BILAN</summary>
   <div style="margin-top: 10px;">
-    <p>Les ordinateurs ne travaillent qu’en binaire (0 et 1). Or, certains nombres décimaux ne peuvent <strong>pas être représentés exactement</strong> en binaire, de la même façon que $$1/3  \frac{1}{3} = 0.333333$$ ne peut pas s’écrire exactement en base 10.</p>
+    <p>Les ordinateurs ne travaillent qu’en binaire (0 et 1). Or, certains nombres décimaux ne peuvent <strong>pas être représentés exactement</strong> en binaire, de la même façon que \( \frac{1}{3} = 0.333333 \) ne peut pas s’écrire exactement en base 10.</p>
   </div>
 </details>
 
