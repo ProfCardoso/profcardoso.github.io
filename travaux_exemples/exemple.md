@@ -44,6 +44,10 @@ ___
   <span style="font-style: italic; color: gray;">George BOOLE (1815-1864)</span>
 </div>
 
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
+</div>
+
 
 ___
 
@@ -54,7 +58,7 @@ ___
 >
 >
 >
->
+>### 💻 Exercice 
 >
 >
 >
