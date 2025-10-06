@@ -76,7 +76,9 @@ Comme pour les entiers, on utilise le système binaire, qu'on prolonge à la par
 
 > <span style="color:red;">
 > La valeur en base 10 du nombre qui s’écrit  
-> $$ a_n \ldots a_2 a_1 a_0 , b_1 b_2 b_3 \ldots $$ 
+>
+> $$ a_n \ldots a_2 a_1 a_0 , b_1 b_2 b_3 \ldots $$   
+>
 >en base \(x\) est donnée par la relation :
 ></span>
 >
