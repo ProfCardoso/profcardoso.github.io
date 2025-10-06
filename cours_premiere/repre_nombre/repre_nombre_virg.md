@@ -46,16 +46,16 @@ Les résultats vous semble-t-ils normaux ?
   </div>
 </details>
 
-## Prendre connaissance
+### Prendre connaissance
 
 En Python, un nombre flottant est du type `float`.
 
 ```python
 >>> type(0.5)
-<class 'float'>
+<class "float">
 ```
 
-### Écriture binaire
+## Écriture binaire vers décimale
 
 Comme pour les entiers, on utilise le système binaire, qu'on prolonge à la partie à droite de la virgule par les puissances négatives de 2.
 
@@ -90,3 +90,44 @@ $$
 Cette relation permet de calculer la valeur en base dix d’un nombre à virgule écrit en base 2.
 </span>
 >
+
+## Écriture décimale vers binaire
+
+A la manière des divisions successives, l'obtention de la partie décimale d'un nombre à virgule se trouve *simplement*, par une méthode de multiplications par 2 successives.
+
+**Exemple**
+
+Prenons le nombre \(3,6875_10\). Il comporte une partie entière (3), et une partie décimale (0,6875).
+
+* On écrit la partie entière "comme d'habitude" : \( 3_10 = 11_2 \).
+* On convertit la partie décimale par des multiplications successives par 2 :
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img src="../../images/conversion_puissance2neg.png" alt="Multiplications successives par 2" width="400" />
+</div>
+
+* On prend les parties entières des résultats dans l'ordre: \(0,6875 = 0, 1011_2\)
+
+-> Donc \(3,6875_10 = 11, 1011_2\)
+
+### Remarque
+
+>Un nombre qui a un nombre de chiffre après la virgule fini lorsqu'on l'écrit en base 10, peut avoir un nombre de chiffre après la virgule infini lorsqu'on souhaite l'écrire en base 2.
+>
+>Le nombre de bits utilisé pour le codage d'un nombre à virgule étant limité, il y a nécessairement des arrondis. C'est cela qui explique les problèmes de calculs qui ont été soulevés dans la paragraphe I.
+>
+
+> ## Applications
+>
+> ### Application I : S'entrainer pour bien comprendre
+>
+>1) Donner en base 10 la valeur du nombre à virgule qui s'écrit 111,111 en binaire.
+>
+>2) Donner en base 10 la valeur du nombre à virgule qui s'écrit 1010,1010 en binaire.
+>
+>3) Écrire, en binaire, le nombre dont la valeur en base 10 est 5,25 (on s'arrêtera à 4 bits pour la partie décimale).
+>
+>4) Écrire, en binaire, le nombre dont la valeur en base 10 est 8,8 (on s'arrêtera à 4 bits pour la partie décimale).
+>
+>
+> ### Application II : 
