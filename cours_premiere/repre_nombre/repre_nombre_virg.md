@@ -59,7 +59,7 @@ En Python, un nombre flottant est du type `float`.
 
 Comme pour les entiers, on utilise le système binaire, qu'on prolonge à la partie à droite de la virgule par les puissances négatives de 2.
 
-<div style="display: flex; flex-direction:column;  text-align: center; ">
+<div style="display: flex; flex-direction:column;  border: 1px solid #ccc; text-align: center; border-radius: 8px; ">
   <img src="../../images/puissances2neg.png" alt="Base 2 -> Base 10" width="1000" />
 </div>
 
@@ -74,20 +74,19 @@ Comme pour les entiers, on utilise le système binaire, qu'on prolonge à la par
 
 ### Généralisation
 
-<div style="border-left: 5px solid green; padding-left: 12px;">
-
-<span style="color:red;">
-La valeur en base 10 du nombre qui s’écrit  
-$$ a_n \ldots a_2 a_1 a_0 , b_1 b_2 b_3 \ldots $$ 
-en base \(x\) est donnée par la relation :
-</span>
-
+> <span style="color:red;">
+> La valeur en base 10 du nombre qui s’écrit  
+> $$ a_n \ldots a_2 a_1 a_0 , b_1 b_2 b_3 \ldots $$ 
+>en base \(x\) est donnée par la relation :
+></span>
+>
+><span style="color:red;">
 $$
 a_n \ldots a_2 a_1 a_0 , b_1 b_2 b_3 \ldots = a_n \times x^n + \ldots + a_2 \times x^2 + a_1 \times x^1 + a_0 \times x^0 + b_1 \times \frac{1}{x^1} + b_2 \times \frac{1}{x^2} + b_3 \times \frac{1}{x^3} + \ldots
 $$
-
-<span style="color:red;">
+</span>
+>
+><span style="color:red;">
 Cette relation permet de calculer la valeur en base dix d’un nombre à virgule écrit en base 2.
 </span>
-
-</div>
+>
