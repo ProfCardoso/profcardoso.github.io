@@ -3,9 +3,6 @@
 
 <link rel="stylesheet" href="../assets/style.css" />
 
-
----
-
 ## Thème 1 : Les réseaux sociaux
 
 <div class="cours-section">
@@ -105,7 +102,3 @@
 
   </div>
 </div>
----
-
-Le bulletin officiel est trouvable ici : [BO SNT](BO_SNT.pdf)
-

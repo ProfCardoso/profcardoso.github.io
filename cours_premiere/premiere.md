@@ -267,8 +267,8 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a href="./projet_1/liste_sujet_consignes.html">
-    <div class="boite-projet">
+    <a class="boite-projet" href="./projet_1/liste_sujet_consignes.html">
+    <div >
       <h3> Mini Projet </h3>
     </div>
     </a>
@@ -283,14 +283,14 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a href="./aide/docstring.html">
-    <div class="boite">
+    <a class="boite" href="./aide/docstring.html">
+    <div >
       <h3> Ecrire des docstrings</h3>
     </div>
     </a>
 
-    <a href="./aide/outil_repr_entier.html">
-    <div class="boite">
+    <a class="boite" href="./aide/outil_repr_entier.html">
+    <div >
       <h3> Outils : Décimal, binaire...</h3>
     </div>
     </a>
