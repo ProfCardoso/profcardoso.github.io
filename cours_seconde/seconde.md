@@ -66,12 +66,12 @@ title: Cours de Seconde SNT
     </a>
 
     <a class="boite" href="./res_sociaux_graphe/graphe.html">
-      <h3>🚧 Les graphes</h3>
+      <h3>Les graphes</h3>
       <p>Qu'est ce qu'un graphe ?</p>
     </a>
 
     <a class="boite" href="./res_sociaux_graphe/milgram.html">
-      <h3>🚧 Le petit monde de Milgram</h3>
+      <h3>Le petit monde de Milgram</h3>
       <p>Le petit monde de Milgram</p>
     </a>
 
