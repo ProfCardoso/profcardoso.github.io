@@ -7,7 +7,7 @@ title: Initialisation à Python
 ## Un peu d'histoire
 
 <div style="display: flex; flex-direction:column;  border: 1px solid #ccc; text-align: center; border-radius: 8px;">
-  <img src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
+  <img style="margin: auto;" src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
   <span style="font-style: italic; color: gray;">George BOOLE (1815-1864)</span>
 </div>
 

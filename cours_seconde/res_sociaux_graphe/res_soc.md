@@ -24,7 +24,7 @@ Vous pouvez obtenir plus d'informations sur cette petite vidéo des bons profs s
 A la suite des débats en classe, voici une carte mentale "globale" des discussions sur la notion de réseau social. J'ai essayé de reprendre au mieux les idées de toutes les classes de seconde, voici le résultat :
 
 <div style="display: flex; flex-direction:column;  border: 1px solid #ccc; text-align: center; border-radius: 8px;">
-  <img src="../../images/debat_rs.png" alt="Python" width="400" />
+  <img src="../../images/debat_rs.png" alt="Python" width="1000" />
 </div>
 
 

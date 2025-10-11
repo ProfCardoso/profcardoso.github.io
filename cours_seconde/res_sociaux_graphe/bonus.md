@@ -31,7 +31,6 @@ Voici un graphe :
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Correction</u></summary>
   <div style="margin-top: 10px;">
-    <p>Voici le contenu qui s’affiche quand on clique sur la ligne ci-dessus.</p>
     <ol>
       <li>Le graphe est non orienté</li>
       <li>6 sommets</li>
@@ -81,7 +80,15 @@ Voici un graphe :
   </div>
 </details>
 
-## Exercice 2
+## Exercice 2 : Raccordement téléphonique 
 
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="text-align: center;" src="../../images/tel_arabe_graphe.png" alt="Graphe" width="600" />
+</div>
 
+Un groupe d'amis
+
+Dessiner le graphe non orienté suivant :
+
+- 
 
