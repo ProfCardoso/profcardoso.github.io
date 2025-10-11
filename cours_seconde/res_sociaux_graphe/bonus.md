@@ -9,7 +9,7 @@ title : Réseaux Sociaux et Graphes
 Voici un graphe :
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img style="text-align: center;" src="../../images/bonus_graph_1.png" alt="Graphe" width="400" />
+  <img style="marign: auto" src="../../images/bonus_graph_1.png" alt="Graphe" width="400" />
 </div>
 
 1. Ce grahe est-il orienté ou non orienté ?
@@ -83,7 +83,7 @@ Voici un graphe :
 ## Exercice 2 : Raccordement téléphonique 
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img style="text-align: center;" src="../../images/tel_arabe_graphe.png" alt="Graphe" width="600" />
+  <img style="marign: auto" src="../../images/tel_arabe_graphe.png" alt="Graphe" width="600" />
 </div>
 
 Un groupe d'amis souhaite organisé un jeu autour d'un moyen de communication rudimentaire, le [https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone_%C3%A0_ficelle](téléphone à ficelle). Pour représenter au mieux qui peut communiquer avec qui, ils ont décidé, avec votre aide de créer une carte avec le prénom de chacun des joueurs, et avec qui ils peuvent discuter.
