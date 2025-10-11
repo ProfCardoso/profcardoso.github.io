@@ -86,7 +86,7 @@ Voici un graphe :
   <img style="text-align: center;" src="../../images/tel_arabe_graphe.png" alt="Graphe" width="600" />
 </div>
 
-Un groupe d'amis souhaite organisé un jeu autour d'un moyen de communication rudimentaire, le !(https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone_%C3%A0_ficelle)[téléphone à ficelle]. Pour représenter au mieux qui peut communiquer avec qui, ils ont décidé, avec votre aide de créer une carte avec le prénom de chacun des joueurs, et avec qui ils peuvent discuter.
+Un groupe d'amis souhaite organisé un jeu autour d'un moyen de communication rudimentaire, le [https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone_%C3%A0_ficelle](téléphone à ficelle). Pour représenter au mieux qui peut communiquer avec qui, ils ont décidé, avec votre aide de créer une carte avec le prénom de chacun des joueurs, et avec qui ils peuvent discuter.
 
 1) Dessiner le graphe non orienté suivant :
 
