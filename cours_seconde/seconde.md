@@ -75,6 +75,10 @@ title: Cours de Seconde SNT
       <p>Le petit monde de Milgram</p>
     </a>
 
+    <a class="boite-tp" href="./res_sociaux_graphe/bonus.html">
+      <h3>Exercice Bonus</h3>
+    </a>
+
   </div>
 </div>
 
