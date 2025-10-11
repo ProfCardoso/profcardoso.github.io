@@ -86,9 +86,23 @@ Voici un graphe :
   <img style="text-align: center;" src="../../images/tel_arabe_graphe.png" alt="Graphe" width="600" />
 </div>
 
-Un groupe d'amis
+Un groupe d'amis souhaite organisé un jeu autour d'un moyen de communication rudimentaire, le !(https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone_%C3%A0_ficelle)[téléphone à ficelle]. Pour représenter au mieux qui peut communiquer avec qui, ils ont décidé, avec votre aide de créer une carte avec le prénom de chacun des joueurs, et avec qui ils peuvent discuter.
 
-Dessiner le graphe non orienté suivant :
+1) Dessiner le graphe non orienté suivant :
 
-- 
+- Adam peut discuter avec Melvin
+- Lisa possède 3 téléphones à ficelles, un pour parler avec Henry, un avec Jade, et un dernier avec Zoé
+- Jade et Henry peuvent aussi discuter entre eux
+- Zoé a beaucoup d'amis, en plus du téléphone avec Lisa, elle a aussi le moyen de communiquer avec Adam et Melvin
 
+2) Si la ficelle du téléphone de Zoé et Lisa se casse, est ce qu'il serait possible pour Melvin de réussir à passer un message de voisin en voisin jusqu'à Henry ?
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Correction</u></summary>
+  <div style="margin-top: 10px;">
+  <ol>
+    <li> <img style="text-align: center;" src="../../images/bonus_graph_2.png" alt="Graphe" width="400" /> </li>
+    <li> Non, aucun autre chemin ne permet d'atteindre Henry si la ficelle entre Lisa et Zoé venait à se casser</li>
+  </ol>
+  </div>
+</details>
