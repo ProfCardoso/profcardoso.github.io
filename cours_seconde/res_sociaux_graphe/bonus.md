@@ -9,7 +9,7 @@ title : Réseaux Sociaux et Graphes
 Voici un graphe :
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img src="../../images/bonus_graph_1.png" alt="Graphe" width="600" />
+  <img style="text-align: center;" src="../../images/bonus_graph_1.png" alt="Graphe" width="400" />
 </div>
 
 1. Ce grahe est-il orienté ou non orienté ?
@@ -38,6 +38,12 @@ Voici un graphe :
       <li>7 arrêtes</li>
       <li> Tableau des excentricités :
         <table>
+          <thead>
+            <tr>
+              <td> Sommet </td>
+              <td> Excentricité </td>
+            </tr>
+          </thead>
           <tr>
             <td> A </td>
             <td> 2 </td>
@@ -71,7 +77,7 @@ Voici un graphe :
           <li>Le centre de ce graphe sont les sommets : A, B, C</li>
         </ul>
       </li>
-    </ul>
+    </ol>
   </div>
 </details>
 
