@@ -30,7 +30,7 @@ title: Cours de Première NSI
     </a>
 
     <a class="boite" href="./intro_python/string.html">
-      <h3> Chaines de caractères, `print` et `input`</h3>
+      <h3> Chaines de caractères, <code>print</code> et <code>input</code></h3>
     </a>
     
     <a class="boite" href="./intro_python/fonctions.html">

@@ -1,12 +1,20 @@
 # Documents de Seconde
 
 
-<link rel="stylesheet" href="../assets/style.css" />
+<link rel="stylesheet" href="../../assets/style.css" />
 
 ## Thème 1 : Les réseaux sociaux
 
 <div class="cours-section">
   <div class="boites-lecons">
+
+    <a class="boite" href="./rs_graphe/Reseau_Social.zip">
+      <h3>Réseaux Sociaux</h3>
+    </a>
+
+    <a class="boite" href="./rs_graphe/Graphe.zip">
+      <h3>Graphe</h3>
+    </a>
 
     <a class="boite" href="./rs_graphe/Milgram.zip">
       <h3>Milgram</h3>

@@ -35,7 +35,7 @@ Voici un graphe :
       <li>Le graphe est non orienté</li>
       <li>6 sommets</li>
       <li>7 arrêtes</li>
-      <li> Tableau des excentricités :
+      <li style="text-align: center; "> Tableau des excentricités :
         <table>
           <thead>
             <tr>
@@ -101,7 +101,7 @@ Un groupe d'amis souhaite organisé un jeu autour d'un moyen de communication ru
   <summary style="cursor: pointer; font-weight: bold;"><u>Correction</u></summary>
   <div style="margin-top: 10px;">
   <ol>
-    <li> <img style="text-align: center;" src="../../images/bonus_graph_2.png" alt="Graphe" width="400" /> </li>
+    <li style="text-align: center; "> <img src="../../images/bonus_graph_2.png" alt="Graphe" width="400" /> </li>
     <li> Non, aucun autre chemin ne permet d'atteindre Henry si la ficelle entre Lisa et Zoé venait à se casser</li>
   </ol>
   </div>
