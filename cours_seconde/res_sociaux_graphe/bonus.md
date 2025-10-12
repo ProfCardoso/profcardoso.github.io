@@ -8,7 +8,7 @@ title : Réseaux Sociaux et Graphes
 
 Voici un graphe :
 
-<div style="display: flex; flex-direction:column;  text-align: center; ">
+<div style="text-align: center; ">
   <img style="marign: auto" src="../../images/bonus_graph_1.png" alt="Graphe" width="400" />
 </div>
 
@@ -82,7 +82,7 @@ Voici un graphe :
 
 ## Exercice 2 : Raccordement téléphonique 
 
-<div style="display: flex; flex-direction:column;  text-align: center; ">
+<div style="text-align: center; ">
   <img style="marign: auto" src="../../images/tel_arabe_graphe.png" alt="Graphe" width="600" />
 </div>
 
