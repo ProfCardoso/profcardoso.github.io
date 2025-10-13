@@ -138,18 +138,18 @@ Prenons le nombre $$3,6875_10$$. Il comporte une partie entière (3), et une par
 > **Exemple**
 >
 ```
->>>print(bin_to_dec("1011"))
+>>> print(bin_to_dec("1011"))
 11
->>>print(bin_to_dec("11010"))
+>>> print(bin_to_dec("11010"))
 26
 ```
 >
 > Vous pouvez utiliser la pythonnerie suivante pour découper facilement votre binaire :
 ```
->>>entiere,virgule = "1011.0101".split('.')
->>>print(entiere)
+>>> entiere,virgule = "1011.0101".split('.')
+>>> print(entiere)
 "1011"
->>>print(virgule)
+>>> print(virgule)
 "0101"
 ```
 >
