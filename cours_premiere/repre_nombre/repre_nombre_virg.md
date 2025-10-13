@@ -131,7 +131,7 @@ Prenons le nombre $$3,6875_10$$. Il comporte une partie entière (3), et une par
 >
 >4) Écrire, en binaire, le nombre dont la valeur en base 10 est 8,8 (on s'arrêtera à 4 bits pour la partie décimale).
 >
-> ### Application II : Amélioration de code
+> ### 🐍 Application II : Amélioration de code
 >
 > Améliorer votre fonction `bin_to_dec` pour que celle-ci fonctionne aussi avec des binaires avec virgule fixe.
 >
