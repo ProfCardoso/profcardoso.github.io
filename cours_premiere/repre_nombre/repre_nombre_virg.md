@@ -102,8 +102,8 @@ Prenons le nombre $$3,6875_10$$. Il comporte une partie entière (3), et une par
 * On écrit la partie entière "comme d'habitude" : $$ 3_10 = 11_2 $$.
 * On convertit la partie décimale par des multiplications successives par 2 :
 
-<div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img src="../../images/conversion_puissance2neg.png" alt="Multiplications successives par 2" width="400" />
+<div style="text-align: center; ">
+  <img style="margin: auto;" src="../../images/conversion_puissance2neg.png" alt="Multiplications successives par 2" width="400" />
 </div>
 
 * On prend les parties entières des résultats dans l'ordre: $$0,6875 = 0, 1011_2$$
