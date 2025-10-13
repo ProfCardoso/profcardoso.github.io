@@ -180,4 +180,4 @@ Ainsi, tous les nombres à virgule en base 2 peuvent s'écrire sous la forme : $
 
 ### Norme IEEE 754 : virgule flottante
 
-Une petite vidéo pour illustrer la norme IEEE 754 : [https://www.youtube.com/watch?v=PtFa7LhV96E&t=18s](ici)
+Une petite vidéo pour illustrer la norme IEEE 754 : [ici](https://www.youtube.com/watch?v=PtFa7LhV96E&t=18s)
