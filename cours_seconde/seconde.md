@@ -71,8 +71,8 @@ title: Cours de Seconde SNT
     </a>
 
     <a class="boite" href="./res_sociaux_graphe/milgram.html">
-      <h3>Le petit monde de Milgram</h3>
-      <p>Le petit monde de Milgram</p>
+      <h3>Expérience de Milgram</h3>
+      <p>Notion de petit monde </p>
     </a>
 
     <a class="boite-tp" href="./res_sociaux_graphe/bonus.html">

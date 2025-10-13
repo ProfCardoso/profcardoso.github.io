@@ -131,4 +131,53 @@ Prenons le nombre $$3,6875_10$$. Il comporte une partie entière (3), et une par
 >
 >4) Écrire, en binaire, le nombre dont la valeur en base 10 est 8,8 (on s'arrêtera à 4 bits pour la partie décimale).
 >
+> ### Application II : Amélioration de code
 >
+> Améliorer votre fonction `bin_to_dec` pour que celle-ci fonctionne aussi avec des binaires avec virgule fixe.
+>
+> **Exemple**
+>
+```
+>>>print(bin_to_dec("1011"))
+11
+>>>print(bin_to_dec("11010"))
+26
+```
+>
+> Vous pouvez utiliser la pythonnerie suivante pour découper facilement votre binaire :
+```
+
+>>>entiere,virgule = "1011.0101".split('.')
+>>>print(entiere)
+"1011"
+>>>print(virgule)
+"0101"
+```
+
+### Remarque 
+>
+> <span style="color: rgba(255, 0, 0, 1);"> Un nombre qui a un nombre de chiffre après la virgule fini lorsqu'on l'écrit en base 10, peut avoir un nombre de chiffre après la virgule infini lorsqu'on souhaite l'écrire en base 2.</span>
+>
+> <span style="color: rgba(255, 0, 0, 1);">Le nombre de bits utilisé pour le codage d'un nombre à virgule étant limité, il y a nécessairement des arrondis. C'est cela qui explique les problèmes de calculs qui ont été soulevés dans la paragraphe I. </span>
+>
+
+## Pour aller plus loin
+
+L'écriture normalisée d'un nombre à virgule fait apparaître 3 parties :
+
+- le signe $$s$$ (on choisit s = 0 si le nombre est positif et s = 1 si le nombre est négatif) ;
+- la mantisse $$m$$ : elle comporte toujours l'unique chiffre 1 avant la virgule ;
+- l'exposant $$e$$ (il correspond au décalage de la virgule entre l'écriture du nombre et l'écriture de la mantisse).
+
+Ainsi, tous les nombres à virgule en base 2 peuvent s'écrire sous la forme : $$\text{Nombre} = (-1)^{s} \times 2^{e} \times m$$
+
+**Exemple avec le nombre 101,110 :**
+
+<div style="text-align: center; ">
+  <img style="margin: auto;" src="../../images/signe_mantisse_exposant.png" alt="Python" width="400" />
+</div>
+
+
+### Norme IEEE 754 : virgule flottante
+
+Une petite vidéo pour illustrer la norme IEEE 754 : [https://www.youtube.com/watch?v=PtFa7LhV96E&t=18s](ici)
