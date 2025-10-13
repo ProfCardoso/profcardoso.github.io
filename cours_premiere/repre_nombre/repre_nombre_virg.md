@@ -146,13 +146,13 @@ Prenons le nombre $$3,6875_10$$. Il comporte une partie entière (3), et une par
 >
 > Vous pouvez utiliser la pythonnerie suivante pour découper facilement votre binaire :
 ```
-
 >>>entiere,virgule = "1011.0101".split('.')
 >>>print(entiere)
 "1011"
 >>>print(virgule)
 "0101"
 ```
+>
 
 ### Remarque 
 >
