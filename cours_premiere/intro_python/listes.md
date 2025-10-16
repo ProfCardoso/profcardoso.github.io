@@ -74,7 +74,27 @@ for i in range(len(liste)):
     print(str(elt) + "² = " + str(elt**2))
 ```
 >
+>A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
 >
+```python
+liste = [1, 2, 3, 4, 5]
+for elt in liste:
+    print(str(elt) + "² = " + str(elt**2))
+```
+>
+>On considère le code suivant :
+>
+```python
+liste = ['a', 'b', 'c', 'd', 'e']
+for i in range(len(liste)):
+    print("Indice " + str(i) + " : " + str(liste[i]))
+```
+>
+>a) A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
+>
+>b) Justifier que ce programme ne peut pas être codé avec un parcours de la liste en valeurs.
+
+
 <!-- 
 
 > ### 🐍 Application II : 
