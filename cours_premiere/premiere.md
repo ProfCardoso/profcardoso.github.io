@@ -75,6 +75,19 @@ title: Cours de Première NSI
 </div>
 
 
+## Thème 8 : Listes et Tuples
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./intro_python/listes.md">
+      <h3>Les listes</h3>
+    </a>
+
+
+  </div>
+</div>
+
 <!-- 
 
 
@@ -98,23 +111,7 @@ title: Cours de Première NSI
   </div>
 </div>
 
-## Thème 8 : Les listes
 
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
 
 ## Thème 9 : Les tuples
 
