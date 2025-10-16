@@ -80,7 +80,7 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./intro_python/listes.md">
+    <a class="boite" href="./intro_python/listes.html">
       <h3>Les listes</h3>
     </a>
 
