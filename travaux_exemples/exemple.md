@@ -45,7 +45,7 @@ ___
 </div>
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
+  <img style="margin: auto;" src="../../images/Portrait_of_George_Boole.png" alt="Python" width="400" />
 </div>
 
 

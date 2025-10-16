@@ -61,6 +61,29 @@ elt_B = liste[-2]  #La variable elt_B contient 'c'
 >Compléter avec la ligne de code qui permet d'afficher le 3ème jour de la semaine, c'est-à-dire mercredi.
 >
 
+##  Parcours d'une liste avec for ... in ...
+
+### Utilisation de for pour parcourir les éléments
+
+*Exemple : affichage des 10 premiers nombres entiers*
+
+```python
+liste = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for elt in liste:   #elt est une variable qui prend successivement les valeurs de la liste
+    print(elt, "^2"," = ", elt**2, sep="")
+```
+
+### Utilisation de for pour parcourir les indices
+
+*Exemple : affichage d'une lettre sur deux de l'alphabet*
+
+```python
+liste = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q','r', 's']
+for i in range(len(liste)):   #i est une variable qui prend successivement les valeurs des positions
+    if i % 2 == 0:
+        print(liste[i], end='')
+```
+
 ### Analyse de code : Parcourir une liste
 
 > #### Application II 
@@ -93,13 +116,20 @@ for i in range(len(liste)):
 >a) A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
 >
 >b) Justifier que ce programme ne peut pas être codé avec un parcours de la liste en valeurs.
+>
 
+## Modification d'une liste
+
+La suite du cours après les vacances ! En attendant : [ici](https://www.youtube.com/watch?v=xvFZjo5PgG0)
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/to_be_continued.jpg" alt="Python" width="400" />
+</div>
 
 <!-- 
 
 > ### 🐍 Application II : 
 
-## Modification d'une liste
 
 ### Remplacement d'une valeur par une nouvelle valeur
 
