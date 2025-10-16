@@ -8,14 +8,14 @@ title: Initialisation à Python
 
 Dans nos révisions du langage Python, nous avions vu certains types de variables simples: `int` (entiers), `float` (nombres à virgule flottante), `bool` (booléen) et `str` (chaîne de caractères). Nous allons maintenant voir des **types construits** qui sont des collections d’objets de type simple assemblés dans ce que l’on appelle une structure de données.  
 
-Le premier exemple de type construit s'appelle le tableau. En Python, le terme “liste” est souvent utilisé pour désigner un tableau., d'ailleurs ce dernier a comme type `list`.
+Le premier exemple de type construit s'appelle le tableau. En Python, le terme “liste” est souvent utilisé pour désigner un tableau, d'ailleurs ce dernier a comme type `list`.  
 Un tableau est une structure de données qui permet de stocker plusieurs valeurs (nombres, chaînes, booléens, etc.) dans une seule variable, et d’y accéder grâce à leur position (indice).
 
-Les listes sont des **séquences** : elles sont ordonnées et itérables
+Les listes sont des **séquences** : elles sont ordonnées et itérables.  
 
-Les listes sont **mutables** : elles peuvent être modifiées après leur création.
+Les listes sont **mutables** : elles peuvent être modifiées après leur création.  
 
-Les listes sont **hétérogènes** : elles peuvent contenir tous les types d'objets.
+Les listes sont **hétérogènes** : elles peuvent contenir tous les types d'objets.  
 
 ## Généralités
 ### Création d'une liste
@@ -35,7 +35,7 @@ liste3 = []  #Une liste peut être vide
 
 ### Récupération d'un élément d'une liste
 
-`liste[i]` avec i ≥ 0 :	Renvoie le ième élément de liste en partant du début, le premier élément ayant l'indice 0.
+`liste[i]` avec i ≥ 0 :	Renvoie le ième élément de liste en partant du début, le premier élément ayant l'indice 0.  
 `liste[i]` avec i < 0 :	Renvoie le ième élément de liste en partant de la fin, le dernier élément ayant l'indice -1.
 
 *Exemple :*
@@ -46,9 +46,7 @@ elt_A = liste[1]  #La variable elt_A contient maintenant 'b'
 elt_B = liste[-2]  #La variable elt_B contient 'c'
 ```
 
-> ## Applications
->
-> ### 🐍 Application I : 
+> #### 🐍 Application I 
 >
 > Écrire la ligne de code qui permet de créer la liste jours_semaine contenant les jours de la semaine sans le dimanche.
 >
@@ -63,6 +61,20 @@ elt_B = liste[-2]  #La variable elt_B contient 'c'
 >Compléter avec la ligne de code qui permet d'afficher le 3ème jour de la semaine, c'est-à-dire mercredi.
 >
 
+### Analyse de code : Parcourir une liste
+
+> #### Application II 
+>
+> A l'aide d'un tableau, expliciter le déroulement pas à pas du code suivant :
+>
+```python
+liste = [1, 2, 3, 4, 5]
+for i in range(len(liste)):
+    elt = liste[i]
+    print(str(elt) + "² = " + str(elt**2))
+```
+>
+>
 <!-- 
 
 > ### 🐍 Application II : 
