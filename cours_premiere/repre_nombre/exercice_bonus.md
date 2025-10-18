@@ -104,6 +104,14 @@ function verifierQuiz() {
 
 ---
 
+> 🔎 **Rappel :**  
+> En base 16, chaque chiffre correspond à **4 bits**.  
+> Exemple :  
+> \[
+> (1010)_2 = (A)_{16}, \quad (1111)_2 = (F)_{16}
+> \]
+
+
 <div id="quiz" style="border: 2px solid #7e3ff2; padding: 20px; border-radius: 12px; background: #faf8ff; font-family: sans-serif;">
   <h2> Conversion base 2 ↔ base 16</h2>
   <p>Réponds aux questions ci-dessous puis clique sur <strong>Vérifier mes réponses</strong>.</p>
