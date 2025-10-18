@@ -74,3 +74,18 @@
   color: #cc0000;
 }
 
+
+
+
+
+
+.exercice {
+  border: 2px solid #007acc;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f8faff;
+  margin: 20px 0;
+}
+.exercice button:hover {
+  background-color: #005fa3;
+}

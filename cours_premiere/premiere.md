@@ -70,6 +70,9 @@ title: Cours de Première NSI
       <h3>Représentation des nombres à virgules</h3>
     </a>
 
+    <a class="boite-tp" href="./repre_nombre/exercice_bonus.html">
+      <h3>Exercice Bonus</h3>
+    </a>
 
   </div>
 </div>
