@@ -103,12 +103,12 @@ function verifierQuiz() {
 
 
 ---
-
+>
 > 🔎 **Rappel :**  
 > En base 16, chaque chiffre correspond à **4 bits**.  
 > Exemple :  
 > 
-> $$(1010)_2 = (A)_{16}, \quad (1111)_2 = (F)_{16}$$
+> $$(1010)_2 = (A)_{16}, \quad (1111)_2 = (F)_{16}, (1010 1111)_2 = (AF)_{16}$$
 > 
 
 
