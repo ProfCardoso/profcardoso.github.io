@@ -89,3 +89,78 @@ ___
 <div style="border-left: 5px solid green; padding-left: 12px;">
   <p> </p>
 </div>
+
+___
+
+## Exemple questionnaire 
+
+<div id="quiz" style="border: 2px solid #007acc; padding: 20px; border-radius: 12px; background: #f8faff; font-family: sans-serif;">
+  <h2>Conversion de bases</h2>
+  <p>Réponds aux questions ci-dessous puis clique sur <strong>Vérifier mes réponses</strong>.</p>
+
+  <!-- Question 1 -->
+  <div style="margin-top: 15px;">
+    <h4>1️⃣ Convertis <strong>(1011)<sub>2</sub></strong> en base 10 :</h4>
+    <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="f1" style="margin-top: 5px;"></p>
+    <details style="margin-top: 5px;">
+      <summary>💡 Voir la correction</summary>
+      <p>(1011)<sub>2</sub> = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = <strong>11</strong></p>
+    </details>
+  </div>
+
+  <!-- Question 2 -->
+  <div style="margin-top: 20px;">
+    <h4>2️⃣ Quelle est la base du système binaire ?</h4>
+    <label><input type="radio" name="q2" value="8"> 8</label><br>
+    <label><input type="radio" name="q2" value="10"> 10</label><br>
+    <label><input type="radio" name="q2" value="2"> 2</label><br>
+    <p id="f2" style="margin-top: 5px;"></p>
+    <details style="margin-top: 5px;">
+      <summary>💡 Voir la correction</summary>
+      <p>Le système binaire est basé sur la base <strong>2</strong> (chiffres possibles : 0 et 1).</p>
+    </details>
+  </div>
+
+  <!-- Bouton de validation -->
+  <button onclick="verifierQuiz()" 
+          style="margin-top: 25px; background-color: #007acc; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer;">
+    Vérifier mes réponses
+  </button>
+
+  <h3 id="score" style="margin-top: 20px;"></h3>
+</div>
+
+<script>
+function verifierQuiz() {
+  let score = 0;
+
+  // Question A remplir
+  const q1 = document.getElementById("q1").value.trim();
+  const f1 = document.getElementById("f1");
+  if (q1 === "11") {
+    f1.textContent = "✅ Bonne réponse !";
+    f1.style.color = "green";
+    score++;
+  } else {
+    f1.textContent = "❌ Mauvaise réponse.";
+    f1.style.color = "red";
+  }
+
+  // Question QCM
+  const q2 = document.querySelector('input[name="q2"]:checked');
+  const f2 = document.getElementById("f2");
+  if (q2 && q2.value === "2") {
+    f2.textContent = "✅ Bonne réponse !";
+    f2.style.color = "green";
+    score++;
+  } else {
+    f2.textContent = "❌ Mauvaise réponse.";
+    f2.style.color = "red";
+  }
+
+  // Score final
+  const scoreText = document.getElementById("score");
+  scoreText.innerHTML = `🎯 Ton score : <strong>${score}/3</strong>`;
+}
+</script>
