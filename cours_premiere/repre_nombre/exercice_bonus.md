@@ -197,7 +197,7 @@ function verifierQuiz2() {
     f1.style.color = "green";
     score++;
   } else {
-    f1.textContent = "❌ Mauvaise réponse (attendu : DC).";
+    f1.textContent = "❌ Mauvaise réponse !";
     f1.style.color = "red";
   }
 
@@ -209,7 +209,7 @@ function verifierQuiz2() {
     f2.style.color = "green";
     score++;
   } else {
-    f2.textContent = "❌ Mauvaise réponse (attendu : 10101001).";
+    f2.textContent = "❌ Mauvaise réponse !";
     f2.style.color = "red";
   }
 
@@ -221,7 +221,7 @@ function verifierQuiz2() {
     f3.style.color = "green";
     score++;
   } else {
-    f3.textContent = "❌ Mauvaise réponse (attendu : F1).";
+    f3.textContent = "❌ Mauvaise réponse !";
     f3.style.color = "red";
   }
 
@@ -233,7 +233,7 @@ function verifierQuiz2() {
     f4.style.color = "green";
     score++;
   } else {
-    f4.textContent = "❌ Mauvaise réponse (attendu : 00111110).";
+    f4.textContent = "❌ Mauvaise réponse !";
     f4.style.color = "red";
   }
 
@@ -336,7 +336,7 @@ function verifierQuiz3() {
     f1.style.color = "green";
     score++;
   } else {
-    f1.textContent = "❌ Mauvaise réponse (attendu : FF).";
+    f1.textContent = "❌ Mauvaise réponse !";
     f1.style.color = "red";
   }
 
@@ -348,7 +348,7 @@ function verifierQuiz3() {
     f2.style.color = "green";
     score++;
   } else {
-    f2.textContent = "❌ Mauvaise réponse (attendu : FFF).";
+    f2.textContent = "❌ Mauvaise réponse !";
     f2.style.color = "red";
   }
 
@@ -360,7 +360,7 @@ function verifierQuiz3() {
     f3.style.color = "green";
     score++;
   } else {
-    f3.textContent = "❌ Mauvaise réponse (attendu : 42).";
+    f3.textContent = "❌ Mauvaise réponse !";
     f3.style.color = "red";
   }
 
@@ -372,7 +372,7 @@ function verifierQuiz3() {
     f4.style.color = "green";
     score++;
   } else {
-    f4.textContent = "❌ Mauvaise réponse (attendu : 127).";
+    f4.textContent = "❌ Mauvaise réponse !";
     f4.style.color = "red";
   }
 
