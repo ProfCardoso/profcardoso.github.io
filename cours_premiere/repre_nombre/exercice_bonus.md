@@ -7,8 +7,10 @@ title: Représentation des nombres
 
 # Exercice Bonus
 
+<h2>Conversion de bases 2 <-> 10 </h2>
+
 <div id="quiz" style="border: 2px solid #007acc; padding: 20px; border-radius: 12px; background: #f8faff; font-family: sans-serif;">
-  <h2>Conversion de bases</h2>
+  
   <p>Réponds aux questions ci-dessous puis clique sur <strong>Vérifier mes réponses</strong>.</p>
 
   <!-- Question 1 -->
@@ -103,6 +105,8 @@ function verifierQuiz1() {
 
 
 ---
+<h2> Conversion base 2 ↔ base 16</h2>
+
 >
 > 🔎 **Rappel :**  
 > En base 16, chaque chiffre correspond à **4 bits**.  
@@ -113,7 +117,7 @@ function verifierQuiz1() {
 
 
 <div id="quiz" style="border: 2px solid #7e3ff2; padding: 20px; border-radius: 12px; background: #faf8ff; font-family: sans-serif;">
-  <h2> Conversion base 2 ↔ base 16</h2>
+  
   <p>Réponds aux questions ci-dessous puis clique sur <strong>Vérifier mes réponses</strong>.</p>
 
   <!-- Question 1 -->
@@ -240,6 +244,8 @@ function verifierQuiz2() {
 </script>
 
 ---
+<h2>Conversion base 10 ↔ base 16</h2>
+
 >
 > 🔎 **Rappel :**  
 > Utiliser la méthode des divisions successives par 16 :
@@ -249,7 +255,7 @@ function verifierQuiz2() {
 
 
 <div id="quiz" style="border: 2px solid #ff7a00; padding: 20px; border-radius: 12px; background: #fff9f3; font-family: sans-serif;">
-  <h2>Conversion base 10 ↔ base 16</h2>
+  
   <p>Réponds aux questions ci-dessous puis clique sur <strong>Vérifier mes réponses</strong>.</p>
 
   <!-- Question 1 -->
