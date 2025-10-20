@@ -238,3 +238,130 @@ function verifierQuiz() {
   scoreText.innerHTML = `🎯 Ton score : <strong>${score}/4</strong>`;
 }
 </script>
+
+
+<div id="quiz" style="border: 2px solid #ff7a00; padding: 20px; border-radius: 12px; background: #fff9f3; font-family: sans-serif;">
+  <h2>Conversion base 10 ↔ base 16</h2>
+  <p>Réponds aux questions ci-dessous puis clique sur <strong>Vérifier mes réponses</strong>.</p>
+
+  <!-- Question 1 -->
+  <div style="margin-top: 15px;">
+    <h4>1/ Convertis <strong>(255)<sub>10</sub></strong> en base 16 :</h4>
+    <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="f1" style="margin-top: 5px;"></p>
+    <details style="margin-top: 5px;">
+      <summary>💡 Voir la correction</summary>
+      <p>
+        255 ÷ 16 = 15 reste 15 → F et F  
+        Donc (255)<sub>10</sub> = <strong>(FF)<sub>16</sub></strong>
+      </p>
+    </details>
+  </div>
+
+  <!-- Question 2 -->
+  <div style="margin-top: 20px;">
+    <h4>2/ Convertis <strong>(4095)<sub>10</sub></strong> en base 16 :</h4>
+    <input type="text" id="q2" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="f2" style="margin-top: 5px;"></p>
+    <details style="margin-top: 5px;">
+      <summary>💡 Voir la correction</summary>
+      <p>
+        4095 ÷ 16 = 255 reste 15 → F  
+        255 ÷ 16 = 15 reste 15 → F  
+        Donc (4095)<sub>10</sub> = <strong>(FFF)<sub>16</sub></strong>
+      </p>
+    </details>
+  </div>
+
+  <!-- Question 3 -->
+  <div style="margin-top: 20px;">
+    <h4>3/ Convertis <strong>(2A)<sub>16</sub></strong> en base 10 :</h4>
+    <input type="text" id="q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="f3" style="margin-top: 5px;"></p>
+    <details style="margin-top: 5px;">
+      <summary>💡 Voir la correction</summary>
+      <p>
+        (2A)<sub>16</sub> = 2×16¹ + 10×16⁰ = 32 + 10 = <strong>42</strong><sub>10</sub>
+      </p>
+    </details>
+  </div>
+
+  <!-- Question 4 -->
+  <div style="margin-top: 20px;">
+    <h4>4/ Convertis <strong>(7F)<sub>16</sub></strong> en base 10 :</h4>
+    <input type="text" id="q4" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="f4" style="margin-top: 5px;"></p>
+    <details style="margin-top: 5px;">
+      <summary>💡 Voir la correction</summary>
+      <p>
+        (7F)<sub>16</sub> = 7×16¹ + 15×16⁰ = 112 + 15 = <strong>127</strong><sub>10</sub>
+      </p>
+    </details>
+  </div>
+
+  <!-- Validation -->
+  <button onclick="verifierQuiz()" 
+          style="margin-top: 25px; background-color: #ff7a00; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer;">
+    Vérifier mes réponses
+  </button>
+
+  <h3 id="score" style="margin-top: 20px;"></h3>
+</div>
+
+<script>
+function verifierQuiz() {
+  let score = 0;
+
+  // Question 1
+  const q1 = document.getElementById("q1").value.trim().toUpperCase();
+  const f1 = document.getElementById("f1");
+  if (q1 === "FF") {
+    f1.textContent = "✅ Bonne réponse !";
+    f1.style.color = "green";
+    score++;
+  } else {
+    f1.textContent = "❌ Mauvaise réponse (attendu : FF).";
+    f1.style.color = "red";
+  }
+
+  // Question 2
+  const q2 = document.getElementById("q2").value.trim().toUpperCase();
+  const f2 = document.getElementById("f2");
+  if (q2 === "FFF") {
+    f2.textContent = "✅ Bonne réponse !";
+    f2.style.color = "green";
+    score++;
+  } else {
+    f2.textContent = "❌ Mauvaise réponse (attendu : FFF).";
+    f2.style.color = "red";
+  }
+
+  // Question 3
+  const q3 = document.getElementById("q3").value.trim();
+  const f3 = document.getElementById("f3");
+  if (q3 === "42") {
+    f3.textContent = "✅ Bonne réponse !";
+    f3.style.color = "green";
+    score++;
+  } else {
+    f3.textContent = "❌ Mauvaise réponse (attendu : 42).";
+    f3.style.color = "red";
+  }
+
+  // Question 4
+  const q4 = document.getElementById("q4").value.trim();
+  const f4 = document.getElementById("f4");
+  if (q4 === "127") {
+    f4.textContent = "✅ Bonne réponse !";
+    f4.style.color = "green";
+    score++;
+  } else {
+    f4.textContent = "❌ Mauvaise réponse (attendu : 127).";
+    f4.style.color = "red";
+  }
+
+  // Score final
+  const scoreText = document.getElementById("score");
+  scoreText.innerHTML = `🎯 Ton score : <strong>${score}/4</strong>`;
+}
+</script>
