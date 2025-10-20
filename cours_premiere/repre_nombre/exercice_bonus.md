@@ -239,6 +239,15 @@ function verifierQuiz() {
 }
 </script>
 
+---
+>
+> 🔎 **Rappel :**  
+> En base 16, chaque chiffre correspond à **4 bits**.  
+> Exemple :  
+> 
+> $$(1010)_2 = (A)_{16}, \quad (1111)_2 = (F)_{16}, (1010 1111)_2 = (AF)_{16}$$
+> 
+
 
 <div id="quiz" style="border: 2px solid #ff7a00; padding: 20px; border-radius: 12px; background: #fff9f3; font-family: sans-serif;">
   <h2>Conversion base 10 ↔ base 16</h2>
@@ -252,7 +261,9 @@ function verifierQuiz() {
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
-        255 ÷ 16 = 15 reste 15 → F et F  
+        255 // 16 = 15 et il reste 15. 15 x 16<sup>1</sup> + 15 x 16<sup>0</sup>
+      </p>
+      <p>
         Donc (255)<sub>10</sub> = <strong>(FF)<sub>16</sub></strong>
       </p>
     </details>
