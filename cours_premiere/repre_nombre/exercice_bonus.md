@@ -14,8 +14,8 @@ title: Représentation des nombres
   <!-- Question 1 -->
   <div style="margin-top: 15px;">
     <h4>1/ Convertis <strong>(1011)<sub>2</sub></strong> en base 10 :</h4>
-    <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f1" style="margin-top: 5px;"></p>
+    <input type="text" id="q1q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q1f1" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>(1011)<sub>2</sub> = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = <strong>11</strong></p>
@@ -25,10 +25,10 @@ title: Représentation des nombres
   <!-- Question 2 -->
   <div style="margin-top: 20px;">
     <h4>2/ Quelle est la base du système binaire ?</h4>
-    <label><input type="radio" name="q2" value="8"> 8</label><br>
-    <label><input type="radio" name="q2" value="10"> 10</label><br>
-    <label><input type="radio" name="q2" value="2"> 2</label><br>
-    <p id="f2" style="margin-top: 5px;"></p>
+    <label><input type="radio" name="q1q2" value="8"> 8</label><br>
+    <label><input type="radio" name="q1q2" value="10"> 10</label><br>
+    <label><input type="radio" name="q1q2" value="2"> 2</label><br>
+    <p id="q1f2" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>Le système binaire est basé sur la base <strong>2</strong> (chiffres possibles : 0 et 1).</p>
@@ -38,8 +38,8 @@ title: Représentation des nombres
   <!-- Question 3 -->
   <div style="margin-top: 20px;">
     <h4>3/ Convertis <strong>(23)<sub>10</sub></strong> en base 2 :</h4>
-    <input type="text" id="q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f3" style="margin-top: 5px;"></p>
+    <input type="text" id="q1q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q1f3" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>(23)<sub>10</sub> = <strong>10111</strong><sub>2</sub></p>
@@ -47,21 +47,21 @@ title: Représentation des nombres
   </div>
 
   <!-- Bouton de validation -->
-  <button onclick="verifierQuiz()" 
+  <button onclick="verifierQuiz1()" 
           style="margin-top: 25px; background-color: #007acc; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer;">
     Vérifier mes réponses
   </button>
 
-  <h3 id="score" style="margin-top: 20px;"></h3>
+  <h3 id="q1score" style="margin-top: 20px;"></h3>
 </div>
 
 <script>
-function verifierQuiz() {
+function verifierQuiz1() {
   let score = 0;
 
   // Question 1
-  const q1 = document.getElementById("q1").value.trim();
-  const f1 = document.getElementById("f1");
+  const q1 = document.getElementById("q1q1").value.trim();
+  const f1 = document.getElementById("q1f1");
   if (q1 === "11") {
     f1.textContent = "✅ Bonne réponse !";
     f1.style.color = "green";
@@ -72,8 +72,8 @@ function verifierQuiz() {
   }
 
   // Question 2
-  const q2 = document.querySelector('input[name="q2"]:checked');
-  const f2 = document.getElementById("f2");
+  const q2 = document.querySelector('input[name="q1q2"]:checked');
+  const f2 = document.getElementById("q1f2");
   if (q2 && q2.value === "2") {
     f2.textContent = "✅ Bonne réponse !";
     f2.style.color = "green";
@@ -84,8 +84,8 @@ function verifierQuiz() {
   }
 
   // Question 3
-  const q3 = document.getElementById("q3").value.trim();
-  const f3 = document.getElementById("f3");
+  const q3 = document.getElementById("q1q3").value.trim();
+  const f3 = document.getElementById("q1f3");
   if (q3 === "10111") {
     f3.textContent = "✅ Bonne réponse !";
     f3.style.color = "green";
@@ -96,7 +96,7 @@ function verifierQuiz() {
   }
 
   // Score final
-  const scoreText = document.getElementById("score");
+  const scoreText = document.getElementById("q1score");
   scoreText.innerHTML = `🎯 Ton score : <strong>${score}/3</strong>`;
 }
 </script>
@@ -119,8 +119,8 @@ function verifierQuiz() {
   <!-- Question 1 -->
   <div style="margin-top: 15px;">
     <h4>1/ Convertis <strong>(11011100)<sub>2</sub></strong> en base 16 :</h4>
-    <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f1" style="margin-top: 5px;"></p>
+    <input type="text" id="q2q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q2f1" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -133,8 +133,8 @@ function verifierQuiz() {
   <!-- Question 2 -->
   <div style="margin-top: 20px;">
     <h4>2/ Convertis <strong>(A9)<sub>16</sub></strong> en base 2 :</h4>
-    <input type="text" id="q2" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f2" style="margin-top: 5px;"></p>
+    <input type="text" id="q2q2" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q2f2" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -147,8 +147,8 @@ function verifierQuiz() {
   <!-- Question 3 -->
   <div style="margin-top: 20px;">
     <h4>3/ Convertis <strong>(1111 0001)<sub>2</sub></strong> en base 16 :</h4>
-    <input type="text" id="q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f3" style="margin-top: 5px;"></p>
+    <input type="text" id="q2q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q2f3" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -161,8 +161,8 @@ function verifierQuiz() {
   <!-- Question 4 -->
   <div style="margin-top: 20px;">
     <h4>4/ Convertis <strong>(3E)<sub>16</sub></strong> en base 2 :</h4>
-    <input type="text" id="q4" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f4" style="margin-top: 5px;"></p>
+    <input type="text" id="q2q4" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q2f4" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -173,21 +173,21 @@ function verifierQuiz() {
   </div>
 
   <!-- Validation -->
-  <button onclick="verifierQuiz()" 
+  <button onclick="verifierQuiz2()" 
           style="margin-top: 25px; background-color: #7e3ff2; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer;">
     Vérifier mes réponses
   </button>
 
-  <h3 id="score" style="margin-top: 20px;"></h3>
+  <h3 id="q2score" style="margin-top: 20px;"></h3>
 </div>
 
 <script>
-function verifierQuiz() {
+function verifierQuiz2() {
   let score = 0;
 
   // Question 1
-  const q1 = document.getElementById("q1").value.trim().toUpperCase();
-  const f1 = document.getElementById("f1");
+  const q1 = document.getElementById("q2q1").value.trim().toUpperCase();
+  const f1 = document.getElementById("q2f1");
   if (q1 === "DC") {
     f1.textContent = "✅ Bonne réponse !";
     f1.style.color = "green";
@@ -198,8 +198,8 @@ function verifierQuiz() {
   }
 
   // Question 2
-  const q2 = document.getElementById("q2").value.trim();
-  const f2 = document.getElementById("f2");
+  const q2 = document.getElementById("q2q2").value.trim();
+  const f2 = document.getElementById("q2f2");
   if (q2 === "10101001") {
     f2.textContent = "✅ Bonne réponse !";
     f2.style.color = "green";
@@ -210,8 +210,8 @@ function verifierQuiz() {
   }
 
   // Question 3
-  const q3 = document.getElementById("q3").value.trim().toUpperCase();
-  const f3 = document.getElementById("f3");
+  const q3 = document.getElementById("q2q3").value.trim().toUpperCase();
+  const f3 = document.getElementById("q2f3");
   if (q3 === "F1") {
     f3.textContent = "✅ Bonne réponse !";
     f3.style.color = "green";
@@ -222,8 +222,8 @@ function verifierQuiz() {
   }
 
   // Question 4
-  const q4 = document.getElementById("q4").value.trim();
-  const f4 = document.getElementById("f4");
+  const q4 = document.getElementById("q2q4").value.trim();
+  const f4 = document.getElementById("q2f4");
   if (q4 === "00111110") {
     f4.textContent = "✅ Bonne réponse !";
     f4.style.color = "green";
@@ -234,7 +234,7 @@ function verifierQuiz() {
   }
 
   // Score final
-  const scoreText = document.getElementById("score");
+  const scoreText = document.getElementById("q2score");
   scoreText.innerHTML = `🎯 Ton score : <strong>${score}/4</strong>`;
 }
 </script>
@@ -255,8 +255,8 @@ function verifierQuiz() {
   <!-- Question 1 -->
   <div style="margin-top: 15px;">
     <h4>1/ Convertis <strong>(255)<sub>10</sub></strong> en base 16 :</h4>
-    <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f1" style="margin-top: 5px;"></p>
+    <input type="text" id="q3q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q3f1" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -271,8 +271,8 @@ function verifierQuiz() {
   <!-- Question 2 -->
   <div style="margin-top: 20px;">
     <h4>2/ Convertis <strong>(4095)<sub>10</sub></strong> en base 16 :</h4>
-    <input type="text" id="q2" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f2" style="margin-top: 5px;"></p>
+    <input type="text" id="q3q2" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q3f2" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -286,8 +286,8 @@ function verifierQuiz() {
   <!-- Question 3 -->
   <div style="margin-top: 20px;">
     <h4>3/ Convertis <strong>(2A)<sub>16</sub></strong> en base 10 :</h4>
-    <input type="text" id="q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f3" style="margin-top: 5px;"></p>
+    <input type="text" id="q3q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q3f3" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -299,8 +299,8 @@ function verifierQuiz() {
   <!-- Question 4 -->
   <div style="margin-top: 20px;">
     <h4>4/ Convertis <strong>(7F)<sub>16</sub></strong> en base 10 :</h4>
-    <input type="text" id="q4" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
-    <p id="f4" style="margin-top: 5px;"></p>
+    <input type="text" id="q3q4" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
+    <p id="q3f4" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
@@ -310,21 +310,21 @@ function verifierQuiz() {
   </div>
 
   <!-- Validation -->
-  <button onclick="verifierQuiz()" 
+  <button onclick="verifierQuiz3()" 
           style="margin-top: 25px; background-color: #ff7a00; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer;">
     Vérifier mes réponses
   </button>
 
-  <h3 id="score" style="margin-top: 20px;"></h3>
+  <h3 id="q3score" style="margin-top: 20px;"></h3>
 </div>
 
 <script>
-function verifierQuiz() {
+function verifierQuiz3() {
   let score = 0;
 
   // Question 1
-  const q1 = document.getElementById("q1").value.trim().toUpperCase();
-  const f1 = document.getElementById("f1");
+  const q1 = document.getElementById("q3q1").value.trim().toUpperCase();
+  const f1 = document.getElementById("q3f1");
   if (q1 === "FF") {
     f1.textContent = "✅ Bonne réponse !";
     f1.style.color = "green";
@@ -335,8 +335,8 @@ function verifierQuiz() {
   }
 
   // Question 2
-  const q2 = document.getElementById("q2").value.trim().toUpperCase();
-  const f2 = document.getElementById("f2");
+  const q2 = document.getElementById("q3q2").value.trim().toUpperCase();
+  const f2 = document.getElementById("q3f2");
   if (q2 === "FFF") {
     f2.textContent = "✅ Bonne réponse !";
     f2.style.color = "green";
@@ -347,8 +347,8 @@ function verifierQuiz() {
   }
 
   // Question 3
-  const q3 = document.getElementById("q3").value.trim();
-  const f3 = document.getElementById("f3");
+  const q3 = document.getElementById("q3q3").value.trim();
+  const f3 = document.getElementById("q3f3");
   if (q3 === "42") {
     f3.textContent = "✅ Bonne réponse !";
     f3.style.color = "green";
@@ -359,8 +359,8 @@ function verifierQuiz() {
   }
 
   // Question 4
-  const q4 = document.getElementById("q4").value.trim();
-  const f4 = document.getElementById("f4");
+  const q4 = document.getElementById("q3q4").value.trim();
+  const f4 = document.getElementById("q3f4");
   if (q4 === "127") {
     f4.textContent = "✅ Bonne réponse !";
     f4.style.color = "green";
@@ -371,7 +371,7 @@ function verifierQuiz() {
   }
 
   // Score final
-  const scoreText = document.getElementById("score");
+  const scoreText = document.getElementById("q3score");
   scoreText.innerHTML = `🎯 Ton score : <strong>${score}/4</strong>`;
 }
 </script>
