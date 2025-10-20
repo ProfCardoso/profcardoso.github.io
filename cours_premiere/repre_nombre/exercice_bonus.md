@@ -242,10 +242,9 @@ function verifierQuiz() {
 ---
 >
 > 🔎 **Rappel :**  
-> En base 16, chaque chiffre correspond à **4 bits**.  
-> Exemple :  
-> 
-> $$(1010)_2 = (A)_{16}, \quad (1111)_2 = (F)_{16}, (1010 1111)_2 = (AF)_{16}$$
+> Utiliser la méthode des divisions successives par 16 :
+>
+> 36 // 16 = 2 reste 4 donc (24)<sub>16</sub>
 > 
 
 
@@ -261,7 +260,7 @@ function verifierQuiz() {
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
-        255 // 16 = 15 et il reste 15. 15 x 16<sup>1</sup> + 15 x 16<sup>0</sup>
+        255 // 16 = 15 et il reste 15 → F. (15 x 16<sup>1</sup> + 15 x 16<sup>0</sup>)
       </p>
       <p>
         Donc (255)<sub>10</sub> = <strong>(FF)<sub>16</sub></strong>
@@ -277,8 +276,8 @@ function verifierQuiz() {
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
       <p>
-        4095 ÷ 16 = 255 reste 15 → F  
-        255 ÷ 16 = 15 reste 15 → F  
+        4095 // 16 = 255 reste 15 → F  
+        255 // 16 = 15 reste 15 → F  
         Donc (4095)<sub>10</sub> = <strong>(FFF)<sub>16</sub></strong>
       </p>
     </details>
