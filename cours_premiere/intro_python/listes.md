@@ -214,3 +214,87 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 [2,3,5,6]
 ```
 >
+
+### Condition d'appartenance d'un élément à une liste
+
+Les conditions (utilisable avec if ou while) d'appartenance et de non-appartenance d'un objet à une liste sont : `in` et `not in`.
+
+*Exemple :*
+
+```python
+liste = ['a', 'e', 'i', 'o', 'u', 'y']
+caract = 'b'
+if caract in liste:
+    print(caract, 'est une voyelle')
+if caract not in liste:
+    print(caract, 'n'est pas une voyelle')
+```
+
+### Autres opérations sur les listes
+
+#### Les opérateurs + et * appliqués aux listes
+`l1 + l2` : Renvoie une liste qui contient les éléments de l1 avec à la suite ceux de l2.  
+`l1 * n ou n * l1` : Renvoie une liste qui contient de façon répétée n fois les éléments de l1.  
+
+*Exemple :*
+
+```python
+liste1 = [12, 8, -9]
+liste2 = [3, 5]
+liste = liste1 + liste2  # liste3 contient [12, 8, -9, 3, 5]
+```
+
+**Remarque :** l'opérateur + peut être utilisé pour ajouter un élément à une liste :
+
+```python
+liste = [12, 8, -9]
+elt = 5
+liste = liste + [elt]  # liste3 contient [12, 8, -9, 5]
+```
+
+#### La fonction list
+
+La fonction `list(itérable)` transforme un itérable en liste.
+
+*Exemple :*
+
+```python
+# Tester ces lignes dans la console python
+
+# Liste des 100 premiers nombres
+liste_range = list(range(1,101))
+
+# Transformation d'une chaine de caractères en liste
+liste_chaine_carac = list("abcdefghijklmnopqrstuvwxyz")
+```
+
+#### Utilisation de méthodes prédéfinies
+
+**• Les méthodes de recherche dans les listes**
+
+`liste.index(x)` : Renvoie l'indice de la première occurrence de x dans liste ou une erreur si x n'est pas dans liste.  
+`liste.count(x)` : Renvoie le nombre d'occurrence de x dans liste.
+
+**• La méthode de tri d'une liste**
+
+`liste.sort()` : Modifie liste en triant l'ordre de ses éléments s'ils sont du même type.
+
+#### Quelques fonctions du module random pour les listes
+
+Pour pouvoir utiliser les fonctions suivantes, le module random doit être importé :
+
+```python
+from random import *
+liste = [0,1,2,3,4,5,6,7,8,9]
+
+choix = choice(liste)	# Renvoie un élément de liste pris aléatoirement.
+print(choix)
+
+n = 3
+echantillon = sample(liste, n)	# Renvoie une liste contenant n éléments de liste pris aléatoirement.
+print(echantillon)
+
+print("liste avant mélange: ", liste)
+shuffle(liste)	# Mélange les éléments de liste.
+print("liste après: ", liste)
+```
