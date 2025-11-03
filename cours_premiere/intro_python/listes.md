@@ -122,8 +122,8 @@ for i in range(len(liste)):
 
 ### Remplacement d'une valeur par une nouvelle valeur
 
-`liste[i] = x` avec i≥0 : Modifie `liste` en remplaçant l'élément d'indice i par x, le premier élément ayant l'indice 0.
-`liste[i] = x` avec i<0 : Modifie `liste` en remplaçant l'élément d'indice i par x en partant de la fin de la liste, le dernier élément ayant l'indice -1.
+`liste[i] = x` avec i≥0 : Modifie `liste` en remplaçant l'élément d'indice i par x, le premier élément ayant l'indice 0.  
+`liste[i] = x` avec i<0 : Modifie `liste` en remplaçant l'élément d'indice i par x en partant de la fin de la liste, le dernier élément ayant l'indice -1.  
 
 *Exemple :*
 
@@ -142,7 +142,7 @@ liste[1] = 'a'  #La variable liste est maintenant égale à [12, 'a', -9, 9.5, 3
 
 Il est possible d'utiliser l'opérateur + entre deux listes :
 
-` l1 + l2 ` : Renvoie une **nouvelle** liste qui contient les éléments de l1 avec à la suite ceux de l2.
+`l1 + l2` : Renvoie une **nouvelle** liste qui contient les éléments de l1 avec à la suite ceux de l2.
 
 Avec cet opérateur, on ajoute un élément à la liste avec le code suivant :
 
@@ -152,7 +152,7 @@ Avec cet opérateur, on ajoute un élément à la liste avec le code suivant :
 
 **• Suppression d'un élément à l'aide de la méthode pop(...)**
 
-`liste.pop()` :	Modifie liste en supprimant le dernier élément et renvoie cet élément.
+`liste.pop()` :	Modifie liste en supprimant le dernier élément et renvoie cet élément.  
 `liste.pop(i)` : Modifie liste en supprimant le ième élément et renvoie cet élément.
 
 **• Suppression à l'aide l'instruction del**
@@ -172,7 +172,7 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 
 > #### Application III : Faire soi même
 >
-> 1) Créer une fonction modification_liste(liste,ele,pos) avec 3 paramètres : une liste liste , qui va être modifiée par l'élément ele à une position pos. Si la position pos est plus grande que la taille de la liste, l'élément sera ajouté à la fin de la liste, et si elle est plus petite ou égale que 0, il sera ajouté au début. 
+> 1) Créer une fonction `modification_liste(liste,ele,pos)` avec 3 paramètres : une liste liste , qui va être modifiée par l'élément ele à une position pos. Si la position pos est plus grande que la taille de la liste, l'élément sera ajouté à la fin de la liste, et si elle est plus petite ou égale que 0, il sera ajouté au début. 
 >
 > Exemple :
 >
@@ -185,7 +185,7 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 [8,2,3,5,6]
 ```
 >
-> 2) Créer une fonction ajout_element_liste(liste,ele) avec 2 paramètres : une liste liste , à qui on va ajouter l'élément ele à la fin de la liste. 
+> 2) Créer une fonction `ajout_element_liste(liste,ele)` avec 2 paramètres : une liste liste , à qui on va ajouter l'élément ele à la fin de la liste. 
 >
 > Exemple :
 >
@@ -203,7 +203,7 @@ Attention, si l'élément x n'est pas dans liste, cette fonction lève une erreu
 [1,2,3,4,5]
 ```
 >
-> 3) Créer une fonction supprimer_element_liste(liste,pos) avec 2 paramètres : une liste liste , à qui on va supprimer un élément à la position pos. Si la position pos est plus grande que la taille de la liste, l'élément sera supprimé à la fin de la liste, et si elle est plus petite ou égale que 0, il sera supprimé au début. 
+> 3) Créer une fonction `supprimer_element_liste(liste,pos)` avec 2 paramètres : une liste liste , à qui on va supprimer un élément à la position pos. Si la position pos est plus grande que la taille de la liste, l'élément sera supprimé à la fin de la liste, et si elle est plus petite ou égale que 0, il sera supprimé au début. 
 >
 > Exemple :
 >
