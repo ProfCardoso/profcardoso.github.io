@@ -221,7 +221,7 @@ Les conditions (utilisable avec if ou while) d'appartenance et de non-appartenan
 
 *Exemple :*
 
-```python
+```
 liste = ['a', 'e', 'i', 'o', 'u', 'y']
 caract = 'b'
 if caract in liste:
