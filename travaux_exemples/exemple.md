@@ -164,3 +164,13 @@ function verifierQuiz() {
   scoreText.innerHTML = `🎯 Ton score : <strong>${score}/3</strong>`;
 }
 </script>
+
+
+---
+# Troll
+
+La suite du cours après les vacances ! En attendant : [ici](https://www.youtube.com/watch?v=xvFZjo5PgG0)
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/to_be_continued.jpg" alt="Python" width="400" />
+</div>

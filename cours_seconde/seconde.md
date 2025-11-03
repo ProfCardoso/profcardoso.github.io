@@ -8,30 +8,6 @@ title: Cours de Seconde SNT
 
 <!-- 
 
-## Thème 1 : Internet
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="internet/internet.html">Internet</a></h3>
-      <p>Qu'est-ce qu'Internet ?</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Ip et Routage</a></h3>
-      <p>Comment les informations sont-elles aiguillées sur le réseau ?</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Modèle client-serveur</a></h3>
-      <p>Comment deux machines s'échangent-elles des informations ?</p>
-    </div>
-
-  </div>
-</div>
-
----
 
 ## Thème 2 : Le Web
 
@@ -77,6 +53,30 @@ title: Cours de Seconde SNT
 
     <a class="boite-tp" href="./res_sociaux_graphe/bonus.html">
       <h3>Exercice Bonus</h3>
+    </a>
+
+  </div>
+</div>
+
+
+## Thème 2 : Internet
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./internet/internet.html">
+      <h3>🚧 Internet</h3>
+      <p>Qu'est-ce qu'Internet ?</p>
+    </a>
+
+    <a class="boite" href="./internet/ip.html">
+      <h3>🚧 Ip et Routage</h3>
+      <p>Comment les informations sont-elles aiguillées sur le réseau ?</p>
+    </a>
+
+    <a class="boite" href="./internet/client_serveur.html">
+      <h3>🚧 Modèle client-serveur</h3>
+      <p>Comment deux machines s'échangent-elles des informations ?</p>
     </a>
 
   </div>
