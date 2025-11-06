@@ -83,10 +83,25 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./intro_python/listes.html">
+    <a class="boite" href="./liste_tuple/listes.html">
       <h3>Les listes</h3>
     </a>
 
+    <a class="boite-tp" href="./liste_tuple/jeu_societe.html">
+      <h3>TP : Jeu de société</h3>
+    </a>
+
+    <a class="boite" href="./liste_tuple/listes_en_comprehensions.html">
+      <h3>Les listes en compréhensions</h3>
+    </a>
+
+    <a class="boite" href="./liste_tuple/tuples.html">
+      <h3>Les tuples</h3>
+    </a>
+
+    <a class="boite" href="./liste_tuple/listes_de_listes.html">
+      <h3>Les listes de listes</h3>
+    </a>
 
   </div>
 </div>
