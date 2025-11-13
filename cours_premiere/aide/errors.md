@@ -182,7 +182,7 @@ Python répond : `ImportError: cannot import name 'tutu' from 'math'`
 
 ## Lecture rapide d’un message d’erreur
 
-“Méthode” possible:
+“Méthode” possible pour comprendre votre erreur:
 
 - Regarder la dernière ligne → type d’erreur (TypeError, NameError, etc.).
 
