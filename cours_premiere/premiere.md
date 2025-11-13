@@ -92,15 +92,11 @@ title: Cours de Première NSI
     </a>
 
     <a class="boite" href="./liste_tuple/listes_en_comprehensions.html">
-      <h3>Les listes en compréhensions</h3>
+      <h3>Les listes en compréhensions et listes de listes</h3>
     </a>
 
     <a class="boite" href="./liste_tuple/tuples.html">
       <h3>Les tuples</h3>
-    </a>
-
-    <a class="boite" href="./liste_tuple/listes_de_listes.html">
-      <h3>Les listes de listes</h3>
     </a>
 
   </div>
@@ -310,10 +306,30 @@ title: Cours de Première NSI
     </div>
     </a>
 
+    <a class="boite" href="./aide/errors.html">
+    <div >
+      <h3> Erreurs et Exceptions</h3>
+    </div>
+    </a>
+
   </div>
 </div>
 
+---
 
+## ⭐ Bonus
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./aide/docstring.html">
+    <div >
+      <h3>Bibliotheque Pyxel</h3>
+    </div>
+    </a>
+
+  </div>
+</div>
 ---
 
 Le bulletin officiel est trouvable ici : [BO NSI Première](BO_PREM.pdf)
