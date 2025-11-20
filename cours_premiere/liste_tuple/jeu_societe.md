@@ -55,7 +55,7 @@ ancienne position.
 
 4. Réalisez un script python qui joue maximum 5 tours de jeu et qui écris un message de félicitation si le cheval est arrivé, ou un message d'encouragement si celui ci n'a pas fini la course. 
 
-## Jeu de carte
+## Jeu de carte 🃏
 
 Un jeu de 52 cartes standard est composé de quatre couleurs : pique, cœur, carreau et trèfle.  
 Chaque couleur contient 13 valeurs :
@@ -111,3 +111,14 @@ As de ♥️
 ["As de ♠️","2 de ♠️","3 de ♠️","2 de ♥️","3 de ♥️"]
 
 ```
+
+## Bonus : Puissance 4 ⭐
+
+On vous demande de réaliser un version jouable du Puissance 4, et ceci depuis l’interpréteur de Thonny ou Edupython.  
+
+Pour vous aider, on vous fournit le squelette de chacune des fonctions ainsi que le programme nécéssaire pour jouer au Puissance 4 : [Squelette du Puissance 4](./puissance4.py)  
+On s’accordera à dire qu’une partie se finit si l’un des joueurs forme une ligne, une
+colonne ou une diagonale de 4 pions d’affilés, ou que la grille soit pleine de pions sans qu’un joueur ai pu gagner ( dans ce cas ils seront égalités) .
+1. Codez les fonctions dont les blocs d’instructions sont vides grâce aux spécifications de ces dernières.
+
+2. Tester de jouer avec la [version graphique](./interface_puissance4.py)  du jeu, fonctionnant avec la bibliothèque Pygame ( vous devrez, pour pouvoir l'utiliser, ajouter le module Pygame à votre environnement de travail )
