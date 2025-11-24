@@ -34,6 +34,9 @@ L = [n**3 for n in range(5)]
   </div>
 </details>
 
+  
+---
+
 > ## Applications
 >
 > ### Application I : Exercice sur feuille
@@ -41,13 +44,10 @@ L = [n**3 for n in range(5)]
 > Voici plusieurs listes écritent en compréhension, écrire le résultat de ces listes :
 >
 ```python
-# 1. 
 liste_une = [ x for x in range(0,15,2) ]
 
-# 2. 
 liste_deux = [ 2**y for y in range(4) ]
 
-# 3. 
 liste_trois = [ z for z in ['N','S','I'] ]
 ```
 > 
@@ -66,7 +66,7 @@ liste_trois = [ z for z in ['N','S','I'] ]
 >
 > **Bonus**: écrire une version du décompte qui changera tous les nombres pair en chaîne de caractère
 
-
+___
 
 # Liste de liste ( ou tableau de tableau )
 
@@ -176,8 +176,8 @@ labyrinthe = [[1, 1, 1, 1, 1, 1, 1, 1, 1],
               [1, 0, 0, 0, 0, 0, 0, 0, 0],
               [1, 1, 1, 1, 1, 1, 1, 1, 1]]
 ```
-En utilisant le caractère `"█"` et le caractère `" "`, proposer un script qui affiche proprement le labyrinthe :
-
+> En utilisant le caractère `"█"` et le caractère `" "`, proposer un script qui affiche proprement le labyrinthe :
+>
 ```
 ██████████████████
                 ██
@@ -187,3 +187,4 @@ En utilisant le caractère `"█"` et le caractère `" "`, proposer un script qu
 ██                
 ██████████████████
 ```
+>
