@@ -42,14 +42,11 @@ L = [n**3 for n in range(5)]
 > ### Application I : Exercice sur feuille
 >
 > Voici plusieurs listes écritent en compréhension, écrire le résultat de ces listes :
+> 1. liste_une = [ x for x in range(0,15,2) ]
 >
-```python
-liste_une = [ x for x in range(0,15,2) ]
-
-liste_deux = [ 2**y for y in range(4) ]
-
-liste_trois = [ z for z in ['N','S','I'] ]
-```
+> 2. liste_deux = [ 2**y for y in range(4) ]
+>
+> 3. liste_trois = [ z for z in ['N','S','I'] ]
 > 
 > ### 🐍 Application II : Quelques listes ...
 >
