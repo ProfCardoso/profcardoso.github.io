@@ -46,7 +46,7 @@ elt_A = liste[1]  #La variable elt_A contient maintenant 'b'
 elt_B = liste[-2]  #La variable elt_B contient 'c'
 ```
 
-> #### 🐍 Application I 
+> #### 🐍 Application I : Les jours de la semaine
 >
 > Écrire la ligne de code qui permet de créer la liste jours_semaine contenant les jours de la semaine sans le dimanche.
 >
