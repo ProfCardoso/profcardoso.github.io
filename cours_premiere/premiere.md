@@ -91,7 +91,7 @@ title: Cours de Première NSI
       <h3>TP : Jeu de société</h3>
     </a>
 
-    <a class="boite" href="./liste_tuple/ listes_en_comprehension.html">
+    <a class="boite" href="./liste_tuple/listes_en_comprehension.html">
       <h3>Les listes en compréhensions et listes de listes</h3>
     </a>
 

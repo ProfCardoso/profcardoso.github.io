@@ -136,10 +136,10 @@ Python répond : `IndexError: list index out of range`
 ### KeyError
 
 On demande une clé qui n’existe pas dans un dictionnaire.
-
+```python
 d = {"nom": "Alice", "age": 15}
 print(d["adresse"])
-
+```
 
 Python répond : `KeyError: 'adresse'`
 
@@ -147,9 +147,10 @@ Python répond : `KeyError: 'adresse'`
 
 On demande un attribut ou une méthode qui n’existe pas pour cet objet.
 
+```python
 texte = "bonjour"
 texte.append(" !")   # les str n'ont pas de méthode append
-
+```
 
 Python répond : `AttributeError: 'str' object has no attribute 'append'`
 
@@ -158,8 +159,9 @@ Python répond : `AttributeError: 'str' object has no attribute 'append'`
 
 Division par zéro.
 
+```python
 x = 5 / 0
-
+```
 
 Python répond : `ZeroDivisionError: division by zero`
 
@@ -168,15 +170,17 @@ Python répond : `ZeroDivisionError: division by zero`
 
 Tu importes un module ou un objet qui n’existe pas.
 
+```python
 import pythn   # faute d’orthographe
-
+```
 
 Python répond : `ModuleNotFoundError: No module named 'pythn'`
 
 Ou :
 
+```python
 from math import tutu
-
+```
 
 Python répond : `ImportError: cannot import name 'tutu' from 'math'`
 
@@ -198,7 +202,7 @@ Python répond : `ImportError: cannot import name 'tutu' from 'math'`
 
 ## Mention rapide de try / except (optionnel)
 
-Pour résoudre certaine de vos exception, il est possible d'utiliser le try/except, en voici un exemple :
+Pour résoudre certaine de vos exceptions, il est possible d'utiliser le `try/except`, en voici un exemple :
 
 ```python
 try:
@@ -207,7 +211,7 @@ except ValueError:
     print("Ce n'est pas un nombre valide.")
 ```
 
-Ici, pour éviter une valeur autre qu'un entier, on `try` quelque chose ( ici le input() pour récupérer la valeur auprès de l'utilisateur ). Si la valeur voulu par l'utilisateur n'est pas un entier, le code n'arretera pas son execution, car l'erreur sera evité par le `except`.
+Ici, pour éviter une valeur autre qu'un entier, on `try` quelque chose ( ici le `input()` pour récupérer la valeur auprès de l'utilisateur ). Si la valeur voulu par l'utilisateur n'est pas un entier, le code n'arretera pas son execution, car l'erreur sera evité par le `except`.
 
 ### Résumé des exceptions typiques
 
