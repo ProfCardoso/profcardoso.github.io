@@ -177,3 +177,12 @@ La suite du cours après les vacances ! En attendant : [ici](https://www.youtube
 <div style="display: flex; flex-direction:column;  text-align: center; ">
   <img style="margin: auto;" src="../../images/to_be_continued.jpg" alt="Python" width="400" />
 </div>
+
+---
+# Code Python
+<!-- ecrire du code python avec balise -->
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> <script defer src="https://pyscript.net/alpha/pyscript.js"></script> 
+
+<py-script>
+
+</py-script>

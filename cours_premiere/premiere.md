@@ -78,7 +78,7 @@ title: Cours de Première NSI
 </div>
 
 
-## Thème 8 : Listes et Tuples
+## Thème 3 : Listes et Tuples
 
 <div class="cours-section">
   <div class="boites-lecons">
@@ -87,7 +87,7 @@ title: Cours de Première NSI
       <h3>Les listes</h3>
     </a>
 
-    <a class="boite-tp" href="./liste_tuple/jeu_societe.html">
+    <a class="boite-tp" href="./liste_tuple/jeu_societe_correction.html">
       <h3>TP : Jeu de société</h3>
     </a>
 
@@ -322,7 +322,7 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./aide/docstring.html">
+    <a class="boite" href="./bonus/pyxel.html">
     <div >
       <h3>Bibliotheque Pyxel</h3>
     </div>
