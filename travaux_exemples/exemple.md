@@ -179,10 +179,3 @@ La suite du cours après les vacances ! En attendant : [ici](https://www.youtube
 </div>
 
 ---
-# Code Python
-<!-- ecrire du code python avec balise -->
-<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" /> <script defer src="https://pyscript.net/alpha/pyscript.js"></script> 
-
-<py-script>
-
-</py-script>

@@ -21,7 +21,7 @@ On souhaite simuler plusieurs lancer de dés. Lancer cette fonction à chaque fo
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       import random
 
       def plusieurs_lancer(des):
@@ -30,7 +30,7 @@ On souhaite simuler plusieurs lancer de dés. Lancer cette fonction à chaque fo
               lance = random.randint(1,6)
               liste.append(lance)
           return liste
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -39,7 +39,7 @@ On souhaite simuler plusieurs lancer de dés. Lancer cette fonction à chaque fo
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def minimum(liste_de):
       return min(liste_de)
 
@@ -57,7 +57,7 @@ On souhaite simuler plusieurs lancer de dés. Lancer cette fonction à chaque fo
               if liste_de[i] > maxi:
                   maxi = liste_de[i]
           return maxi
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -66,12 +66,12 @@ On souhaite simuler plusieurs lancer de dés. Lancer cette fonction à chaque fo
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
     
       def test_presence_n(liste_de,n):
           return n in liste_de
 
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -99,7 +99,7 @@ une liste de chaîne de caractères.
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def nouvelle_piste(t):
         """
         fonction qui renvoie une liste de chaîne de caractères composé du cheval 'C',
@@ -110,7 +110,7 @@ une liste de chaîne de caractères.
         arrivee = ['A']
         piste = cheval + (t-2)*case + arrivee
         return piste
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -121,7 +121,7 @@ la piste ) en paramètre et renverra True ou False selon la positon du cheval.
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def cheval_arrive(piste):
         """
         Fonction qui prendra une liste ( piste ) en paramètre et
@@ -133,7 +133,7 @@ la piste ) en paramètre et renverra True ou False selon la positon du cheval.
             return False
         else:
             return True
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -144,7 +144,7 @@ dé.
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def tour_de_jeu(piste):
         """
         Fonction qui prendra la liste (piste) en paramètre,
@@ -160,7 +160,7 @@ dé.
             piste[position+de] = "C"
             piste[position]="_"
         return piste
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -173,7 +173,7 @@ ancienne position.
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       tour = 0
       taille = 10
       piste = nouvelle_piste(taille)
@@ -225,14 +225,14 @@ symboles = ["♠️", "♥️", "♦️", "♣️"]
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def creer_carte(valeur,symbole):
         """
         Fonction qui “crée” une carte à partir d’une valeur et d’un symbole donné en paramètre
         et renvoie la valeur et le symbole de la carte.
         """
         return valeur + "de" + symbole
-    </py-script>
+    </code>
   </div>
 </details>
   
@@ -252,7 +252,7 @@ symboles = ["♠️", "♥️", "♦️", "♣️"]
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def creer_jeu(valeurs,symboles):
         """
         fonction qui “crée” un jeu de carte à partir des valeurs et des symboles donnés en paramètre et renvoie une liste contenant toutes les cartes.
@@ -262,7 +262,7 @@ symboles = ["♠️", "♥️", "♦️", "♣️"]
             for symb in symboles:
                 jeu.append(creer_carte(val,symb))
         return jeu
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -283,7 +283,7 @@ As de ♥️
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
       def tirer_carte(jeu_de_carte) :
         """
         Fonction qui “tire” aléatoirement une carte à partir d’un jeu de carte donné en paramètre.
@@ -294,7 +294,7 @@ As de ♥️
         carte = jeu_de_carte.pop(numero_de_carte) # Retire de la liste et renvoie l'élément à l'indice numéro_de_carte
 
         return carte
-    </py-script>
+    </code>
   </div>
 </details>
 

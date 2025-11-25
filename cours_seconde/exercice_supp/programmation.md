@@ -26,14 +26,14 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
         A = int(input("Nombre d'adultes ?"))
         E = int(input("Nombre d'enfants ?"))
 
         P = A * 21 + E * 13
 
         print("Le prix du total est de ", P, "€")
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -50,14 +50,14 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
         taille = int(input("Donnez votre taille (en m) :"))
         masse = int(input("Donnez votre masse (en kg) :"))
 
         imc = masse / ( taille ** 2 )
 
         print("Votre IMC est de : " , imc)
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -70,14 +70,14 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
         nombre = int(input("Ecrire un nombre :"))
 
         if nombre % 2 == 0 :
             print(nombre, " est PAIR" )
         else:
             print(nombre, " est IMPAIR" )
-    </py-script>
+    </code>
   </div>
 </details>
 
@@ -101,7 +101,7 @@ Résultat : 8
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <py-script>
+    <code>
         a = int(input("Entrer un premier nombre :"))
         b = int(input("Entrer un deuxieme nombre :"))
         operation = input("Choisis une opération (+, -, *, /) :")
@@ -114,7 +114,7 @@ Résultat : 8
             print("Resultat : " , a * b)
         if operation == "/":
             print("Resultat : " , a / b)
-    </py-script>
+    </code>
   </div>
 </details>
   
@@ -150,7 +150,7 @@ Résultat : 8
 
   <!-- Question 3 -->
   <div style="margin-top: 15px;">
-    <h4> Quelle fonction permet de demander une information à l'utilisateur ? </code></h4>
+    <h4> Quelle fonction permet de demander une information à l'utilisateur ? </h4>
     <input type="text" id="q3" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
     <p id="f3" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
@@ -188,7 +188,7 @@ function verifierQuiz() {
   // Question A remplir
   const q1 = document.getElementById("q1").value.trim();
   const f1 = document.getElementById("f1");
-  if (q1 === "floattant" or q1 === "float" or q1 === "Floattant" or q1 === "Float") {
+  if (q1 === "floattant" || q1 === "float" || q1 === "Floattant" || q1 === "Float") {
     f1.textContent = "✅ Bonne réponse !";
     f1.style.color = "green";
     score++;
@@ -212,7 +212,7 @@ function verifierQuiz() {
     // Question A remplir
   const q3 = document.getElementById("q3").value.trim();
   const f3 = document.getElementById("f3");
-  if (q3 === "input()" or q3 === "input") {
+  if (q3 === "input()" || q3 === "input") {
     f3.textContent = "✅ Bonne réponse !";
     f3.style.color = "green";
     score++;
