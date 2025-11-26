@@ -126,7 +126,7 @@ Résultat : 8
 
   <!-- Question 1 -->
   <div style="margin-top: 15px;">
-    <h4>Quel est le type de la variable <strong>a</strong> quand <pre><code class="language-python"> a = 3.14 </code></h4>
+    <h4>Quel est le type de la variable <strong>a</strong> quand <code> a = 3.14 </code></h4>
     <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
     <p id="f1" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
@@ -137,14 +137,17 @@ Résultat : 8
 
   <!-- Question 2 -->
   <div style="margin-top: 20px;">
-    <h4> Code à trou : <pre><code class="language-python">print(_______)</code></pre> que mettre dans le print pour écrire bonjour dans la console ? </h4>
+    <h4> Code à trou : <code>print(_______)</code> que mettre dans le print pour écrire bonjour dans la console ? </h4>
     <label><input type="radio" name="q2" value="1"> "bonjour"</label><br>
     <label><input type="radio" name="q2" value="2"> bonjour</label><br>
     <label><input type="radio" name="q2" value="3"> [bonjour]</label><br>
     <p id="f2" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
-      <p><pre><code class="language-python">print("bonjour")</code></pre></p>
+      <p>
+        <pre><code class="language-python">
+          print("bonjour")
+        </code></pre></p>
     </details>
   </div>
 

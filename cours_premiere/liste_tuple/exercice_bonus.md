@@ -27,7 +27,7 @@ L = [3, 8, 2, 7, 4, 10]
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
     <p>1. L[3] vaut 7 </p>
-    <p>1. L[-1] vaut 10 → dernier élément (indices négatifs) </p>
+    <p>2. L[-1] vaut 10 → dernier élément (indices négatifs) </p>
     <pre><code class="language-python">
       L[4] = 12
     </code></pre>
@@ -54,12 +54,15 @@ noms = ["Alice", "Bob", "Charles"]
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
     <pre><code class="language-python">
+      # Exercice 1
       noms.append("David") # → ajoute à la fin.
     </code></pre>
     <pre><code class="language-python">
+      # Exercice 2
       noms.insert(1, "Zack") # → insère à l’indice 1.
     </code></pre>
     <pre><code class="language-python">
+      # Exercice 3
       noms.remove("Bob") # → retire la première occurrence de "Bob".
     </code></pre>
   </div>
@@ -100,26 +103,28 @@ inventaire = ["épée", "vide", "potion", "vide", "bouclier"]
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
     <pre><code class="language-python">
-      # 1.
+      # Exercice 1
       def objet(nom, inventaire):
         inventaire.append(nom)
+        return inventaire
     </code></pre>
     <pre><code class="language-python">
-      # 2.
+      # Exercice 2
       def utiliser(nom, inventaire):
         inventaire.remove("potion")
+        return inventaire
     </code></pre>
     <pre><code class="language-python">
-      # 3.
+      # Exercice 3
       def comptage(nom, inventaire):
         compte = 0
         for objet in inventaire:
-            if objet == "potion":
+            if objet == nom:
                 compte += 1
-        print(compte)
+        return compte
     </code></pre>
     <pre><code class="language-python">
-      # 4.
+      # Exercice 4
       inventaire_propre = []
       for x in inventaire:
           if x != "vide":
