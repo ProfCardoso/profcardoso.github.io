@@ -166,8 +166,8 @@ title: Cours de Seconde SNT
       <h3>Initiation à Python</h3>
     </a>
 
-    <a class="boite-tp" href="./exercice_supp/programmation.html">
-      <h3>Exercice Bonus</h3>
+    <a class="boite-bonus" href="./exercice_supp/programmation.html">
+      <h3>⭐ Exercice Bonus ⭐</h3>
     </a>
 
   </div>

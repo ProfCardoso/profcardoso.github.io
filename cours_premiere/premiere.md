@@ -70,8 +70,8 @@ title: Cours de Première NSI
       <h3>Représentation des nombres à virgules</h3>
     </a>
 
-    <a class="boite-tp" href="./repre_nombre/exercice_bonus.html">
-      <h3>Exercice Bonus</h3>
+    <a class="boite-bonus" href="./repre_nombre/exercice_bonus.html">
+      <h3> ⭐Exercice Bonus ⭐</h3>
     </a>
 
   </div>
@@ -89,6 +89,10 @@ title: Cours de Première NSI
 
     <a class="boite-tp" href="./liste_tuple/jeu_societe_correction.html">
       <h3>TP : Jeu de société</h3>
+    </a>
+
+    <a class="boite-bonus" href="./liste_tuple/exercice_bonus.html">
+      <h3>⭐ Exercice Bonus ⭐</h3>
     </a>
 
     <a class="boite" href="./liste_tuple/listes_en_comprehension.html">

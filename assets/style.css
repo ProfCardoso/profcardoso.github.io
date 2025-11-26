@@ -17,6 +17,15 @@
 
 .boite-tp {
   flex: 1 1 300px;
+  border: 2px solid #00cc14;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.boite-bonus {
+  flex: 1 1 300px;
   border: 2px solid #cccc00;
   border-radius: 10px;
   background-color: #f0f8ff;
@@ -43,6 +52,10 @@
   background-color: #e6f2ff;
 }
 
+.boite-bonus:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}
 .boite-projet:hover {
   transform: scale(1.02);
   background-color: #e6f2ff;
@@ -55,6 +68,9 @@
   margin-top: 0;
 }
 
+.boite-bonus h3 {
+  margin-top: 0;
+}
 .boite-projet h3 {
   margin-top: 0;
 }
@@ -66,9 +82,13 @@
 
 .boites-lecons .boite-tp {
   text-decoration: none;
-  color: #cccc00;
+  color: #00cc14;
 }
 
+.boites-lecons .boite-bonus {
+  text-decoration: none;
+  color: #cccc00;
+}
 .boites-lecons .boite-projet {
   text-decoration: none;
   color: #cc0000;

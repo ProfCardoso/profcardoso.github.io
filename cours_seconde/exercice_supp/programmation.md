@@ -26,14 +26,14 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <code>
+    <pre><code class="language-python">
         A = int(input("Nombre d'adultes ?"))
         E = int(input("Nombre d'enfants ?"))
 
         P = A * 21 + E * 13
 
         print("Le prix du total est de ", P, "€")
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -50,14 +50,14 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <code>
+    <pre><code class="language-python">
         taille = int(input("Donnez votre taille (en m) :"))
         masse = int(input("Donnez votre masse (en kg) :"))
 
         imc = masse / ( taille ** 2 )
 
         print("Votre IMC est de : " , imc)
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -70,14 +70,14 @@ Voici quelques exercices supplémentaires pour vous tester et vous entraîner. V
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <code>
+    <pre><code class="language-python">
         nombre = int(input("Ecrire un nombre :"))
 
         if nombre % 2 == 0 :
             print(nombre, " est PAIR" )
         else:
             print(nombre, " est IMPAIR" )
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -101,7 +101,7 @@ Résultat : 8
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Réponse :</u></summary>
   <div style="margin-top: 10px;">
-    <code>
+    <pre><code class="language-python">
         a = int(input("Entrer un premier nombre :"))
         b = int(input("Entrer un deuxieme nombre :"))
         operation = input("Choisis une opération (+, -, *, /) :")
@@ -114,7 +114,7 @@ Résultat : 8
             print("Resultat : " , a * b)
         if operation == "/":
             print("Resultat : " , a / b)
-    </code>
+    </code></pre>
   </div>
 </details>
   
@@ -126,7 +126,7 @@ Résultat : 8
 
   <!-- Question 1 -->
   <div style="margin-top: 15px;">
-    <h4>Quel est le type de la variable <strong>a</strong> quand <code> a = 3.14 </code></h4>
+    <h4>Quel est le type de la variable <strong>a</strong> quand <pre><code class="language-python"> a = 3.14 </code></h4>
     <input type="text" id="q1" placeholder="Ta réponse ici..." style="padding: 5px; border-radius: 5px;">
     <p id="f1" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
@@ -137,14 +137,14 @@ Résultat : 8
 
   <!-- Question 2 -->
   <div style="margin-top: 20px;">
-    <h4> Code à trou : <code>print(_______)</code> que mettre dans le print pour écrire bonjour dans la console ? </h4>
+    <h4> Code à trou : <pre><code class="language-python">print(_______)</code></pre> que mettre dans le print pour écrire bonjour dans la console ? </h4>
     <label><input type="radio" name="q2" value="1"> "bonjour"</label><br>
     <label><input type="radio" name="q2" value="2"> bonjour</label><br>
     <label><input type="radio" name="q2" value="3"> [bonjour]</label><br>
     <p id="f2" style="margin-top: 5px;"></p>
     <details style="margin-top: 5px;">
       <summary>💡 Voir la correction</summary>
-      <p><code>print("bonjour")</code></p>
+      <p><pre><code class="language-python">print("bonjour")</code></pre></p>
     </details>
   </div>
 
@@ -235,6 +235,6 @@ function verifierQuiz() {
 
   // Score final
   const scoreText = document.getElementById("score");
-  scoreText.innerHTML = `🎯 Ton score : <strong>${score}/3</strong>`;
+  scoreText.innerHTML = `🎯 Ton score : <strong>${score}/4</strong>`;
 }
 </script>
