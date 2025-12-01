@@ -291,6 +291,19 @@ title: Cours de Première NSI
   </div>
 </div>
 
+## Projet 1 : Liste Python
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-projet" href="./projet_2/liste_sujet_consignes.md">
+    <div >
+      <h3> Jeu de société </h3>
+    </div>
+    </a>
+
+  </div>
+</div>
 ---
 
 ## 📖 Aide et fiche de révision

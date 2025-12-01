@@ -26,6 +26,10 @@ Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouvere
 ---
 -->
 
+## 🎄 Calendrier de l'Avent du code 🎁
+
+Pour vous faire patienter jusqu'aux vacances de Noël, voici un code à faire tous les jours : [Advent of Code](https://adventofcode.com/)
+
 ## ✉️ Me contacter
 Si vous avez des questions, n'hésitez pas à me contacter : Mathieu.Cardoso@ac-montpellier.fr 
 

@@ -23,17 +23,33 @@
   </div>
 </div>
 
-<!--
-
----
-
-## Thème 1 : Internet
+## Thème 2 : Internet
 
 <div class="cours-section">
   <div class="boites-lecons">
 
+    <a class="boite" href="./internet/activité_internet.pdf">
+      <h3>Activité Internet</h3>
+    </a>
+
+    <a class="boite" href="./internet/cours_internet.pdf">
+      <h3>Cours Internet</h3>
+    </a>
+
+    <a class="boite" href="./internet/cours_ip.pdf">
+      <h3>Cours Ip</h3>
+    </a>
+
+    <a class="boite" href="./internet/exo_ip.pdf">
+      <h3>Exercice Ip</h3>
+    </a>
   </div>
 </div>
+
+<!--
+
+---
+
 
 ---
 
@@ -105,7 +121,11 @@
     </a>
 
     <a class="boite" href="./autre/cours_prog_2.pdf">
-      <h3>Introduction Python 2</h3>
+      <h3>Opérateur Python 2</h3>
+    </a>
+
+    <a class="boite" href="./autre/FichePython3.pdf">
+      <h3>Boucle Python 2</h3>
     </a>
 
   </div>

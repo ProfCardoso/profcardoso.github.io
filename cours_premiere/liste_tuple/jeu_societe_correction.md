@@ -187,6 +187,7 @@ ancienne position.
         print("BRAVO")
       else:
         print("DOMMAGE")
+    </code></pre>
   </div>
 </details>
 
