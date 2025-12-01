@@ -121,11 +121,11 @@
     </a>
 
     <a class="boite" href="./autre/cours_prog_2.pdf">
-      <h3>Opérateur Python 2</h3>
+      <h3>Opérateur Python</h3>
     </a>
 
     <a class="boite" href="./autre/FichePython3.pdf">
-      <h3>Boucle Python 2</h3>
+      <h3>Boucle Python</h3>
     </a>
 
   </div>
