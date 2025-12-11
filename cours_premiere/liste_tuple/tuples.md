@@ -160,8 +160,11 @@ a, c = (1, 2, 3)    # Provoque une ValueError
 >
 > On considère le tuple suivant :
 >
+
 ```python
+
 animaux = ("lion", "zèbre", "girafe", "éléphant")
+
 ```
 >
 > 1. Donner sur feuille :
@@ -187,8 +190,8 @@ animaux = ("lion", "zèbre", "girafe", "éléphant")
 >
 > Le système de gestion des reptiles stocke toutes les informations de leur pensionnaire sous la forme de liste de tuples de cette forme :
 >
-```python
 
+```
 reptiles = [
     ("iguane vert", "Iguana iguana", "femelle", "Léa", "herbivore"),
     ("gecko léopard", "Eublepharis macularius", "mâle", "Spot", "insectivore"),
@@ -210,7 +213,8 @@ reptiles = [
 >
 > Exemple :
 >
-```python
+
+```
 reptile = [ ("cobra royal", "Ophiophagus hannah", "femelle", "Kali", "carnivore") ]
 
 print(noms(reptile))    # [("Python regius","Bob")]
@@ -218,7 +222,8 @@ print(noms(reptile))    # [("Python regius","Bob")]
 >
 > 2. Oh non ! Une souris s'est enfuie dans la salle des serveurs et a court-circuité les ordinateurs, les animaux se sont sauvés et la liste de tuples a buggé :
 >
-```python
+
+```
 reptiles_bugs = [
 
     "gecko léopard", "Eublepharis macularius", "mâle", "Spot", "insectivore",
@@ -233,6 +238,7 @@ reptiles_bugs = [
     "varan malais", "Varanus salvator", "mâle", "Rex", "carnivore",
     "iguane vert", "Iguana iguana", "femelle", "Léa","herbivore",
 ]
+
 ```
 >
 > Rattrapez les soucis en écrivant une fonction pour obtenir une liste de tuples, avec chaque tuples contenant : le nom, le nom latin, le sexe, le surnom et le régime alimentaire de tous les reptiles.

@@ -177,3 +177,17 @@ Vous pouvez ajouter :
 - une IA simple
 
 ## 3ème étape : Passage à l'oral
+
+1. Une présentation de 5 à 10 min où vous présenterez votre projet avec en point important :
+
+- le but du jeu (règles),
+- une démonstration (rapide),
+- où sont les listes et pourquoi les avoir utilisées ici,
+- les points qui vous ont causé des difficultés.
+
+2. Ensuite une phase de plusieurs questions de ma part et/ou du public.  
+  
+3. Et pour finir, chaque élève sera interrogé individuellement sur une fonction tirée aléatoirement du projet pour m'expliquer en détails
+
+## Barème
+
