@@ -51,8 +51,8 @@ title: Cours de Seconde SNT
       <p>Notion de petit monde </p>
     </a>
 
-    <a class="boite-tp" href="./res_sociaux_graphe/bonus.html">
-      <h3>Exercice Bonus</h3>
+    <a class="boite-bonus" href="./res_sociaux_graphe/bonus.html">
+      <h3> ⭐ Exercice Bonus ⭐ </h3>
     </a>
 
   </div>

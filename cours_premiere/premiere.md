@@ -99,7 +99,7 @@ title: Cours de Première NSI
       <h3>Les listes en compréhensions et listes de listes</h3>
     </a>
 
-    <a class="boite" href="./liste_tuple/tuples.md">
+    <a class="boite" href="./liste_tuple/tuples.html">
       <h3>Les tuples</h3>
     </a>
 
