@@ -16,5 +16,5 @@ Merci de revenir plus tard pour consulter le contenu !
 ---
 
 >
-> 📌 Astuce : tu peux explorer les autres leçons déjà disponibles via le [menu principal](./index.html).
+> 📌 Astuce : tu peux explorer les autres leçons déjà disponibles via le [menu principal](../index.html).
 >
