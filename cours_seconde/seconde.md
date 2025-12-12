@@ -175,6 +175,21 @@ title: Cours de Seconde SNT
   
 ---
 
+### Activité Bonus
+
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-projet" href="./bonus/trivial_pursuit.html">
+      <h3>Trivial Pursuit</h3>
+    </a>
+
+  </div>
+</div>
+
+---
+
 ### Quelques documents
 
 Vous pouvez retrouver les versions dématérialisées ici : [Documents](./document_seconde/document_seconde.html)

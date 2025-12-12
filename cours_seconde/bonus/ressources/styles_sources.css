@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* ==== Header ==== */
+header {
+    display: grid;
+    grid-template-columns: 40px auto;
+    font-size: 20px;
+}
+header.c1 {
+    background-color: var(--c1);
+}
+header.c2 {
+    background-color: var(--c2);
+}
+header.c3 {
+    background-color: var(--c3);
+}
+header.c4 {
+    background-color: var(--c4);
+}
+header.c5 {
+    background-color: var(--c5);
+}
+header.c6 {
+    background-color: var(--c6);
+}
+header.c7 {
+    background-color: var(--c7);
+}
+header div {
+    align-self: center;
+}
+
+/* ==== Main ==== */
+main {
+    padding: 1rem;
+}
+.colonne {
+    width: 50rem;
+    margin: auto
+}
+main h1 {
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 1rem;
+    background-color: #f0f0f0;
+    width: max-content;
+    padding:0.6rem 2rem;
+    margin: 1rem auto
+}
+main h2 {
+    margin:1rem 0 0.2rem 0;
+}
+main h3 {
+    margin:1rem 0 0.2rem 0;
+    font-style: italic;
+}
+main p {
+    margin:0.4rem 0.4rem 0.4rem 0.8rem;
+    line-height: 1.6rem;
+    text-align: justify;
+}
+main fieldset {
+    margin: 2rem;
+}
+main ul {
+    margin-top: 0;
+    line-height: 1.6rem;
+}
+main li {
+    text-align: justify;
+}
+main table {
+    border-collapse: collapse;
+}
+main th,td {
+    border:solid 1px black;
+    padding: 0.2rem;
+}
+main th {
+    background-color: #f0f0f0;
+}
+hr {
+    width:30%;
+    margin:0.8rem auto;
+}
+
+main .source {
+    text-align: right;
+    font-style: italic;
+}
+main .introduction {
+    font-weight: bold;
+    margin-left:0;
+    font-style: italic;
+}
+main .large{
+    max-width: 95vw;
+}
+main .ombre {
+    box-shadow: 0.2rem 0.2rem 0.4rem black;
+    margin:0.5rem 0;
+}
