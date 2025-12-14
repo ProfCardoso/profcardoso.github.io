@@ -17,14 +17,10 @@ Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouvere
 ### 🟦 [Terminale NSI](./cours_terminale/terminale.md)
 
 
-<!-- 
----
 
-## 📂 Ressources utiles
-- 📖 [Fiches de révision](./fiches.md)
-
----
--->
+## 📂 Liens et Ressources utiles
+- [VisuAlgo](https://visualgo.net/en) : Regardez des algorithmes connus (Tri, graphe, etc) s'exécuter en temps réel.
+- [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) : Des problèmes pour comprendre la complexité d'algorithme ? Vous pouvez retrouver celle de plusieurs fonctions et leurs explication ici. 
 
 ## 🎄 Calendrier de l'Avent du code 🎁
 

@@ -4,6 +4,9 @@ title: Initialisation à Python
 
 # Les bons usages du numérique
 
+<p>Les questions sont <a href="./liste_questions.html"> ici</a>.</p>
+
+
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <link rel="stylesheet" href="../../assets/plateau.css" />
@@ -174,3 +177,16 @@ title: Initialisation à Python
         });
     </script>
 </body>
+
+<a href="./liste_documents.html" class="secret-btn">.</a>
+
+<style>
+.secret-btn {
+  font-size: 8px;
+  color: rgba(0,0,0,0.05); /* presque invisible */
+  text-decoration: none;
+}
+.secret-btn:hover {
+  color: rgba(0,0,0,0.4); /* visible au survol */
+}
+</style>
