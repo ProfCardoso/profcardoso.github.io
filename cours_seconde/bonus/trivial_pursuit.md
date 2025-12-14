@@ -4,8 +4,8 @@ title: Initialisation à Python
 
 # Les bons usages du numérique
 
-<p>Les questions sont <a href="./liste_questions.html"> ici</a>.</p>
-
+- <p>Les documents sont <a href="./liste_documents.html"> ici</a>.</p>
+- Et les questions <a href="./Liste_des_questions.docx"> la</a>.
 
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
@@ -178,7 +178,7 @@ title: Initialisation à Python
     </script>
 </body>
 
-<a href="./liste_documents.html" class="secret-btn">.</a>
+<a href="./liste_questions.html" class="secret-btn">.</a>
 
 <style>
 .secret-btn {

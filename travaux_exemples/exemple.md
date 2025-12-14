@@ -179,3 +179,18 @@ La suite du cours après les vacances ! En attendant : [ici](https://www.youtube
 </div>
 
 ---
+
+# Bouton caché
+
+<a href="./liste_questions.html" class="secret-btn">.</a>
+
+<style>
+.secret-btn {
+  font-size: 8px;
+  color: rgba(0,0,0,0.05); /* presque invisible */
+  text-decoration: none;
+}
+.secret-btn:hover {
+  color: rgba(0,0,0,0.4); /* visible au survol */
+}
+</style>
