@@ -191,3 +191,28 @@ Vous pouvez ajouter :
 
 ## Barème
 
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Partie</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Projet</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Document réflexif</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>Oral</td>
+      <td>8</td>
+    </tr>
+    
+  </tbody>
+</table>

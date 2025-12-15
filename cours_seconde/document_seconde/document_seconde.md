@@ -43,6 +43,10 @@
     <a class="boite" href="./internet/exo_ip.pdf">
       <h3>Exercice Ip</h3>
     </a>
+
+    <a class="boite" href="./internet/TCP.pdf">
+      <h3>TCP</h3>
+    </a>
   </div>
 </div>
 
@@ -126,6 +130,10 @@
 
     <a class="boite" href="./autre/FichePython3.pdf">
       <h3>Boucle Python</h3>
+    </a>
+
+    <a class="boite" href="./autre/ExerciceBonusFichePython3.pdf">
+      <h3>Exercice Boucle Python</h3>
     </a>
 
   </div>
