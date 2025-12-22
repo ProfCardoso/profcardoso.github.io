@@ -102,6 +102,10 @@ title: Cours de Première NSI
     <a class="boite" href="./liste_tuple/tuples.html">
       <h3>Les tuples</h3>
     </a>
+    
+    <a class="boite-bonus" href="./liste_tuple/activite_noel.html">
+      <h3>🎄 Exercice de Noël bonus 🎄</h3>
+    </a>
 
   </div>
 </div>
@@ -326,6 +330,12 @@ title: Cours de Première NSI
     <a class="boite" href="./aide/errors.html">
     <div >
       <h3> Erreurs et Exceptions</h3>
+    </div>
+    </a>
+
+    <a class="boite" href="./aide/carte_mentale_liste.html>
+    <div >
+      <h3> Carte Mentale Liste</h3>
     </div>
     </a>
 

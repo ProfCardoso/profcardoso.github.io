@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Le Père Noël codeur</title>
+  <meta name="description" content="Activité de 35 minutes sur Noël pour une classe de Première : listes, tuples, boucles, conditions, fonctions (Python)." />
+  <style>
+    /* Style volontairement proche d’une page “cours” simple (type GitHub/Markdown),
+       pour s’accorder facilement avec un site pédagogique minimaliste. */
+
+    :root{
+      --bg:#ffffff;
+      --text:#24292f;
+      --muted:#57606a;
+      --link:#0969da;
+      --border:#d0d7de;
+      --codebg:#f6f8fa;
+      --callout:#fff8c5;
+      --callout-border:#d4a72c;
+    }
+
+    html, body { height: 100%; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height:1.6;
+    }
+
+    .container{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 28px 16px 56px;
+    }
+
+    a{ color:var(--link); text-decoration:none; }
+    a:hover{ text-decoration:underline; }
+
+    header .site{
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    h1{ font-size: 32px; margin: 6px 0 10px; }
+    h2{ font-size: 22px; margin: 28px 0 10px; }
+    h3{ font-size: 16px; margin: 18px 0 8px; }
+
+    p{ margin: 10px 0; }
+    .muted{ color:var(--muted); }
+
+    hr{
+      border:0;
+      border-top:1px solid var(--border);
+      margin: 18px 0;
+    }
+
+    ul{ margin: 8px 0 8px 22px; }
+    li{ margin: 4px 0; }
+
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.95em;
+      background: var(--codebg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.1em 0.35em;
+    }
+
+    pre{
+      background: var(--codebg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+      overflow:auto;
+      margin: 10px 0;
+    }
+    pre code{
+      background: transparent;
+      border: 0;
+      padding: 0;
+      display:block;
+      white-space: pre;
+    }
+
+    .callout{
+      background: var(--callout);
+      border: 1px solid var(--callout-border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin: 14px 0;
+    }
+
+    .row{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      margin: 10px 0;
+    }
+
+    .btn{
+      cursor:pointer;
+      border:1px solid var(--border);
+      background:#fff;
+      color:var(--text);
+      padding:8px 10px;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    .btn:hover{ background: #f3f4f6; }
+    .btn:active{ transform: translateY(1px); }
+
+    .timer{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      border:1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      margin: 12px 0 16px;
+    }
+    .timer .time{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 18px;
+      font-weight: 700;
+      padding: 6px 10px;
+      border:1px solid var(--border);
+      border-radius: 10px;
+      background: var(--codebg);
+      min-width: 120px;
+      text-align:center;
+    }
+
+    details{
+      border:1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin: 10px 0;
+      background: #fff;
+    }
+    summary{
+      cursor:pointer;
+      font-weight: 700;
+    }
+
+    footer{
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>🎄 Activité Python (35 min) — Le Père Noël codeur</h1>
+      <p class="muted">
+        Objectif : réviser les bases (variables, boucles, conditions, fonctions) en manipulant des <b>listes</b> et des <b>tuples</b>.
+      </p>
+    </header>
+
+    <hr />
+
+    <div class="callout">
+      <b>Contexte :</b> Le Père Noël doit préparer sa tournée 🎁. Une hotte (liste) + des enfant (tuples).
+    </div>
+
+    <!-- Minuteur très léger (interactivité minimale) -->
+    <div class="timer" aria-label="Minuteur 30 minutes">
+      <div><b>⏱️ Minuteur</b><div class="muted" style="font-size:12px">Optionnel</div></div>
+      <div class="time" id="timerDisplay">35:00</div>
+      <div class="row">
+        <button class="btn" id="startPauseBtn">Démarrer</button>
+        <button class="btn" id="resetBtn">Réinitialiser</button>
+      </div>
+    </div>
+
+    <h2>Compétences</h2>
+    <ul>
+      <li>Créer/modifier une <b>liste</b> : <code>append</code>, <code>remove</code>, <code>pop</code>, <code>len</code>, boucle <code>for</code></li>
+      <li>Manipuler un <b>tuple</b> : accès par index/indice <code>e[0]</code>, <code>e[1]</code></li>
+      <li>Conditions <code>if</code>, affichage <code>print</code>, fonctions simples</li>
+    </ul>
+
+    <h2>Déroulé (35 min)</h2>
+
+    <h3>1) Mise en route et rappels (≈ 5 min)</h3>
+    <p class="muted">À copier dans l’IDE Edupython ou sur <a href="https://console.basthon.fr/" target="_blank" >BASTHON</a> :</p>
+    <pre><code># Liste (modifiable)
+cadeaux = ["livre", "chocolat", "jeu"]
+
+# Tuple (non modifiable)
+enfant = ("Alice", 16)
+
+# Boucle
+for cadeau in cadeaux:
+    print(cadeau)
+
+# Condition
+if "chocolat" in cadeaux:
+    print("Miam 🎄")</code></pre>
+    <ul>
+      <li>Question flash : différence entre <b>liste</b> et <b>tuple</b> ?</li>
+      <li>Rappel : <code>len(cadeaux)</code>, <code>cadeaux[0]</code></li>
+    </ul>
+
+    <h3>2) La hotte du Père Noël (listes) (≈ 10 min)</h3>
+    <pre><code>hotte = ["PS5", "pull de Noël", "chocolats", "livre"]</code></pre>
+    <ul>
+      <li>Afficher tous les cadeaux</li>
+      <li>Ajouter <code>"bonnet"</code></li>
+      <li>Supprimer <code>"pull de Noël"</code></li>
+      <li>Afficher le nombre de cadeaux</li>
+    </ul>
+
+    <details>
+      <summary>Réponses</summary>
+      <pre><code># afficher
+for c in hotte:
+    print(c)
+
+# ajouter
+hotte.append("bonnet")
+
+# supprimer
+hotte.remove("pull de Noël")
+
+# compter
+print(len(hotte))</code></pre>
+    </details>
+
+    <h3>3) Les enfant sages (tuples + liste de tuples) (≈ 10 min)</h3>
+    <p class="muted">Chaque enfant : <code>(prenom, sage)</code> où <code>sage</code> vaut <code>True</code> ou <code>False</code>.</p>
+    <pre><code>enfant1 = ("Léo", True)
+enfant2 = ("Emma", False)
+enfant3 = ("Noah", True)
+
+enfants = [enfant1, enfant2, enfant3]</code></pre>
+    <ul>
+      <li>Afficher seulement le prénom des enfant sages</li>
+      <li>Afficher : “X aura un cadeau 🎁” ou “X aura du charbon 🪨”</li>
+    </ul>
+
+    <details>
+      <summary>Réponses</summary>
+      <pre><code>for e in enfants:
+    prenom = e[0]
+    sage = e[1]
+    if sage:
+        print(prenom, "aura un cadeau 🎁")
+    else:
+        print(prenom, "aura du charbon 🪨")</code></pre>
+    </details>
+
+    <h3>4) Fonction magique (≈ 10 min)</h3>
+    <pre><code>def distribution(enfant):
+</code></pre>
+
+    
+    <ul>
+      <li>Ecrire le code de la fonction distribution qui, pour une liste d'enfant donné en paramètre, affiche si l'enfant reçoit un cadeau ou du charbon si ce dernier est sage ou non</li>
+    </ul>
+
+    <details>
+      <summary>Réponses</summary>
+      <pre><code>def distribution(enfant):
+    for e in enfants:
+        prenom = e[0]
+        sage = e[1]
+        if sage:
+            print(prenom, "aura un cadeau 🎁")
+        else:
+            print(prenom, "aura du charbon 🪨")</code></pre>
+    </details>
+
+  </div>
+
+  <script>
+    // Interactivité minimale :
+    // 1) Minuteur 30 min (start/pause/reset)
+
+    // ----- Timer -----
+    const DISPLAY = document.getElementById("timerDisplay");
+    const START_PAUSE = document.getElementById("startPauseBtn");
+    const RESET = document.getElementById("resetBtn");
+
+    const DEFAULT_SECONDS = 35 * 60;
+    let remaining = DEFAULT_SECONDS;
+    let intervalId = null;
+
+    function fmt(sec){
+      const m = Math.floor(sec / 60);
+      const s = sec % 60;
+      return String(m).padStart(2,"0") + ":" + String(s).padStart(2,"0");
+    }
+    function renderTimer(){
+      DISPLAY.textContent = fmt(remaining);
+      document.title = (intervalId ? "⏱️ " : "") + fmt(remaining) + " — Activité Python Noël";
+    }
+    function tick(){
+      if (remaining <= 0){
+        clearInterval(intervalId);
+        intervalId = null;
+        START_PAUSE.textContent = "Démarrer";
+        remaining = 0;
+        renderTimer();
+        alert("🎄 Temps écoulé ! (30 min)");
+        return;
+      }
+      remaining--;
+      renderTimer();
+    }
+
+    START_PAUSE.addEventListener("click", () => {
+      if (intervalId){
+        clearInterval(intervalId);
+        intervalId = null;
+        START_PAUSE.textContent = "Démarrer";
+      } else {
+        intervalId = setInterval(tick, 1000);
+        START_PAUSE.textContent = "Pause";
+      }
+    });
+
+    RESET.addEventListener("click", () => {
+      clearInterval(intervalId);
+      intervalId = null;
+      START_PAUSE.textContent = "Démarrer";
+      remaining = DEFAULT_SECONDS;
+      renderTimer();
+    });
+
+    renderTimer();
+
+  </script>
+</body>
+</html>
