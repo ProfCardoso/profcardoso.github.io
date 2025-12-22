@@ -333,9 +333,15 @@ title: Cours de Première NSI
     </div>
     </a>
 
-    <a class="boite" href="./aide/carte_mentale_liste.html>
+    <a class="boite" href="./aide/carte_mentale_liste.html">
     <div >
       <h3> Carte Mentale Liste</h3>
+    </div>
+    </a>
+
+    <a class="boite" href="./aide/base_python.html">
+    <div >
+      <h3> Fiche révision : Base Python</h3>
     </div>
     </a>
 
