@@ -216,3 +216,7 @@ Vous pouvez ajouter :
     
   </tbody>
 </table>
+
+## Projets
+
+<h3><a href="./rendu_eleve/virgil_rafael/projet.html" target="_blank">Bataille Navale - Rafael/Virgil</a></h3>
