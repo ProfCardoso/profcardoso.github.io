@@ -110,6 +110,39 @@ title: Cours de Première NSI
   </div>
 </div>
 
+
+## Thème 4 : Documentation et jeu de test
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./jeu_de_test_documentation/docstring.html">
+    <div >
+      <h3> Documentation: docstring </h3>
+    </div>
+    </a>
+
+    <a class="boite" href="./jeu_de_test_documentation/jeu_de_test.html">
+    <div >
+      <h3> Jeu de test</h3>
+    </div>
+    </a>
+
+  </div>
+</div>
+
+## Thème 5 : Encodage de caractère
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-tp" href="./encodage_carac/encodage_caractere.html">
+      <h3>Encodage des caractères</h3>
+    </a>
+
+  </div>
+</div>
+
 <!-- 
 
 
@@ -314,12 +347,6 @@ title: Cours de Première NSI
 
 <div class="cours-section">
   <div class="boites-lecons">
-
-    <a class="boite" href="./aide/docstring.html">
-    <div >
-      <h3> Ecrire des docstrings</h3>
-    </div>
-    </a>
 
     <a class="boite" href="./aide/outil_repr_entier.html">
     <div >

@@ -194,3 +194,12 @@ La suite du cours après les vacances ! En attendant : [ici](https://www.youtube
   color: rgba(0,0,0,0.4); /* visible au survol */
 }
 </style>
+
+---
+
+# Definition
+
+<div style="border:2px solid #af4c4cff; padding:10px; border-radius:8px">
+<strong>Définition — Assertion</strong><br>
+Une assertion est une instruction qui permet de vérifier qu’une condition est vraie.
+</div>
