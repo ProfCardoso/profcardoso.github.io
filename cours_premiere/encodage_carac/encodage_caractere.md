@@ -11,7 +11,7 @@ Les normes d'encodage ont évoluées, de 128 caractères dans les années 60 ave
 ### Utiliser un éditeur hexadécimal
 Un éditeur hexadécimal est une interface (logiciel, application ou page web) qui permet de visualiser et éditer directement le code d'un fichier.
 
-L'éditeur que nous utiliserons est une page web dont voici le lien : [hexed.it](https://hexed.it/).
+L'éditeur que nous utiliserons est une page web dont voici le lien : <a href="https://hexed.it/" target="_blank">hexed.it</a>.
 
 ## L'ASCII
 ### Présentation
