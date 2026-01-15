@@ -1,5 +1,7 @@
 /* style.css */
 
+/* boite */
+
 .boites-lecons {
   display: flex;
   flex-wrap: wrap;
@@ -95,9 +97,15 @@
 }
 
 
+/* image */
+
+img {
+  display: block;      /* transforme l’image en bloc */
+  margin: 0 auto;      /* centre l’image dans son conteneur */
+}
 
 
-
+/* exercice */
 
 .exercice {
   border: 2px solid #007acc;

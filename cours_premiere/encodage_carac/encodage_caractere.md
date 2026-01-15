@@ -1,5 +1,7 @@
 # L'encodage des caractères
 
+<link rel="stylesheet" href="../../assets/style.css" />
+
 ## Présentation
 ### Encodage des caractères
 Comme avec les nombres, lorsqu'on souhaite travailler avec des caractères, il est nécessaire d'attribuer un code binaire à chacun d'eux. Cela s'appelle l'encodage.
@@ -9,7 +11,7 @@ Les normes d'encodage ont évoluées, de 128 caractères dans les années 60 ave
 ### Utiliser un éditeur hexadécimal
 Un éditeur hexadécimal est une interface (logiciel, application ou page web) qui permet de visualiser et éditer directement le code d'un fichier.
 
-L'éditeur que nous utiliserons est une page web dont voici le lien : [hexed.it](hexed.it).
+L'éditeur que nous utiliserons est une page web dont voici le lien : [hexed.it](https://hexed.it/).
 
 ## L'ASCII
 ### Présentation
@@ -21,8 +23,9 @@ L'ASCII permet le codage de 128 "caractères", chacun d'eux utilisant 7 bits.
 <div style="display: flex; flex-direction:column;  border: 1px solid #ccc; text-align: center; border-radius: 8px;">
   <img src="../../images/table_ascii.png" alt="Python" width="400" style="text-align:center"/>
   <span style="font-style: italic; color: gray;">MSB : Most Significant bit ou byte (= bit/octet de poids fort)
-
-LSB : Least Significant Bit ou Byte (= bit/octet de poids faible)</span>
+ <br>
+  LSB : Least Significant Bit ou Byte (= bit/octet de poids faible)
+  </span>
 </div>
 
 
@@ -30,9 +33,9 @@ LSB : Least Significant Bit ou Byte (= bit/octet de poids faible)</span>
 ### Lecture du tableau
 Les bits de poids forts (MSB, Most Significant Bit) étant en tête de colonne, le tableau ci-dessus s'utilise en commençant par la colonne et en terminant par la ligne.
 
-Exemple : le caractère Z sera codé 101 1010 en binaire soit 5A en hexadécimal.
+**Exemple :** le caractère Z sera codé 101 1010 en binaire soit 5A en hexadécimal.
 
-Remarque : le tableau précédent existe également avec les lignes et les colonnes inversées.
+**Remarque :** le tableau précédent existe également avec les lignes et les colonnes inversées.
 
 >## Applications
 >1) Donner le code binaire et hexadécimal du caractère H.
@@ -43,7 +46,7 @@ Remarque : le tableau précédent existe également avec les lignes et les colon
 ## L'encodage ISO-8859-1
 ### Petit historique
 
-L'ASCII ne permettant pas l'encodage des caractères accentués, en Europe occidentale, une autre norme a été proposée : l'ISO-8859-1 (parfois appelée Latin-1).
+L'ASCII ne permettant pas l'encodage des caractères accentués, en Europe occidentale, une autre norme a été proposée : **l'ISO-8859-1 (parfois appelée Latin-1)**.
 
 Cette norme intègre l'ASCI en lui ajoutant des caractères.
 
@@ -55,6 +58,7 @@ Cette norme intègre l'ASCI en lui ajoutant des caractères.
   <span style="font-style: italic; color: gray;">D'après la page de Wikipédia sur l'<a href="https://fr.wikipedia.org/wiki/ISO/CEI_8859-1">encode ISO-8859-1</a></span>
 </div>
 
+<br>
 
 >## Applications
 >### Application I : Comprendre la lecture de la table
@@ -71,7 +75,7 @@ Cette norme intègre l'ASCI en lui ajoutant des caractères.
 >
 >3) Donner la représentation de ce texte en binaire.
 >
-> => Vérifier votre réponse avec l'éditeur hexadécimal.
+>=> Vérifier votre réponse avec l'éditeur hexadécimal.
 >
 > ### Application III : Décoder un code
 >On s'intéresse au texte encodé à l'aide de la norme ISO-8859-1 dont la représentation en binaire est la suivante :
