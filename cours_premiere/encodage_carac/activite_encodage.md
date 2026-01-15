@@ -21,7 +21,7 @@ C'est le cas par exemple de la célèbre machine [Enigma](https://fr.wikipedia.o
 ---
 
 Vous interceptez une suite de nombres censée représenter un message texte.
-**Votre mission : retrouver le message et expliquer comment la machine a fait pour passer du nombre au caractère.**
+**Votre mission : retrouver le message et trouver comment faire pour passer du nombre au caractère.**
 
 Voici la suite de numéro : 
 
