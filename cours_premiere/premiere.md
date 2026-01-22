@@ -144,6 +144,10 @@ title: Cours de Première NSI
       <h3>Encodage des caractères</h3>
     </a>
 
+    <a class="boite-tp" href="./encodage_carac/encodage_python.html">
+      <h3>Encodage en Python</h3>
+    </a>
+
   </div>
 </div>
 

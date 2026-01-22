@@ -276,7 +276,7 @@ def update():
 def afficher_menu():
     pyxel.text(32, 30, "DODGE & SHOOT", 7)
     pyxel.text(24, 50, "ENTREE : jouer", 6)
-    pyxel.text(16, 62, "Fleches / WASD : bouger", 13)
+    pyxel.text(16, 62, "Fleches / ZQSD : bouger", 13)
     pyxel.text(16, 72, "ESPACE : tirer", 13)
 
 
