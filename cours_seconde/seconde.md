@@ -65,19 +65,31 @@ title: Cours de Seconde SNT
   <div class="boites-lecons">
 
     <a class="boite" href="./internet/internet.html">
-      <h3>🚧 Internet</h3>
+      <h3 Internet</h3>
       <p>Qu'est-ce qu'Internet ?</p>
     </a>
 
     <a class="boite" href="./internet/ip.html">
-      <h3>🚧 Ip et Routage</h3>
+      <h3 Ip et Réseaux Physiques</h3>
       <p>Comment les informations sont-elles aiguillées sur le réseau ?</p>
     </a>
 
     <a class="boite" href="./internet/client_serveur.html">
-      <h3>🚧 Modèle client-serveur</h3>
+      <h3 Modèle client-serveur</h3>
       <p>Comment deux machines s'échangent-elles des informations ?</p>
     </a>
+
+  </div>
+</div>
+
+## Thème 3 : La photographie numérique
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Pixels</a></h3>
+    </div>
 
   </div>
 </div>
@@ -137,23 +149,7 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
-## Thème 7 : La photographie numérique
 
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Test</a></h3>
-      <p>...</p>
-    </div>
-
-  </div>
-</div>
 -->
 ---
 
@@ -162,7 +158,7 @@ title: Cours de Seconde SNT
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./document_seconde/autre/cours_prog.html">
+    <a class="boite" href="./document_seconde/python/cours_prog.html">
       <h3>Initiation à Python</h3>
     </a>
 

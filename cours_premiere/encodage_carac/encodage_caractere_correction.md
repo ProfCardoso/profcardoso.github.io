@@ -67,16 +67,26 @@ Cette norme intègre l'ASCI en lui ajoutant des caractères.
 >### Application I : Comprendre la lecture de la table 🖋️
 >1) D'après la table ci-dessus, sur combien de bits chaque caractère est-il codé ?
 >
+> **Solution :** Sur 8 bits (1 octet).
+>
 >2) La norme ISO-8859-1 est-elle compatible avec la norme ASCII.
+>
+> **Solution :** Oui, les 128 premiers caractères d'ISO-8859-1 correspondent à ceux de l'ASCII.
 >
 > ### Application II : Encoder un texte 🖋️
 >On s'intéresse au texte "Hello !" représentée à l'aide de la norme ISO-8859-1.
 >
 >1) Indiquer le nombre de bits nécessaires pour encoder ce texte.
 >
+> **Solution :** 56 bits.
+>
 >2) Donner la représentation de ce texte en hexadécimal.
 >
+> **Solution :** En python = 0x48 0x65 0x6C 0x6C 0x6F 0x20 0x21 sur feuille = 48 65 6C 6C 6F 20 21
+>
 >3) Donner la représentation de ce texte en binaire.
+>
+> **Solution :** En python = 0b01001000 0b01100101 0b01101100 0b01101100 0b01101111 0b0010000 0b00100001, sur feuille = 01001000 01100101 01101100 01101100 01101111 0010000 00100001 .
 >
 >=> Vérifier votre réponse avec l'éditeur hexadécimal.
 >
@@ -89,8 +99,12 @@ Cette norme intègre l'ASCI en lui ajoutant des caractères.
 >
 >1) Indiquer le nombre de caractères contenus dans ce texte.
 >
+> **Solution :** 3 caractères.
+>
 >2) Retrouver ce texte.
 > 
+> **Solution :** ":-)"
+>
 
 
 ## L'Unicode et ses encodages
@@ -138,8 +152,33 @@ Ex : [Lettre majuscule latine A](https://symbl.cc/fr/0041/).
 >
 > 1) Écrire une fonction qui prend une chaine de caractère en paramètre et renvoie True ou False suivant si cette chaine correspond à un nombre entier ou non.
 >
+> **Solution**
+```python
+def est_entier_positif(texte: str) -> bool:
+    # 1) On refuse la chaîne vide (sinon, rien à tester)
+    if texte == "":
+        return False
+
+    # 2) On vérifie que chaque caractère est un chiffre Unicode '0'..'9'
+    for c in texte:
+        code = ord(c)  # ord() donne le point de code Unicode du caractère
+        if code < ord('0') or code > ord('9'):
+            return False  # dès qu'on trouve un non-chiffre, on rejette
+
+    return True
+```
 > 2) Écrire le programme principal qui demande un nombre entier à l'utilisateur et redemande encore et encore tant que l'utilisateur n'a pas entré un nombre entier.
 > 
+> **Solution :**
+```python
+# --- Programme principal ---
+saisie = input("Entrez un nombre entier positif : ")
+
+while not est_entier_positif(saisie):
+    saisie = input("Erreur. Entrez un nombre entier positif : ")
+
+print("Merci ! Vous avez saisi :", saisie)
+```
 
 ## L'encodage des points de code
 ### La norme ISO-8859-1 et la norme Unicode
@@ -167,7 +206,23 @@ L'encodage UTF-32 utilise 32 bits (soit 4 octets) pour coder tous les caractère
 >### Application V : pour comprendre : l'UTF-8
 >1) A l'aide du lien précédent [(table Unicode complète)](https://symbl.cc/fr/unicode-table/), rechercher le point de code ainsi que le codage UTF-8 en binaire du caractère `é`
 >
+> **Solution :** Point de code Unicode : U+00E9 et codage UTF-8 : C3 A9 (hex), soit C3 = 1100 0011 et A9 = 1010 1001, donc le codage UTF-8 binaire de é est : 11000011 10101001
+>
 >2) Justifier, en décortiquant le rôle de chaque bit du code, la correspondance entre ces deux valeurs.
+>
+> Rappel des formats UTF-8 : Pour un caractère codé sur 2 octets, UTF-8 utilise le modèle :
+> - 1er octet : 110xxxxx (5 bits à fixer)
+> - 2e octet : 10xxxxxx (6 bits à fixer)  -> soit 11 bits au total
+>
+> **Solution :** Étape A — écrire le point de code en binaire : **U+00E9** = 0xE9 = 233 en décimal, soit **11101001** en binaire (sur 8 bits) . Mais en UTF-8 sur 2 octets, on a 5 + 6 = 11 bits disponibles (les x). Donc on complète à gauche sur 11 bits : 00011101001 (c’est 11101001 avec des zéros devant)
+> Étape B — découper en 5 bits + 6 bits : On coupe 00011101001 comme ceci : 5 bits = 00011 / 6 bits = 101001
+> Étape C — placer ces bits dans le modèle UTF-8 : On remplit 
+> 
+> - 1er octet : 110xxxxx avec xxxxx = 00011 → 11000011 = 0xC3
+> - 2e octet : 10xxxxxx avec xxxxxx = 101001 → 10101001 = 0xA9
+> On retrouve bien : UTF-8 = C3 A9 / en binaire : 11000011 10101001
 >
 >3) Quel est le code ISO-8859-1 du même caractère ?
 >
+> **Solution :** En ISO-8859-1 (Latin-1), é est directement codé sur 1 octet : 0xE9 (hex) = 233 (décimal) / en binaire : 11101001 .Donc : ISO-8859-1(é) = E9 (hex) = 11101001 (binaire)
+

@@ -140,7 +140,7 @@ title: Cours de Première NSI
       <h3>Activité Préparatoire</h3>
     </a>
 
-    <a class="boite" href="./encodage_carac/encodage_caractere.html">
+    <a class="boite" href="./encodage_carac/encodage_caractere_correction.html">
       <h3>Encodage des caractères</h3>
     </a>
 

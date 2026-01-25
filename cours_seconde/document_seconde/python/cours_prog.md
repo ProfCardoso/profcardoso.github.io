@@ -225,3 +225,87 @@ print("Vous avez entré un nombre négatif",a)
 >   1.Avec a=8 ?
 >   2.Avec a=-6 ?
 >   3.Avec a=0 
+
+## Programmation en Python  
+### Les boucles
+
+---
+
+### Introduction : pourquoi une boucle ?
+
+En programmation, une **boucle** permet de **répéter plusieurs fois une même instruction** sans avoir à la réécrire.
+
+#### Exemple  
+Quel code utiliser pour afficher les nombres de 1 à 5 ?
+
+Sans boucle, il faudrait écrire plusieurs instructions identiques, ce qui pose un problème de lisibilité et d’efficacité 🙋.
+
+---
+
+### La boucle `for`
+
+La boucle `for` répète un bloc d’instructions **pour chaque valeur dans une séquence**.
+
+#### Syntaxe
+```python
+for variable in sequence:
+    instructions
+```
+**variable :** prend successivement chaque valeur de la séquence
+
+**sequence :** ensemble de valeurs à parcourir
+
+Exemple : afficher les nombres de 1 à 5
+```python
+for i in range(1, 6):
+    print(i)
+```
+➡️ range(1, 6) crée la séquence suivante :
+1, 2, 3, 4, 5
+
+> ### Exercice 1 : répéter une action 10 fois 💻
+>Écrire le code Python pour afficher "Bonjour" 10 fois.
+>
+> ### Exercice 2 : compter de 0 à 20 par pas de 2 💻
+>Écrire le code Python pour compter de 2 en 2 jusqu’à 20.
+>
+> **Rappel :** fonction range `range(début, fin, pas)`
+
+### La boucle while
+
+La boucle while répète des instructions tant qu’une condition est vraie.
+
+#### Syntaxe
+```python
+while condition:
+    instructions
+```
+
+<div style="border:2px solid #af4c4cff; padding:10px; border-radius:8px">
+<strong>⚠️ Attention aux boucles infinies</strong><br>
+Exemple de boucle infinie
+    <pre><code>
+    while True:
+        print("Boucle infinie !") 
+    </pre></code>
+
+</div>
+
+➡️ Il faut toujours vérifier que la condition deviendra fausse au moins une fois durant l’exécution du programme.
+
+> ### Exercice 3 : demander un nombre positif 💻
+>
+>Demander à l’utilisateur un nombre tant qu’il n’est pas positif.
+>
+> ### Exercice 4 : demander un mot de passe 💻
+>
+>Écrire le code qui demande un mot de passe à l’utilisateur et le redemande tant que celui-ci est incorrect.
+>
+```python
+mot_de_passe = "PYTHON"
+while ...
+```
+> Bonus ⭐  Ajouter un compteur d’erreurs :
+>
+> - Il s’incrémente de 1 à chaque erreur
+> - Au bout de 3 erreurs, afficher un message indiquant que le compte est bloqué

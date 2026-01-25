@@ -6,7 +6,6 @@ title: Bienvenue sur mes cours en ligne
 
 Bienvenue sur mon site dédié à l'enseignement de la NSI et SNT. Vous trouverez ici l'ensemble des leçons, supports et exercices.
 
----
 
 ## 📚 Sommaire des cours
 
