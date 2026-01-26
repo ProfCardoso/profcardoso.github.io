@@ -2,46 +2,58 @@
 title: Internet
 ---
 
-# Identification unique de chaque machine : l'adresse IP
+# ADRESSE IP ET RÉSEAU 
 
-Chaque machine connectée à Internet dispose d'un identifiant unique : son adresse IP.
+## Identification unique de chaque machine : l'adresse IP
+
+Chaque machine connectée à Internet dispose d'un identifiant unique : **son adresse IP.**
 
 Cette adresse IP permet aux machines de se transmettre des données de façon ciblée.
 
-Exemple d'adresse IPv4 : 168.192.0.4
-
---- 
-# ADRESSE IP ET RÉSEAUX PHYSIQUES
-
-## Adresse IP : définition
-
-Une adresse IP est un numéro unique qui identifie un appareil sur un réseau.
-
 👉 C’est comme une adresse postale pour les ordinateurs.
 
-**Exemple**:  192.168.1.15
+Exemple d'adresse IPv4 : 168.192.0.4
 
-## Rôle de l’adresse IP
+>### Activité à faire chez soi : Adresse IP de son ordinateur
+>
+>Partie à consulter sur l'ordinateur
+>Dans le navigateur de votre ordinateur, ouvrir la page [www.mon-ip.com/](www.mon-ip.com/).
+>
 
-Identifier un appareil
+### Le protocole IP
 
-Savoir où envoyer les données
+### Notion de "Protocole" en informatique
+Un protocole est un ensemble des règles que les machines d'un réseau vont suivre, dans le but de transmettre des données.
 
-Permettre la communication entre machines
+### Le protocole IP
 
-## Réseaux physiques
+Le **protocole IP (Internet Protocole)** assure la bonne transmission des paquets.
 
-Un réseau physique est l’ensemble des connexions matérielles reliant les appareils.
+Il s’appuie pour cela sur l’identification unique de chaque appareil connecté au réseau (client, serveur et routeurs) par une adresse IP.
 
-Types courants :
+## Réseaux 
 
-- Câble Ethernet 🧵
-- Wi-Fi 📶
-- Fibre optique 🔦
+### La notion de réseau
 
-## Réseau local (LAN)
+Un réseau est un ensemble d’éléments reliés les uns aux autres et entre lesquels circulent des informations.
 
-À la maison ou au lycée :
+Les réseauw permettent notamment :
+
+- le partage de fichiers, d’applications ;
+- la communication entre personnes (grâce au courrier électronique, la discussion en direct) ;
+- le jeu en réseau;
+- etc etc.
+
+### La notion de réseau physique
+
+Un réseau physique désigne l'infrastructure matérielle tangible qui permet la communication entre différents appareils informatiques à laquelle sont rattachés les équipements réseaux.
+
+
+### Réseau local
+
+Les deux types de réseaux courants sont **Réseaux locaux (LAN)** et **Réseaux étendus (WANs)**. Un réseau local est un réseau où les communications sont limitées à une zone géographique de taille moyenne de 1 km à 10 km, comme un immeuble à bureaux, un entrepôt ou un campus.
+
+Exemple : À la maison ou au lycée 
 
 ```
 PC  ─┐
@@ -49,19 +61,8 @@ PC  ─┐
 Tel ─┘
 ```
 
-Tous les appareils ont :
+Les réseaux locaux utilisent couramment les réseaux Ethernet standard,IEEE 802.3 Ethernet.
 
-- une adresse IP
-
-- une connexion physique ou sans fil
-
-## Exemple concret
-
-Dans une salle informatique :
-
-- Chaque ordinateur a une IP différente
-
-- Le réseau permet d’imprimer, partager des fichiers, accéder à Internet
 
 >## ✏️ Exercices – IP et réseaux
 >

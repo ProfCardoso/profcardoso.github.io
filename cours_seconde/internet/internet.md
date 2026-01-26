@@ -10,70 +10,23 @@ Dès les années cinquante, les ordinateurs ont été mis en réseau pour échan
 
 ## Qu'est-ce qu'Internet ?
 
+<div style="border:2px solid #af4c4cff; padding:10px; border-radius:8px">
+<strong>Définition — Internet</strong><br>
+Internet est un réseau de machines interconnectées par l’intermédiaire de commutateurs et de routeurs.
+</div>
+
+Les machines peuvent être : des ordinateurs, des tablettes, des smartphones, des objets connectés, des serveurs, des routeurs, des commutateurs…
+
 ### Quels sont les éléments du réseau Internet ?
 
-[Internet](./images/reseau_internet_a_completer.png)
-
-Compléter le schéma ci-dessous avec le vocabulaire adapté.
-
-
-### Bilan (à connaître)
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/reseau_internet.png" alt="Python" width="1000" />
+</div>
 
 
-> Internet est un réseau de machines interconnectées par l’intermédiaire de commutateurs et de routeurs.
+### Identification des machines
 
-> Les machines peuvent être : des ordinateurs, des tablettes, des smartphones, des objets connectés, des serveurs, des routeurs, des commutateurs…
-
----
-
-# INTERNET : FONCTIONNEMENT GÉNÉRAL
-
-## Définition
-
-Internet est un réseau mondial de réseaux qui permet à des milliards d’appareils (ordinateurs, smartphones, serveurs) de communiquer entre eux grâce à des protocoles communs.
-
-👉 Internet n’est pas un site web, mais l’infrastructure qui permet d’y accéder.
-
-## Comment fonctionne Internet ?
-
-Quand tu visites un site :
-
-- Ton appareil se connecte à ton routeur
-
-- Le routeur envoie la demande à ton FAI (Fournisseur d’Accès à Internet)
-
-- La demande traverse plusieurs réseaux intermédiaires
-
-- Elle arrive sur le serveur du site
-
-- Le serveur renvoie la page demandée
-
-### Schéma simplifié
-
-```
-Ordinateur → Routeur → FAI → Internet → Serveur
-```
-
-## Exemple concret
-
-Quand tu tapes www.wikipedia.org :
-
-- Ton navigateur envoie une demande
-
-- Internet transporte cette demande
-
-- Le serveur de Wikipédia répond
-
-- La page s’affiche chez toi
-
-## À retenir
-
-Internet = réseau mondial
-
-Communication grâce à des règles (protocoles)
-
-Les données voyagent en plusieurs étapes
-
+Chaque machine (clients et serveurs) connectée à Internet dispose d'un identifiant unique : **son adresse IP**.
 
 
 > ## ✏️ Exercices – Internet
@@ -90,6 +43,9 @@ Les données voyagent en plusieurs étapes
 > - Routeur
 > - Ordinateur
 > - FAI
+```
+Ordinateur -> ... -> ... -> ...
+```
 >
 > ### Exercice 3
 >

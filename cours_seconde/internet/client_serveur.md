@@ -6,58 +6,46 @@ title: Internet
 
 ## Définition
 
-Le modèle client-serveur est une façon d’organiser les échanges sur Internet.
+Sur un réseau, les machines échangent des données à l’aide de requêtes formulées par les programmes.
 
-- Client : fait une demande
+- Les clients sont les machines (ou programmes) qui émettent les requêtes.
 
-- Serveur : répond à la demande 
+- Les serveurs sont les machines (ou programmes) qui répondent aux requêtes.
 
-## Rôle du client
-
-- Navigateur web
-
-- Application (YouTube, WhatsApp)
-
-- Envoie une requête
-
-👉 Exemple : demander une page web
-
-## Rôle du serveur
-
-Stocke des données
-
-Traite les demandes
-
-Envoie une réponse
-
-👉 Exemple : envoyer une vidéo, une page HTML
 
 ## Schéma du modèle client-serveur
 
-```
-Client  ─── demande ───▶  Serveur
-Client  ◀── réponse ───  Serveur
-```
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/transmission_mail.png" alt="Python" width="1000" />
+</div>
 
-## Exemple concret
+Explication :
 
-Quand tu regardes une vidéo :
+- 1 : Le client de l'émetteur communique avec le serveur de messagerie de l'émetteur et lui envoie le mail.
 
-- Ton téléphone = client
+- 2 : Le serveur de messagerie de l'émetteur envoie le mail au serveur de messagerie du récepteur.
 
-- YouTube = serveur
+- 3a : Le client du envoie une requête à son serveur de messagerie pour savoir si un courriel est arrivé.
 
-- Le serveur envoie la vidéo
+- 3b : Le serveur de messagerie du client répond en envoyant le courriel.
 
-- Ton appareil l’affiche
+## Exemple de la consultation d'un site web
 
-## Pourquoi ce modèle ?
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/clien_serveur_site_web.png" alt="Python" width="800" />
+</div>
 
-- Centralisation des données
+Le serveur DNS dispose d'un fichier qui lui permet de faire la correspondance entre le nom de domaine et l'adresse IP du serveur qui héberge le site.
 
-- Sécurité
+Quand l'utilisateur, depuis son navigateur, demande l'affichage d'une page web à partir d'une adresse :
 
-- Facilité de mise à jour
+- 1a : le client envoie une requête au serveur DNS afin de connaitre l'adresse IP du serveur web.
+
+- 1b : le serveur DNS répond à la requête avec l'adresse IP du serveur web.
+
+- 2a : le client envoie une requête au serveur web.
+
+- 2b : le serveur web répond à la requête en envoyant la page demandée.
 
 > ## ✏️ Exercices – Client-Serveur
 >
@@ -67,7 +55,7 @@ Quand tu regardes une vidéo :
 >
 >1. Un élève consulte Pronote
 >
->2. Un smartphone envoie un message
+>2. Un smartphone envoie un message sur Snapchat
 >
 > ### Exercice 2
 >Complète :
