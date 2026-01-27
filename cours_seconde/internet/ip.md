@@ -17,7 +17,7 @@ Exemple d'adresse IPv4 : 168.192.0.4
 >### Activité à faire chez soi : Adresse IP de son ordinateur
 >
 >Partie à consulter sur l'ordinateur
->Dans le navigateur de votre ordinateur, ouvrir la page [www.mon-ip.com/](www.mon-ip.com/).
+>Dans le navigateur de votre ordinateur, ouvrir la page <a href="www.mon-ip.com/" target="_blank_">www.mon-ip.com/</a>.
 >
 
 ### Le protocole IP
@@ -77,3 +77,25 @@ Les réseaux locaux utilisent couramment les réseaux Ethernet standard,IEEE 802
 > ### Exercice 3
 >
 >Explique pourquoi deux appareils ne peuvent pas avoir la même adresse IP sur un même réseau.
+
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+  <hr>
+    <p><strong>Exercice 1</strong></p>
+    <p> Une adresse IP sert à identifier un appareil sur un réseau et à permettre l’envoi des données vers le bon destinataire.
+    </p>
+    <br>
+    <p><strong>Exercice 2</strong></p>
+    <p> Deux types de réseaux physiques : câble Ethernet / fibre optique / ...
+    </p>
+    <br>
+    <p><strong>Exercice 3</strong></p>
+    <p> Parce que l’adresse IP sert à identifier chaque appareil de manière unique.</p>
+    <p>Si deux appareils avaient la même adresse IP, le réseau ne saurait pas où envoyer les données -> erreurs de communication -> Les messages pourraient arriver au mauvais appareil
+     </p>
+    <br>
+  </div>
+</details>
+

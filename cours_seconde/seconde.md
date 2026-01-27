@@ -79,9 +79,9 @@ title: Cours de Seconde SNT
       <p>Comment deux machines s'échangent-elles des informations ?</p>
     </a>
 
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Modèle TCP/IP</a></h3>
-    </div>
+    <a class="boite" href="./internet/tcp.html">
+      <h3>Modèle TCP/IP</h3>
+    </a>
 
   </div>
 </div>

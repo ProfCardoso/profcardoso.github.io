@@ -67,3 +67,35 @@ Le client envoie une _______ et le serveur envoie une _______.
 > ### Exercice 3
 >
 > Donne un exemple de service utilisant le modèle client-serveur.
+
+
+
+
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+  <hr>
+    <p><strong>Exercice 1</strong></p>
+    <p>1. Un élève consulte Pronote <br>
+      Client : l’ordinateur ou le smartphone de l’élève (navigateur ou application) <br>
+      Serveur : le serveur de Pronote</p>
+    <p>2. Un smartphone envoie un message sur Snapchat<br>
+      Client : le smartphone de l’utilisateur<br>
+      Serveur : le serveur de Snapchat</p>
+    <br>
+    <p><strong>Exercice 2</strong></p>
+    <p>Le client envoie une <strong>requête</strong> et le serveur envoie une <strong>réponse</strong>.</p>
+    <br>
+    <p><strong>Exercice 2</strong></p>
+    <p>Exemples possibles :</p>
+    <ul>
+    <li>Un navigateur qui consulte un site web</li>
+    <li>Une application de messagerie (WhatsApp, Snapchat)</li>
+    <li>Un service de streaming (YouTube, Netflix)</li>
+    <li>Un élève qui consulte son ENT</li>
+    </ul>
+    <br>
+    
+  </div>
+</details>

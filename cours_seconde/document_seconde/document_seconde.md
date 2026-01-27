@@ -120,19 +120,19 @@
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./autre/cours_prog.pdf">
+    <a class="boite" href="./python/cours_prog.pdf">
       <h3>Introduction Python</h3>
     </a>
 
-    <a class="boite" href="./autre/cours_prog_2.pdf">
+    <a class="boite" href="./python/cours_prog_2.pdf">
       <h3>Opérateur Python</h3>
     </a>
 
-    <a class="boite" href="./autre/FichePython3.pdf">
+    <a class="boite" href="./python/FichePython3.pdf">
       <h3>Boucle Python</h3>
     </a>
 
-    <a class="boite" href="./autre/ExerciceBonusFichePython3.pdf">
+    <a class="boite" href="./python/ExerciceBonusFichePython3.pdf">
       <h3>Exercice Boucle Python</h3>
     </a>
 
