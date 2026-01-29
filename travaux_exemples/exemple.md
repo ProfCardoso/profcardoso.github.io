@@ -80,6 +80,16 @@ ___
   </div>
 </details>
 
+## Reponse caché code
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+    <p>Voici le contenu qui s’affiche quand on clique sur la ligne ci-dessus.</p>
+    <code>
+    </code>
+  </div>
+</details>
+
 ___
 ## Texte en couleur
 
