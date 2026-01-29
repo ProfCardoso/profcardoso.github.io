@@ -283,7 +283,6 @@ Le jeu devra être une alternance entre plusieurs états : Menu -> Jeu -> GameOv
   </div>
 </details>
 
-___
 
 #### Étape 2 : Le joueur
 
@@ -362,12 +361,11 @@ Voici un exemple de comment représenter un tir (sous la forme de liste ou de di
 
 👉 Vous pouvez ajouter un "cooldown" entre chaque tir pour éviter de remplir l'écran.
 
-## Reponse caché code
 <details>
   <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
   <div style="margin-top: 10px;">
     <p>Creer les tirs :</p>
-    <code>
+    <pre><code>
     # Objets
     tirs = []      # liste de dictionnaires {"x":..., "y":..., "vitesse":...}
     ennemis = []   # liste de dictionnaires {"x":..., "y":..., "l":..., "h":..., "vitesse":..., "mort":...}
@@ -382,9 +380,9 @@ Voici un exemple de comment représenter un tir (sous la forme de liste ou de di
         "y": joueur_y - 2,
         "vitesse": 3.2
     })
-    </code>
+    </code></pre>
     <p>Gerer les tirs :</p>
-    <code>
+    <pre><code>
     def gerer_tirs():
         """Création + déplacement + suppression des tirs."""
         global cooldown_tir, tirs
@@ -397,7 +395,7 @@ Voici un exemple de comment représenter un tir (sous la forme de liste ou de di
             tir["y"] -= tir["vitesse"]
         # Suppression hors écran
         tirs = [t for t in tirs if t["y"] > -4]
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -421,7 +419,7 @@ Une fois créés, il faut les déplacer :
   <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
   <div style="margin-top: 10px;">
     <p>Creer un ennemi</p>
-    <code>
+    <pre><code>
     def creer_ennemi():
         """Ajoute un ennemi en haut de l'écran."""
         taille = random.choice([5, 6, 7])
@@ -435,9 +433,9 @@ Une fois créés, il faut les déplacer :
             "vitesse": vitesse,
             "mort": False
         })
-    </code>
+    </code></pre>
     <p>Gerer les ennemis</p>
-    <code>
+    <pre><code>
     def gerer_ennemis():
         """Apparition + déplacement + suppression des ennemis."""
         global timer_spawn, ennemis
@@ -455,7 +453,7 @@ Une fois créés, il faut les déplacer :
 
         # Change la liste de tous les ennemis pour ne garder que ceux dans l'écran 
         ennemis = [e for e in ennemis if e["y"] < HAUTEUR + 8]
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -477,7 +475,7 @@ Il existe deux types de collisions dans le jeu :
   <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
   <div style="margin-top: 10px;">
     <p>Fonction collision qui permet de calculer si deux entités entre en collision selon leur position et leur taille :</p>
-    <code>
+    <pre><code>
     def collision_rectangles(r1, r2):
         """Retourne True si deux rectangles (x,y,l,h) se chevauchent."""
         x1, y1, l1, h1 = r1
@@ -488,9 +486,9 @@ Il existe deux types de collisions dans le jeu :
             y1 < y2 + h2 and
             y1 + h1 > y2
         )
-    </code>
+    </code></pre>
     <p>Collisions entre nos tirs et les ennemies</p>
-    <code>
+    <pre><code>
     def collisions_tirs_ennemis():
         """Gère les collisions entre tirs et ennemis."""
         global tirs, ennemis, score
@@ -509,9 +507,9 @@ Il existe deux types de collisions dans le jeu :
                 nouveaux_tirs.append(tir)
         tirs = nouveaux_tirs
         ennemis = [e for e in ennemis if not e["mort"]]
-    </code>
+    </code></pre>
     <p>Collisions entre le joueur et les ennemies</p>
-    <code>
+    <pre><code>
     def collisions_joueur_ennemis():
         """Gère les collisions entre le joueur et les ennemis."""
         global vies, invincibilite, ennemis
@@ -526,7 +524,7 @@ Il existe deux types de collisions dans le jeu :
                 ennemi["mort"] = True
                 break
         ennemis = [e for e in ennemis if not e["mort"]]
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -543,7 +541,7 @@ Maitenant que toute nos fonctions sont créées, il faut les utiliser dans notre
   <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
   <div style="margin-top: 10px;">
     <p>Mettre à jour le jeu :</p>
-    <code>
+    <pre><code>
     def mettre_a_jour_jeu():
         """Logique complète quand on est en 'jeu'."""
         global frame, cooldown_tir, invincibilite, etat, meilleur_score
@@ -559,7 +557,7 @@ Maitenant que toute nos fonctions sont créées, il faut les utiliser dans notre
         collisions_joueur_ennemis()
         # Suite du code dans la prochaine partie
         ...
-    </code>
+    </code></pre>
   </div>
 </details>
 
@@ -575,7 +573,7 @@ Enfin, lorsque les vies du joueur sont à zéro, on stoppe le jeu, et on lance l
   <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
   <div style="margin-top: 10px;">
     <p>Mettre à jour le jeu :</p>
-    <code>
+    <pre><code>
     def mettre_a_jour_jeu():
         """Logique complète quand on est en 'jeu'."""
         global frame, cooldown_tir, invincibilite, etat, meilleur_score
@@ -596,7 +594,7 @@ Enfin, lorsque les vies du joueur sont à zéro, on stoppe le jeu, et on lance l
         if vies <= 0:
             meilleur_score = max(meilleur_score, score)
             etat = "fin"
-    </code>
+    </code></pre>
   </div>
 </details>
 

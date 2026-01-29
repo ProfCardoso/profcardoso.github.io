@@ -152,7 +152,8 @@ Ex : [Lettre majuscule latine A](https://symbl.cc/fr/0041/).
 >
 > 1) Écrire une fonction qui prend une chaine de caractère en paramètre et renvoie True ou False suivant si cette chaine correspond à un nombre entier ou non.
 >
-> **Solution**
+> **Solution**   
+
 ```python
 def est_entier_positif(texte: str) -> bool:
     # 1) On refuse la chaîne vide (sinon, rien à tester)
@@ -170,6 +171,7 @@ def est_entier_positif(texte: str) -> bool:
 > 2) Écrire le programme principal qui demande un nombre entier à l'utilisateur et redemande encore et encore tant que l'utilisateur n'a pas entré un nombre entier.
 > 
 > **Solution :**
+
 ```python
 # --- Programme principal ---
 saisie = input("Entrez un nombre entier positif : ")
