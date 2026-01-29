@@ -181,29 +181,34 @@ for c, v in dico1.items():
 > ### Application I : Les voyelles de l'alphabet 🖋️
 >
 > Créer un dictionnaire contenant les voyelles comme clés et leurs positions dans l'alphabet comme valeurs.
-
-Application II_app2 : Les lettres de l'alphabet
-Écrire les instructions qui permettent de créer le dictionnaire contenant les lettres de l'alphabet comme clé et leurs positions comme valeurs.
-
-Rappels :
-
-- la fonction chr permet d'obtenir un caractère à partir de son point de code unicode.
-- le point de code de la lettre 'A' est 65.
-Application II_app3 : Des dictionnaires pour sa musicothèque
-On souhaite stocker les albums de chanteurs en créant un dictionnaire par chanteur.
-
-Les clés de chaque dictionnaire seront les suivantes : 'nom', 'album1', 'album2'...
-
-Créer les dictionnaires de deux ou trois chanteurs.
-
-Application (incontournable) II_app4 : Affichage lisible d'un dictionnaire
-Écrire une fonction qui affiche proprement un dictionnaire, c'est à dire que les paires clé-valeur sont affichées ligne par ligne.
-
-Application, pour approfondir
-Application III_app1 : Echange clé <=> valeur
-Écrire une fonction qui prend un dictionnaire en paramètre et renvoie un nouveau dictionnaire dans lequel les clés et les valeurs sont interverties.
-
-On pourra tester sa fonction sur le dictionnaire contenant les lettres de l'alphabet et leur positions.
-
-Application (incontournable) III_app2 : Nombre d’occurrences des lettres d'un texte
-Écrire une fonction qui prend un texte en argument et renvoie un dictionnaire dont les clés sont les lettres présentes dans le texte et les valeurs le nombre de fois que les lettres apparaissent.
+>
+> ### Application II : Les lettres de l'alphabet 🖋️
+>
+>Écrire les instructions qui permettent de créer le dictionnaire contenant les lettres de l'alphabet comme clé et leurs positions comme valeurs.
+>
+>Rappels :
+>
+> - la fonction chr permet d'obtenir un caractère à partir de son point de code unicode.
+> - le point de code de la lettre 'A' est 65.
+>
+>### Application III : Des dictionnaires pour sa musicothèque 🖋️
+>
+>On souhaite stocker les albums de chanteurs en créant un dictionnaire par chanteur.
+>
+>Les clés de chaque dictionnaire seront les suivantes : 'nom', 'album1', 'album2'...
+>
+>Créer les dictionnaires de deux ou trois chanteurs.
+>
+> ### Application III : Affichage lisible d'un dictionnaire 🐍
+>
+> Écrire une fonction qui affiche proprement un dictionnaire, c'est à dire que les paires clé-valeur sont affichées ligne par ligne.
+>
+> ### Application IV : Echange clé <=> valeur 🐍
+>
+>Écrire une fonction qui prend un dictionnaire en paramètre et renvoie un nouveau dictionnaire dans lequel les clés et les valeurs sont interverties.
+>
+>On pourra tester sa fonction sur le dictionnaire contenant les lettres de l'alphabet et leur positions.
+>
+> ### Application V : Nombre d’occurrences des lettres d'un texte 🐍
+>
+> Écrire une fonction qui prend un texte en argument et renvoie un dictionnaire dont les clés sont les lettres présentes dans le texte et les valeurs le nombre de fois que les lettres apparaissent.

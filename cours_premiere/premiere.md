@@ -152,7 +152,7 @@ title: Cours de Première NSI
 </div>
 
 
-## Thème 5 : Dictionnaire et Traitement de données en table
+## Thème 6 : Dictionnaire et Traitement de données en table
 
 <div class="cours-section">
   <div class="boites-lecons">
