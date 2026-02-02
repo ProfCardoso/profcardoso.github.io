@@ -1,16 +1,16 @@
-# Les dictionnaires
+# Les Dictionnaires
 
 
 <div style="border:2px solid #af4c4cff; padding:10px; border-radius:8px">
 <strong>Définition — Dictionnaire</strong><br>
-Les dictionnaires sont des ensembles de paires clé-valeur.
-
+Les dictionnaires sont des ensembles de <strong>paires clé-valeur</strong>.
+<br>
 Les clés permettent d'accéder à leurs valeurs respectives.
-
+<br>
 Les clés doivent être toutes différentes et toutes immuables : int, str, tuple...
-
+<br>
 Les valeurs peuvent être de tous les types.
-
+<br>
 Les paires d'un dictionnaire n'ont pas d'ordre.
 
 </div>
@@ -18,7 +18,7 @@ Les paires d'un dictionnaire n'ont pas d'ordre.
 ## Généralités
 
 ### Création d'un dictionnaire
-Les dictionnaires s'écrivent avec des accolades **{}**, les paires (clé,valeur) sont séparées par des **virgules** et chaque clé est séparée de sa valeur par un **double point :**.  
+Les dictionnaires s'écrivent avec des accolades **{}**, les paires (clé,valeur) sont séparées par des **virgules** et chaque clé est séparée de sa valeur par un **double point :** .  
   
 **Exemple :** création directe
 ```python
@@ -38,7 +38,7 @@ print(len(dico2))  #3
 
 ### Ajout d'une paire à un dictionnaire
 
-**Exemple**:Le programme ci-dessous ajoute successivement de paires clé-valeur à la variable dico2
+**Exemple** : Le programme ci-dessous ajoute successivement de paires clé-valeur à la variable dico2
 
 ```python
 dico2 = {}

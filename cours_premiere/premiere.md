@@ -161,7 +161,7 @@ title: Cours de Première NSI
       <h3>Dictionnaire</h3>
     </a>
 
-    <a class="boite-tp" href="./dictionnaire_csv/Tp_Photo.md">
+    <a class="boite-tp" href="./dictionnaire_csv/Tp_Photo.html">
       <h3>Activité Photo</h3>
     </a>
 
