@@ -60,7 +60,7 @@ for c, v in TAGS.items():
 
 ### Les données GPS
 
-Les données GPS sont stockées dans le dictionnaire récupéré par la méthode `_getexif()` avec la clé 34853 sous la forme d'un dictionnaire.  
+Les données GPS sont stockées dans le dictionnaire récupéré par la méthode `_getexif()` avec la clé **34853** sous la forme d'un dictionnaire.  
   
 La bibliothèque Pillow propose un dictionnaire qui permet de faire la correspondance entre les clés des données GPS et leurs significations. Ce dictionnaire est stocké dans la variable `GPSTAGS` qu'il faudra importer avec la ligne de code suivante.
 
@@ -77,8 +77,8 @@ Les coordonnées de géolocalisation correspondent à la latitude et la longitud
 
 Exemple des coordonnées de la Tour Eiffel :  
 
-- dans le système sexagésimal (degrés/minutes/secondes) : 48°51'30.0"N 2°17'40.1"E
-- dans le système décimal : 48.858336N, 2.294471E
+- dans le système sexagésimal (degrés/minutes/secondes) : `48°51'30.0"N 2°17'40.1"E`
+- dans le système décimal : `48.858336N, 2.294471E`
  
 
 • Dans les données Exif :  
@@ -86,7 +86,7 @@ Exemple des coordonnées de la Tour Eiffel :
 - la latitude est donnée par une lettre (N ou S) et un tuple de trois tuples,
 - la longitude est donnée par une lettre (E ou W) et un tuple de trois tuples.  
 
-Dans les deux cas, les trois tuples correspondent aux degrés, aux minutes et aux secondes avec la précision. Ainsi, le tuples ((48, 1), (51, 1), (3000, 100)) correspond à 48° 51' et 3000/100 = 30,00".
+Dans les deux cas, les trois tuples correspondent aux degrés, aux minutes et aux secondes avec la précision. Ainsi, le tuples `((48, 1), (51, 1), (3000, 100)) `correspond à `48° 51'` et `3000/100 = 30,00"`.
 
 ## Travail à faire
 Dans votre espace, créer un répertoire pour l'activité en cours.
@@ -114,7 +114,7 @@ A l'aide de votre téléphone portable :
 ### Récupérer les informations de géolocalisation
 Écrire les lignes de code qui permettent d'afficher les **coordonnées GPS** d'une photo dans le **système sexagésimale** et dans le **système décimal**.
 
-Copier/coller ces coordonnées dans un site de cartographie en ligne comme <a href="www.openstreetmap.org" target="_blank_">www.openstreetmap.org</a> .
+Copier/coller ces coordonnées dans un site de cartographie en ligne comme <a href="https://www.openstreetmap.org" target="_blank_">www.openstreetmap.org</a> .
 
 ### Pour aller plus loin
 Écrire les lignes de code qui permettent d'afficher l'ensemble des données Exif d'une photo de façon lisible.
