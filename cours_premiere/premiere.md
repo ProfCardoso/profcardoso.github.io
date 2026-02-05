@@ -173,12 +173,12 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./csv/dictionnaire.html">
+    <a class="boite" href="./csv/csv.html">
       <h3>Traitement de données en tables</h3>
     </a>
 
-    <a class="boite-tp" href="./csv/Tp_Photo.html">
-      <h3>Activité Photo</h3>
+    <a class="boite-tp" href="./csv/td_csv.html">
+      <h3>TD : Traitement des données en Python</h3>
     </a>
 
   </div>
