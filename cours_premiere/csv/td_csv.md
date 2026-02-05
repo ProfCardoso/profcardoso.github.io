@@ -60,9 +60,29 @@ with open('films.csv', 'r', encoding='utf-8') as objFichier:
         listeFilms.append(dict(ligne))
 ```
 
-> ## Applications 
-> 
-> ### Application II : Liste des titres
+## Projection de données
+
+On appelle projection le fait d'obtenir les valeurs de certains ou tous les attributs d'une table / base de données / fichiers CSV.
+
+**Exemple** : depuis le fichier des données ouvertes sur les villes et départements.
+
+```python
+# Exemple : Afficher le nom des villes
+for ligne in villes:  # Pour chaque ligne dans la liste des villes
+   print(ligne["nom_commune"])  # Affiche la valeur associée à la clé 'nom_commune'
+
+# Afficher le nom de toutes les villes
+for ligne in villes:
+   print(ligne["nom_commune"])
+
+# Afficher le département de chaque ville
+for ligne in villes:
+   print("La ville ", ligne["nom_commune"], " est dans le département : ", ligne["nom_departement"])
+```
+
+Cela permet donc d'obtenir dans notre exemple de villes, le nom de celle-ci, le département, etc. de toutes les villes sans aucune contrainte.
+
+> ### Application I : Liste des titres
 > 
 > Écrire une fonction `extraire_titres(films)` qui retourne la liste de tous les titres de films.
 > 
@@ -76,6 +96,25 @@ with open('films.csv', 'r', encoding='utf-8') as objFichier:
 > 
 > Écrire une fonction `extraire_annees(films)` qui retourne la liste de toutes les années de sortie (sans doublons).
 > 
+
+## Sélection de données
+
+On appelle sélection le fait de sélectionner des valeurs suivant certains critères ou condition. Cela permet donc d'obtenir des informations ou de réaliser des traitements sur les données d'un fichier suivant divers critères (par exemple sur les villes).
+
+**Exemple** : depuis le fichier des données ouvertes sur les villes et départements.
+
+```python
+# Afficher le nom des villes qui sont dans le département 30
+for ligne in villes:
+   if ligne['code_departement'] == '30':
+      print(ligne["nom_commune"])
+
+# Afficher les noms des villes commençant par la lettre N
+for ligne in villes:
+   if ligne["nom_commune"][0] == "N":
+      print(ligne["nom_commune"])
+```
+
 > ### Application III : Films anciens
 > 
 > Écrire une fonction `films_avant_2000(films)` qui retourne la liste des films sortis avant l'an 2000.

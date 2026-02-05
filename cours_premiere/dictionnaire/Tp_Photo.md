@@ -17,7 +17,7 @@ Nous allons nous intéresser à :
 - l'ouverture d'une image
 - la récupération et l'interprétation des données Exif de l'image
 
-## Importation de la librairie
+## Importation de la librairie 🐍
 Comme pour toute librairie, pour pouvoir l'utiliser, il faut qu'elle soit installée dans l'environnement d'exécution de python utilisé.
 
 Pour que les constantes, les fonctions et les méthodes de la libraire soient disponibles, il faut insérer le code suivant.
@@ -25,7 +25,7 @@ Pour que les constantes, les fonctions et les méthodes de la libraire soient di
 ```python
 from PIL import Image
 ```
-## Ouverture et affichage d'une image
+## Ouverture et affichage d'une image 🐍
 Avec la librairie Pillow, l'ouverture et l'affichage d'une image sont simples.  
 
 ```python
@@ -33,7 +33,7 @@ im = Image.open("nomImage.jpg")   # ouverture de l'image
 im.show()   # affichage de l'image dans le logiciel par défaut d'affichage des images
 ```
 
-## Les données Exif d'une photo
+## Les données Exif d'une photo 🐍
 Les informations Exif d'une photo peuvent être récupérées sous la forme d'un dictionnaire à l'aide de la méthode `_getexif()` appliquée à l'image récupérée.  
 
 ```python
@@ -47,7 +47,7 @@ Faite un print du dictionnaire pour voir son contenu "brut".
 print(dico_exif)
 ```
 
-### Décryptage des données Exif
+### Décryptage des données Exif 🖋️
 La bibliothèque Pillow propose un dictionnaire qui permet de faire la correspondance entre les clés des données Exif et leurs significations. Ce dictionnaire est stocké dans la variable TAGS.
   
 Expliquer, sans les tester, ce que font les deux lignes suivantes :
@@ -112,11 +112,12 @@ A l'aide de votre téléphone portable :
 - la **date** et **l'heure** de la prise de la photo (DateTime).
 
 ### Récupérer les informations de géolocalisation
-Écrire les lignes de code qui permettent d'afficher les **coordonnées GPS** d'une photo dans le **système sexagésimale** et dans le **système décimal**.
+Écrire les lignes de code qui permettent d'afficher les **coordonnées GPS** d'une photo dans le **système décimal**.
 
 Copier/coller ces coordonnées dans un site de cartographie en ligne comme <a href="https://www.openstreetmap.org" target="_blank_">www.openstreetmap.org</a> .
 
-### Pour aller plus loin
+### Affichage des données
+
 Écrire les lignes de code qui permettent d'afficher l'ensemble des données Exif d'une photo de façon lisible.
 
 Exemple : 
@@ -124,4 +125,8 @@ Exemple :
 Make : ...
 GPSInfo : ...
 ... : ... 
-````
+```
+
+### Pour les plus rapides
+
+Voici une photo de mes [dernières vacances](./photoVoyage.jpeg), trouver le maximum d'informations sur cette photo pour savoir où j'étais !
