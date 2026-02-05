@@ -152,16 +152,32 @@ title: Cours de Première NSI
 </div>
 
 
-## Thème 6 : Dictionnaire et Traitement de données en table
+## Thème 6 : Dictionnaire
 
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./dictionnaire_csv/dictionnaire.html">
+    <a class="boite" href="./dictionnaire/dictionnaire.html">
       <h3>Dictionnaire</h3>
     </a>
 
-    <a class="boite-tp" href="./dictionnaire_csv/Tp_Photo.html">
+    <a class="boite-tp" href="./dictionnaire/Tp_Photo.html">
+      <h3>Activité Photo</h3>
+    </a>
+
+  </div>
+</div>
+
+## Thème 7 : Traitement de données en table
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./csv/dictionnaire.html">
+      <h3>Traitement de données en tables</h3>
+    </a>
+
+    <a class="boite-tp" href="./csv/Tp_Photo.html">
       <h3>Activité Photo</h3>
     </a>
 
