@@ -129,11 +129,69 @@ for ligne in villes:
 >
 > Écrire une fonction `titres_nolan(films)` qui retourne uniquement les titres des films réalisés par Nolan.
 >
->Résultat attendu :
+> Résultat attendu :
 >
 ```python
 ["Inception", "Interstellar"]
 ```
+
+## Tri d'une table sur une colonne
+
+Une table étant représentée par une liste, on peut la trier en utilisant la fonction `sorted` ou la méthode `.sort()`, avec l’argument supplémentaire `key` qui est une fonction renvoyant la valeur utilisée pour le tri.
+  
+**Rappel :** la méthode `.sort()` trie la liste **en place**, c'est-à-dire modifie la liste directement sans en créer une nouvelle, alors que la fonction `sorted()` renvoie une **nouvelle liste** correspondant la liste triée, la liste initiale étant laissée intacte.  
+  
+Pour la suite nous utiliserons la fonction `sorted()`.
+
+### key 
+
+**Exemple** : Tri de liste
+
+```python
+>>>liste = sorted(['abc', 'yz']) 
+>>>print(liste)
+['abc', 'yz']       # le tri se fait par défaut suivant l'ordre lexicographique 
+>>>liste = sorted(['abc', 'yz'], key=len) 
+>>>print(liste)
+['yz', 'abc']       # le tri s'est fait ici suivant la longueur des chaînes de caractères contenues.			
+```
+L'attribut `key` nous permet de choisir le critère de tri, ici `len` , pour trier par ordre croissant suivant la longueur de la chaîne de caractères considérée.
+
+### lamda fonction
+
+Une fonction `lambda` est une **fonction anonyme**, c'est en quelque sorte une fonction pouvant être écrite en une seule ligne.
+  
+On la note ainsi :
+
+```
+lambda entree : expression de la sortie
+```
+
+<u>Voici un exemple de lambda fonction (g) avec une autre fonction (f) :</u>
+
+```python
+def f(x):
+    return x*2  
+
+g = lambda x : x*2  
+```
+**Exemple** : Tri de liste de dictionnaire par lambda fonction
+
+```python
+eleves_poudlard = [
+    {'Nom': 'Granger', 'Prenom': 'Hermione', 'Magie': 18, 'Potion': 16, 'Baguette': 15},
+    {'Nom': 'Weasley', 'Prenom': 'Ron', 'Magie': 1, 'Potion': 3, 'Baguette': 5},
+    {'Nom': 'Potter', 'Prenom': 'Harry', 'Magie': 14, 'Potion': 13, 'Baguette': 16}
+]
+
+table_triee = sorted(eleves_poudlard, key=lambda sorcier: sorcier["Magie"])
+
+print(table_triee)	
+```
+> ### Application VI : Tri selon les notes
+>
+> Écrire une fonction `tri_des_notes(films)` qui retourne les titres des films triés de la note la plus basse à la plus grande.
+>
 
 ## Activité pour allez plus loin 
 
@@ -163,7 +221,7 @@ Vous décidez donc de manipuler ces données pour vous former la meilleure équi
 
 ```python
 >>> print(POKEMON)
-[ {"numero": 1 ,"nom": "Bulbizarre"	,"type_1": "Plante"	,"type_2": "Poison",	"pv":45	,"attaque":49	,"défense":49	,"attaque_spé":65	,"défense_spé":65	,"vitesse":45}, 
+[ {"numero": 1 ,"nom": "Bulbizarre" ,"type_1": "Plante" ,"type_2": "Poison", "pv":45 ,"attaque":49 ,"défense":49 ,"attaque_spé":65 ,"défense_spé":65 ,"vitesse":45}, 
 ... ]
 								
 ```
