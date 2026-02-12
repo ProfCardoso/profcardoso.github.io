@@ -95,6 +95,19 @@ title: Cours de Seconde SNT
       <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Pixels</a></h3>
     </div>
 
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Photosites</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Métadonnées EXIF</a></h3>
+    </div>
+
+    <div class="boite">
+      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Traitement d'image</a></h3>
+    </div>
+
+
   </div>
 </div>
 

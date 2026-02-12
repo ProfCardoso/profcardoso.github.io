@@ -119,7 +119,7 @@ for ligne in villes:
 > 
 > Écrire une fonction `films_avant_2000(films)` qui retourne la liste des films sortis avant l'an 2000.
 > 
-### Application IV : Films bien notés
+> ### Application IV : Films bien notés
 >
 > Écrire une fonction `films_note_superieure(films, seuil)` qui retourne les films ayant une note supérieure ou égale au seuil donné.
 >
@@ -134,3 +134,44 @@ for ligne in villes:
 ```python
 ["Inception", "Interstellar"]
 ```
+
+## Activité pour allez plus loin 
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="./pokemon-logo-png-1428.png" alt="Python" width="800" />
+</div>
+
+Vous êtes devenu il y a peu fan de la licence Pokémon, et pour vous renseigner sur tous les pokémons de la première génération ( il y en a 151 ), vous avez téléchargé toutes les données concernant cette génération ([le document csv est ici](./pokemon_001_151_fr.csv)).  
+
+Les attributs de ces données sont les suivantes :
+- **numero** : le numéro du pokémon;
+- **nom**: le nom du pokémon;
+- **type_1** : le premier type du pokémon;
+- **type_2** : le second type du pokémon, si il en possède un;
+- **pv** : la statistique du pokémon sur ses points de vie
+- **attaque** : la statistique du pokémon sur son attaque
+- **défense** : la statistique du pokémon sur sa défense
+- **attaque_spé**	: la statistique du pokémon sur attaque spéciale
+- **défense_spé**	: la statistique du pokémon sur sa défense spéciale
+- **vitesse** : la statistique du pokémon sur sa vitesse
+
+Vous décidez donc de manipuler ces données pour vous former la meilleure équipe de pokémon ( 6 au maximum ), devenir le meilleur dresseur et gagner les défis !
+
+1. Dans un dossier, télécharger le document csv précédent, et créer un fichier python pour y importer la bibliothèque csv.
+
+2. Utiliser cette bibliothèque pour créer la variable globale `POKEMON`, contenant la liste de dictionnaire de chacun des pokémon
+
+```python
+>>> print(POKEMON)
+[ {"numero": 1 ,"nom": "Bulbizarre"	,"type_1": "Plante"	,"type_2": "Poison",	"pv":45	,"attaque":49	,"défense":49	,"attaque_spé":65	,"défense_spé":65	,"vitesse":45}, 
+... ]
+								
+```
+
+3. Écrire le programme python pour afficher la liste des 151 pokémons du document csv.
+
+4. Écrire la fonction `type()`, qui affiche les types possibles de tous les pokémons, à partir des types présent dans le document csv.
+
+5. Écrire la fonction `meilleur(stat)`, qui affiche le meilleur pokémon de la liste selon la statistique voulu donné en paramètre.
+
+6. Écrire la fonction `equipe()`, qui créer une liste de pokémon composé des meilleurs pokemons de chaque statistique.
