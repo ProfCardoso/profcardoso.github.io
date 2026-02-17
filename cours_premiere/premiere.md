@@ -181,8 +181,13 @@ title: Cours de Première NSI
       <h3>TD : Traitement des données en Python</h3>
     </a>
 
+    <a class="boite-tp" href="./csv/td_csv.html">
+      <h3>TD : Fusion des données en Python</h3>
+    </a>
+
   </div>
 </div>
+
 <!-- 
 
 

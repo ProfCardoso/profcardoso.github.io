@@ -47,7 +47,7 @@ La **jointure de DEUX tables selon un champ** revient à fusionner ces tables à
 
 ### Activité I : Fusion à la main 🖋️
 
-*Voire le document imprimé.*
+*Voire le document imprimé.* ( en [.odt](./fusion.odt) ou [.pdf](./fusion.pdf) )
 
 **Consigne :**
 
