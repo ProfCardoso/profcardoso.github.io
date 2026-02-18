@@ -98,37 +98,17 @@ title: Cours de Seconde SNT
     <div class="boite">
       <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Photosites</a></h3>
     </div>
+    
+    <a class="boite-tp" href="./photo_num/tp_traitement_image.html">
+      <h3>TD : Traitement d'image</h3>
+    </a>
 
     <div class="boite">
       <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Métadonnées EXIF</a></h3>
     </div>
 
-    <div class="boite-tp">
-      <h3><a href="./photo_num/tp_traitement_image.html">TD : Traitement d'image</a></h3>
-    </div>
+    
 
-    <a class="boite-tp" href="./photo_num/tp_traitement_image.html">
-      <h3>TD : Traitement d'image</h3>
-    </a>
-
-
-  </div>
-</div>
-
-<div class="cours-section">
-  <div class="boites-lecons">
-
-    <a class="boite" href="./csv/csv.html">
-      <h3>Traitement de données en tables</h3>
-    </a>
-
-    <a class="boite-tp" href="./csv/td_csv.html">
-      <h3>TD : Traitement des données en Python</h3>
-    </a>
-
-    <a class="boite-tp" href="./csv/fusion_csv.html">
-      <h3>TD : Fusion des données en Python</h3>
-    </a>
 
   </div>
 </div>

@@ -38,19 +38,19 @@ Ce programme vous donne la valeur du <span style="color: rgb(255,0,0);">canal ro
 
 Voici une analyse ligne par ligne du programme ci-dessus :
 
-- from PIL import Image : pour travailler sur les images nous avons besoin d'une extension de Python (appelé bibliothèque). Cette bibliothèque se nomme PIL.
+- `from PIL import Image` : pour travailler sur les images nous avons besoin d'une extension de Python (appelé bibliothèque). Cette bibliothèque se nomme PIL.
 
-- img = Image.open("pomme.jpg") c'est grâce à cette ligne que nous précisons que nous allons travailler avec l'image "pomme.jpg". Pour travailler avec une autre image, il suffit de remplacer "pomme.jpg" par un autre nom (attention, votre fichier image devra se trouver dans le même dossier que le ficher de votre programme Python).
+- `img = Image.open("pomme.jpg")` c'est grâce à cette ligne que nous précisons que nous allons travailler avec l'image "pomme.jpg". Pour travailler avec une autre image, il suffit de remplacer "pomme.jpg" par un autre nom (attention, votre fichier image devra se trouver dans le même dossier que le ficher de votre programme Python).
 
-- r,v,b=img.getpixel((100,250)) cette ligne récupère les valeurs du canal rouge (r), du canal vert (v) et du canal bleu (b) du pixel de coordonnées (100,250). Dans la suite du programme, r correspondra à la valeur du canal rouge, v correspondra à la valeur du canal vert et b correspondra à la valeur du canal bleu
+- `r,v,b=img.getpixel((100,250))` cette ligne récupère les valeurs du canal rouge (r), du canal vert (v) et du canal bleu (b) du pixel de coordonnées (100,250). Dans la suite du programme, r correspondra à la valeur du canal rouge, v correspondra à la valeur du canal vert et b correspondra à la valeur du canal bleu
 
-- print("canal rouge : ",r,"canal vert : ",v,"canal bleu : ",b) permet d'imprimer le résultat
+- `print("canal rouge : ",r,"canal vert : ",v,"canal bleu : ",b)` permet d'imprimer le résultat
 
-Modifiez le programme de l'activité 28.1 pour qu'il affiche les valeurs du canal rouge, du canal vert et du canal bleu du pixel de coordonnées (250,300), notez votre réponse.
+> I. **Modifiez** le programme précédent pour qu'il affiche les valeurs du **canal rouge**, du **canal vert** et du **canal bleu** du **pixel de coordonnées (250,300)**, notez votre réponse. 💻
 
 ## Modifier les canaux RVB d'un pixel :
 
-Saisissez et testez le programme suivant :
+> **Saisissez** et **testez** le programme suivant : 💻
 
 ```python
 from PIL import Image
@@ -59,18 +59,19 @@ img.putpixel((250,250),(255,0,0))
 img.show()
 ```
 
-Regardez attentivement le centre de l'image, vous devriez voir un pixel rouge à la place d'un pixel vert.
+**Regardez attentivement le centre de l'image, vous devriez voir un pixel rouge à la place d'un pixel vert.**
 
 Voici une analyse ligne par ligne du programme ci-dessus :
 
-- img.putpixel((250,250),(255,0,0)) permet de colorier le pixel de coordonnées (250,250) en rouge (255,0,0).
-- img.show() permet d'afficher l'image modifiée
+- `img.putpixel((250,250),(255,0,0))` permet de colorier le pixel de coordonnées (250,250) en rouge (255,0,0).
+- `img.show()` permet d'afficher l'image modifiée dans une nouvelle fenêtre.
 
-> II. Modifiez le programme de l'activité précédente afin de colorier le pixel de coordonnées (100,250) en bleu.
+> II. **Modifiez** le programme de l'activité précédente afin de colorier le pixel de coordonnées (100,250) en bleu. 💻
 
 ## Modifier les canaux RVB de plusieurs pixels :
 
-Modifiez un pixel c'est déjà bien, mais comment faire pour modifier plusieurs pixels ? La réponse est simple, nous allons utiliser des boucles `for`. Le but ici n'est pas de détailler le fonctionnement des boucles for en Python, vous devez juste comprendre que grâce à ces boucles nous allons pouvoir balayer toute l'image et ne plus nous contenter de modifier les pixels un par un.
+Modifiez un pixel c'est déjà bien, mais comment faire pour modifier plusieurs pixels ? La réponse est simple, nous allons utiliser des boucles `for`.   
+Le but ici n'est pas de détailler le fonctionnement des boucles `for` en Python, vous devez juste comprendre que grâce à ces boucles nous allons pouvoir balayer toute l'image et ne plus nous contenter de modifier les pixels un par un.
 
 
 > III. Saisissez et testez le programme suivant : 
@@ -89,7 +90,8 @@ print("fin")
 
 Quelques commentaires sur ce programme :
 
-Nous commençons par définir les variables "largeur_image" et "hauteur_image" (largeur_image=500 et hauteur_image=500). Je pense que vous aurez compris que notre image "pomme.jpg" fait 500 pixels de large et 500 pixels de haut. Si vous désirez travailler avec une autre image, il faudra veiller à bien modifier la valeur de ces deux variables.  
+Nous commençons par définir les variables `largeur_image` et `hauteur_image` (largeur_image=500 et hauteur_image=500). 
+Ici, l'image "pomme.jpg" fait **500 pixels de large** et **500 pixels de haut**. Si vous désirez travailler avec une autre image, il faudra veiller à bien modifier la valeur de ces deux variables.  
 Les 2 boucles "for" nous permettent de parcourir l'ensemble des pixels de l'image :
 
 ```python
@@ -97,19 +99,19 @@ for y in range(hauteur_image):
     for x in range(largeur_image):
             ...
 ```
-Le plus important ici est de bien comprendre que dans la suite du programme, les variables x et y vont nous permettre de parcourir l'ensemble des pixels de l'image : 
-- nous allons commencer avec le pixel de coordonnées (0,0), puis le pixel de coordonnées (1,0), puis le pixel de coordonnées (2,0)...jusqu'au pixel de coordonnées (499,0). 
-- Ensuite, nous allons changer de ligne avec le pixel de coordonnées (0,1), puis le pixel de coordonnées (1,1)...bref, le dernier pixel sera le pixel de coordonnées (499,499), tout cela grâce à la double boucle "for" !
-- r,v,b=img.getpixel((x,y)) cette ligne ne devrait pas poser de problème, nous avons juste remplacé les coordonnées des pixels par (x,y) afin de considérer l'ensemble des pixels de l'image.
+Le plus important ici est de bien comprendre que dans la suite du programme, les variables `x` et `y` vont nous permettre de parcourir l'ensemble des pixels de l'image : 
+- Nous allons commencer avec le pixel de coordonnées (0,0), puis le pixel de coordonnées (1,0), puis le pixel de coordonnées (2,0)...jusqu'au pixel de coordonnées (499,0). 
+- Ensuite, nous allons changer de ligne avec le pixel de coordonnées (0,1), puis le pixel de coordonnées (1,1)...bref, le dernier pixel sera le pixel de coordonnées (499,499), tout cela grâce à la double boucle `for` !
+- `r,v,b=img.getpixel((x,y))` Ici, nous récupérons l'emplacement des coordonnées des pixels par (x,y) afin de considérer l'ensemble des pixels de l'image.
 
-- print("rouge : ",r,"vert : ",v,"bleu : ",b) nous imprimons les valeurs des canaux RVB pour chaque pixel de l'image.
-- print("fin") ATTENTION cette ligne n'est pas dans la double boucle (pas de décalage), le mot "fin" ne sera donc affiché qu'une seule fois (après avoir parcouru l'ensemble des pixels).
+- `print("rouge : ",r,"vert : ",v,"bleu : ",b)` nous imprimons les valeurs des canaux RVB pour chaque pixel de l'image.
+- `print("fin")` ATTENTION cette ligne n'est pas dans la double boucle (pas de décalage), le mot `"fin"` ne sera donc affiché qu'une seule fois (après avoir parcouru l'ensemble des pixels).
 
 --- 
 
 Compliquons un peu la chose en modifiant tous les pixels de l'image de pomme :
 
-> IV. Saisissez et testez le programme suivant :
+> IV. Saisissez et testez le programme suivant : 💻
 
 ```python
 from PIL import Image
@@ -126,21 +128,49 @@ for y in range(hauteur_image):
 img.show()
 ```
 
-> V. Expliquez en quelques mots ce que fait ce programme.
+> V. Expliquez en quelques mots ce que fait ce programme. 🖋️
 
 ## Quelques programmes de traitement d'image :
 
-> VI. En vous inspirant de ce qui a été fait précédement, écrivez un programme qui inverse les valeurs des canaux bleu et rouge sans changer la valeur du canal vert.
+N'oubliez pas **d'enregistrer** votre programme et d'en ouvrir un nouveau pour ne pas **supprimer** votre travail actuel !
 
-```
-rouge -> bleu
-vert -> vert
-bleu -> rouge
-```
----
+> VI. En vous inspirant de ce qui a été fait précédement, **écrivez** un programme qui **inverse les valeurs** des canaux bleu et rouge **sans changer** la valeur du canal vert. 💻
 
-> VII. Après avoir fait quelques recherches sur le **"négatif d'une image"**, écrivez un programme qui donne le négatif d'une image.
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Indice ? 🤔</u></summary>
+  <div style="margin-top: 10px;">
+    <pre><code>
+      rouge -> bleu
+      vert -> vert
+      bleu -> rouge
+    </code></pre>
+  </div>
+</details>
 
---- 
+<br>
 
-> VIII. Après avoir fait quelques recherches sur les **"images en niveau de gris"**, écrivez un programme qui transforme une **"image couleur"** en une **"image en niveau de gris"**.
+> VII. Après avoir fait quelques recherches sur le **"négatif d'une image"**, écrivez un programme qui donne le négatif d'une image. 💻
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Indice ? 🤔</u></summary>
+  <div style="margin-top: 10px;">
+    <p>Positif du rouge : 0 + r, positif du vert : 0 + v, positif du rouge : 0 + b  </p>
+    <p>Négatif du rouge : ..... .. r, négatif du vert : ..... .. v, négatif du rouge : ..... .. b  </p>
+  </div>
+</details>
+
+<br>
+
+> VIII. Après avoir fait quelques recherches sur les **"images en niveau de gris"**, écrivez un programme qui transforme une **"image couleur"** en une **"image en niveau de gris"**. 💻
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Indice ? 🤔</u></summary>
+  <div style="margin-top: 10px;">
+    <p>Couleur RVB du gris foncé : (80,80,80) / Couleur RVB du gris clair : (200,200,200)</p>
+    <p>Quel est le lien, et comment faire pour l'obtenir ?</p>
+  </div>
+</details>
+
+### Pour les plus rapides !
+
+> Essayez de modifier vos propres images ! Depuis Internet, ou l'autorisation de votre professeur, depuis votre appareil photo !
