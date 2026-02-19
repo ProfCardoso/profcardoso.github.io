@@ -188,6 +188,18 @@ title: Cours de Première NSI
   </div>
 </div>
 
+## Thème 8 : Architectures matérielles et systèmes d’exploitation
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-tp" href="./os/tp_terminus.html">
+      <h3>TP : Terminus </h3>
+    </a>
+
+  </div>
+</div>
+
 <!-- 
 
 

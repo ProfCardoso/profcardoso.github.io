@@ -100,7 +100,7 @@ ___
 ## Ligne sur le coté d'un texte
 
 <div style="border-left: 5px solid green; padding-left: 12px;">
-  <p> </p>
+  <p> texte </p>
 </div>
 
 ___

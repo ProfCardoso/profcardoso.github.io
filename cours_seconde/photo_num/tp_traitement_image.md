@@ -121,9 +121,9 @@ hauteur_image=500
 for y in range(hauteur_image):
     for x in range(largeur_image):
         r,v,b=img.getpixel((x,y))
-        n_r=v
-        n_v=b
-        n_b=r
+        nouveau_r=v
+        nouveau_v=b
+        nouveau_b=r
         img.putpixel((x,y),(n_r,n_v,n_b))
 img.show()
 ```
