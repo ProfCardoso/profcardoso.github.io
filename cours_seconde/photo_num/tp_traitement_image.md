@@ -124,7 +124,7 @@ for y in range(hauteur_image):
         nouveau_r=v
         nouveau_v=b
         nouveau_b=r
-        img.putpixel((x,y),(n_r,n_v,n_b))
+        img.putpixel((x,y),(nouveau_r,nouveau_v,nouveau_b))
 img.show()
 ```
 
@@ -155,7 +155,7 @@ N'oubliez pas **d'enregistrer** votre programme et d'en ouvrir un nouveau pour n
   <summary style="cursor: pointer; font-weight: bold;"><u>Indice ? 🤔</u></summary>
   <div style="margin-top: 10px;">
     <p>Positif du rouge : 0 + r, positif du vert : 0 + v, positif du rouge : 0 + b  </p>
-    <p>Négatif du rouge : ..... .. r, négatif du vert : ..... .. v, négatif du rouge : ..... .. b  </p>
+    <p>Négatif du rouge : 255 .. r, négatif du vert : 255 .. v, négatif du rouge : 255 .. b  </p>
   </div>
 </details>
 
@@ -167,10 +167,37 @@ N'oubliez pas **d'enregistrer** votre programme et d'en ouvrir un nouveau pour n
   <summary style="cursor: pointer; font-weight: bold;"><u>Indice ? 🤔</u></summary>
   <div style="margin-top: 10px;">
     <p>Couleur RVB du gris foncé : (80,80,80) / Couleur RVB du gris clair : (200,200,200)</p>
-    <p>Quel est le lien, et comment faire pour l'obtenir ?</p>
+    <p>Comment obtenir le même chiffre pour chaque composante, tout en gardant l'information donnée par chaque canal</p>
   </div>
 </details>
 
 ### Pour les plus rapides !
 
-> Essayez de modifier vos propres images ! Depuis Internet, ou l'autorisation de votre professeur, depuis votre appareil photo !
+En partant des programmes écrits précédemment, modifier l'image de pomme selon les consignes suivantes. Elles ne sont pas toutes du même niveau !
+
+#### Niveau de difficulté ( ☆ à ☆☆☆ ):
+
+> **Isoler une couleur ☆ :** garder seulement une couleur, et supprimer les autres composantes pour chaque pixel.
+
+> **Couleur dominante ☆☆ :** augmenter une composante d'une valeur fixe pour renforcer une couleur dominante, par exemple le rouge. Il faut faire attention à ne pas dépasser 255 !
+
+> **Noir et blanc (sans gris) ☆☆ :** modifier chacun des pixels pour que ces derniers soit uniquement en noir ou en blanc, sans gris, selon un seuil que vous définirez. Vous pouvez reprendre le code de l'image en niveau de gris pour gagner du temps et ainsi n'avoir que des valeurs de pixels gris.
+>
+> Exemple pour choisir entre noir et blanc avec 1 pixel au **seuil de 128**: 
+```python
+seuil = 128
+# pixel = (120,50,200) 
+r,v,b=img.getpixel((x,y))
+
+# Recuperation du pixel en niveau de gris
+niveau_gris = ...
+
+if niveau_gris < seuil:
+  # Pixel noir
+else :
+  # Pixel blanc
+```
+
+> **Détecter les zones très rouges ☆☆☆ :** si un pixel a beaucoup plus de rouge que de vert et de bleu, on le garde rouge ; sinon on le met en gris. 
+
+> **Et avec d'autres images ? ☆ :** Essayez de modifier vos propres images ! Depuis Internet, ou avec l'autorisation de votre professeur, depuis votre appareil photo !  Attention, vos images ne sont pas toutes de la même dimension, il faut changer le nombre de pixels en hauteur et largeur !
