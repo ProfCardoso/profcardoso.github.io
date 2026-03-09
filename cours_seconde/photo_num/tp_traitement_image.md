@@ -184,6 +184,7 @@ En partant des programmes écrits précédemment, modifier l'image de pomme selo
 > **Noir et blanc (sans gris) ☆☆ :** modifier chacun des pixels pour que ces derniers soit uniquement en noir ou en blanc, sans gris, selon un seuil que vous définirez. Vous pouvez reprendre le code de l'image en niveau de gris pour gagner du temps et ainsi n'avoir que des valeurs de pixels gris.
 >
 > Exemple pour choisir entre noir et blanc avec 1 pixel au **seuil de 128**: 
+
 ```python
 seuil = 128
 # pixel = (120,50,200) 
