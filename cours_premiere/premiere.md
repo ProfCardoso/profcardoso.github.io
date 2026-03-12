@@ -204,6 +204,18 @@ title: Cours de Première NSI
   </div>
 </div>
 
+## Thème 9 : Algorithmique
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-tp" href="./algo/crepier.html">
+      <h3>TP : Crêpier Psychorigide</h3>
+    </a>
+
+  </div>
+</div>
+
 <!-- 
 
 
