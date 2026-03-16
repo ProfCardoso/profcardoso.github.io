@@ -209,8 +209,12 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite-tp" href="./algo/crepier.html">
+    <a class="boite-tp" href="./algo/crepier_correction.html">
       <h3>TP : Crêpier Psychorigide</h3>
+    </a>
+
+    <a class="boite" href="./algo/intro_algo.html">
+      <h3>Introduction Algorithme</h3>
     </a>
 
   </div>

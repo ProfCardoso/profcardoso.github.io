@@ -136,5 +136,9 @@
       <h3>Exercice Boucle Python</h3>
     </a>
 
+    <a class="boite" href="./python/FichePython4.pdf">
+      <h3>Exercice Boucle Python</h3>
+    </a>
+
   </div>
 </div>

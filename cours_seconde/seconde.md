@@ -107,8 +107,17 @@ title: Cours de Seconde SNT
       <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Métadonnées EXIF</a></h3>
     </div>
 
-    
+  </div>
+</div>
 
+## Thème 4 : Système embarqué et Objet connecté
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./info_emb/systeme_emb.html">
+      <h3>Système embarqué : carte microbit</h3>
+    </a>
 
   </div>
 </div>
