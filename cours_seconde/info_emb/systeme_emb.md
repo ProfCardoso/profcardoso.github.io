@@ -51,13 +51,15 @@ Avant de vous lancer dans le code, quelques étapes sont nécessaires :
 
 ### Jouer avec l'affichage
 
+Pour chacun des prochains exercices, écrire le code une fois validé par votre professeur sur votre feuille.
 
 <div style="border:2px solid rgb(193, 142, 25); padding:10px; border-radius:8px">
 <strong>Afficher du texte</strong><br>
 L'affichage du texte se fait à l'aide de la fonction <code>display.show()</code> du module microbit.
 </div>
 <br>
-1. Travail à faire : Afficher votre prénom sur la carte
+
+> **Travail à faire :** Afficher votre prénom sur la carte
 
 <div style="border:2px solid rgb(193, 142, 25); padding:10px; border-radius:8px">
 <strong>Afficher un nombre</strong><br>
@@ -65,7 +67,7 @@ L'affichage d'un nombre se fait également à l'aide de la fonction <code>displa
 </div>
 <br>
 
-2. Travail à faire : Afficher votre âge sur la carte.
+> **Travail à faire :** Afficher votre âge sur la carte.
 
 <div style="border:2px solid rgb(193, 142, 25); padding:10px; border-radius:8px">
 <strong>Afficher une image prédéfinie</strong><br>
@@ -77,7 +79,7 @@ L'affichage d'une image prédéfinie se fait à l'aide de la fonction <code>disp
 
 **Exemple :** Voici quelques noms d'images (à écrire en majuscules) : ANGRY, HOUSE, SAD, ASLEEP...
 
-3. Travail à faire : Afficher une image prédéfinie sur la carte.
+> **Travail à faire :** Afficher une image prédéfinie sur la carte.
 
 ### Choisir les leds que l'on allume
 
@@ -94,7 +96,7 @@ Le controle de l'allumage de l'une des leds se fait à l'aide de la fonction <co
 </div>
 <br>
 
-4. Travail à faire : Afficher une image de votre création sur la carte.
+> **Travail à faire :** Afficher une image de votre création sur la carte.
 
 ### Jouer avec le temps
 
@@ -106,7 +108,7 @@ Pour faire faire une pause au programme, il faut utiliser la fonction sleep en i
 </div>
 <br>
 
-5. Travail à faire : Afficher **votre nom**, puis faite une **pause d'une seconde**, afficher **votre prénom**, une nouvelle **pause d'une seconde**, et enfin afficher une **image de votre choix**.
+> **Travail à faire :** Afficher **votre nom**, puis faite une **pause d'une seconde**, afficher **votre prénom**, une nouvelle **pause d'une seconde**, et enfin afficher une **image de votre choix**.
 
 
 ### Jouer avec les boutons
@@ -128,7 +130,7 @@ while True:
 </div>
 <br>
 
-6. Travail à faire : Faire en sorte que l'image HAPPY soit affichée quand le bouton est appuyé et que l'image SAD le soit quand le bouton n'est pas appuyé.
+> **Travail à faire :** Faire en sorte que l'image HAPPY soit affichée quand le bouton est appuyé et que l'image SAD le soit quand le bouton n'est pas appuyé.
 
 
 
