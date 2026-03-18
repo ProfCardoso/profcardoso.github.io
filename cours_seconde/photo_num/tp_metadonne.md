@@ -14,7 +14,7 @@ Le fichier numérique d'une photographie ne contient pas uniquement les informat
 
 Il peut également contenir le nom de l'appareil qui a servi à prendre la photo, la date de la prise de vue, si un flash a été utilisé... Ces informations s'appelles les **métadonnées**.
 
-Pour les fichiers de photographies, les métadonnées sont enregistrées dans un format appelé EXIF (Exchangeable Image File Format).
+Pour les fichiers de photographies, les métadonnées sont enregistrées dans un format appelé **EXIF (Exchangeable Image File Format)**.
 
 ## Récupérer les données EXIF d'une photographie
 
@@ -29,16 +29,16 @@ Voici une image du lycée, trouvez les informations liées à cette photographie
 
 - Enregistrez l'image sur votre ordinateur, dans le dossier SNT *(Clique droit sur la photo -> Sauvegardez l'image )* .
 
-- Ouvrir la page : <a href="https://www.dcode.fr/donnees-exif" target="_blank"> DCODE : Données EXIF</a>
+- Dans votre dossier SNT, ouvrez les propriétés de votre image par un clique droit sur la photo, onglet **Propriétés**.
 
-- Charger la photographie et extraire les données EXIF
+- Cliquez et ouvrez l'onglet **Détails**.
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img style="margin: auto;" src="../../images/7.4_dcode_exif_1.png" alt="Python" width="400" />
+  <img style="margin: auto;" src="../../images/propriete_photo.png" alt="Python" width="500" />
 </div>
 <br>
 
-➥ Les données s'affiches dans la colonne de gauche.
+➥ Les données s'affichent selon plusieurs catégories.
 
 ### 2) Compte-rendu 🖋️
 
@@ -144,3 +144,4 @@ Voici où je suis partie en vacance :
 <br>
 
 Grâce aux données Exif, enregistrez la photo et essayez de trouver la ville et le pays où je suis partie en vacances !
+

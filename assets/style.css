@@ -120,6 +120,6 @@ img {
 
 /* body */
 
-body {
+.markdown-body {
   font-size: 20px;
 }
