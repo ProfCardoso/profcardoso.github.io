@@ -117,3 +117,9 @@ img {
 .exercice button:hover {
   background-color: #005fa3;
 }
+
+/* body */
+
+body {
+  font-size: 20px;
+}

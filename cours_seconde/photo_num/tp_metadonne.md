@@ -1,6 +1,10 @@
 ---
 title: Photographie Numérique
+
 ---
+
+<link rel="stylesheet" href="../assets/style.css" />
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 # Données EXIF d'une photographie
 
@@ -16,7 +20,14 @@ Pour les fichiers de photographies, les métadonnées sont enregistrées dans un
 
 ### 1) Manipulations 💻
 
-- Récupérer l'image qui se trouve dans le dossier "Public" de la classe et l'enregistrer dans votre espace (dans un dossier adapté).
+Voici une image du lycée, trouvez les informations liées à cette photographie.
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/philippe_lamour.jpeg" alt="Python" width="500" />
+</div>
+<br>
+
+- Enregistrez l'image sur votre ordinateur, dans le dossier SNT *(Clique droit sur la photo -> Sauvegardez l'image )* .
 
 - Ouvrir la page : <a href="https://www.dcode.fr/donnees-exif" target="_blank"> DCODE : Données EXIF</a>
 
@@ -25,6 +36,7 @@ Pour les fichiers de photographies, les métadonnées sont enregistrées dans un
 <div style="display: flex; flex-direction:column;  text-align: center; ">
   <img style="margin: auto;" src="../../images/7.4_dcode_exif_1.png" alt="Python" width="400" />
 </div>
+<br>
 
 ➥ Les données s'affiches dans la colonne de gauche.
 
