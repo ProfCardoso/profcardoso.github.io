@@ -100,12 +100,12 @@ title: Cours de Seconde SNT
     </div>
     
     <a class="boite-tp" href="./photo_num/tp_traitement_image.html">
-      <h3>TD : Traitement d'image</h3>
+      <h3>TP : Traitement d'image</h3>
     </a>
 
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Métadonnées EXIF</a></h3>
-    </div>
+    <a class="boite-tp" href="./photo_num/tp_metadonne.html">
+      <h3>TP : Données EXIF d'une photographie</h3>
+    </a>
 
   </div>
 </div>

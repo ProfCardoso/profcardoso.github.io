@@ -86,7 +86,7 @@ L'affichage d'une image prédéfinie se fait à l'aide de la fonction <code>disp
 
 <div style="border:2px solid rgb(193, 142, 25); padding:10px; border-radius:8px">
 <strong>Éteindre toutes les leds</strong><br>
-<code>microbit.display.clear()</code>
+<code>display.clear()</code>
 </div>
 <br>
 
