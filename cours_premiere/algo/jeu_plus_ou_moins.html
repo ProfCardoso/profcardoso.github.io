@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu du Plus/Moins</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Noto+Serif');
+
+        body {
+            font-size: 18px;
+            font-family: 'Noto Serif', serif;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            color: #069;
+            text-shadow: 2px 2px 3px #333;
+            margin-bottom: 0;
+        }
+
+        main {
+            margin: auto;
+            width: fit-content
+        }
+
+        fieldset {
+            margin: 2em auto;
+            border-radius: 1em;
+            border: #069 solid 4px
+        }
+
+        fieldset legend {
+            font-weight: bold;
+            font-size: 1.6em;
+            margin-left: 1em;
+            padding: 0 0.2em 0.25em 0.2em;
+            color: #069
+        }
+
+        input,
+        button {
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <h1>Jeu du Plus/Moins</h1>
+    <main>
+        <fieldset class="correction">
+            <legend>Règles du jeu</legend>
+            <p>L'ordinateur choisit un nombre aléatoirement entre 1 et 99.</p>
+            <p>Vous devez deviner ce nombre en un minimum de coups.</p>
+            <p>A chacune de vos propositions, l'ordinateur vous indiquera si votre nombre est trop petit ou trop grand.</p>
+        </fieldset>
+
+        <fieldset class="correction">
+            <legend>A vous de jouer</legend>
+            <form id="formulaire">
+                <p>Entrez votre proposition : <input type="text" id="champTxt" size="2"> <button type="submit" id="btnValide">Valider</button></p>
+            </form>
+            <p id="baliseReponse"></p>
+            <p style="text-align: center;"><button id="btnRAZ">Recommencer</button></p>
+        </fieldset>
+    </main>
+
+    <script>
+        let valOrdi;
+        let nbCoups = 0
+
+        function RAZ() {
+            valOrdi = Math.ceil(Math.random() * 99);
+            nbCoups = 0;
+            document.querySelector("#baliseReponse").innerHTML = "";
+            document.querySelector("#champTxt").value = "";
+            document.querySelector("#champTxt").disabled = false;
+            document.querySelector("#btnValide").disabled = false;
+        }
+
+        function Valide(event) {
+            event.preventDefault();
+            let valJoueur = parseInt(document.querySelector("#champTxt").value);
+            if (valJoueur > valOrdi) {
+                nbCoups++;
+                document.querySelector("#baliseReponse").innerHTML = "Votre proposition " + valJoueur + " est trop grande !";
+                document.querySelector("#champTxt").value = "";
+            } else if (valJoueur < valOrdi) {
+                nbCoups++;
+                document.querySelector("#baliseReponse").innerHTML = "Votre proposition " + valJoueur + " est trop petite !";
+                document.querySelector("#champTxt").value = "";
+            } else if (valJoueur == valOrdi) {
+                nbCoups++;
+                document.querySelector("#baliseReponse").innerHTML = "BRAVO ! Vous avez trouvé en " + nbCoups + " coup(s).";
+                document.querySelector("#champTxt").disabled = true;
+                document.querySelector("#btnValide").disabled = true;
+            }
+        }
+
+        document.querySelector("#formulaire").addEventListener("submit", Valide);
+        document.querySelector("#btnRAZ").addEventListener("click", RAZ);
+
+        RAZ();
+
+    </script>
+</body>
+
+</html>

@@ -213,8 +213,16 @@ title: Cours de Première NSI
       <h3>TP : Crêpier Psychorigide</h3>
     </a>
 
-    <a class="boite" href="./algo/intro_algo.html">
+    <a class="boite" href="./algo/intro_algo_correction.html">
       <h3>Introduction Algorithme</h3>
+    </a>
+
+    <a class="boite" href="./algo/dichotomie.html">
+      <h3>Recherche dans une liste</h3>
+    </a>
+    
+    <a class="boite" href="./algo/terminaison.html">
+      <h3>Preuve d'un algorithme</h3>
     </a>
 
   </div>
