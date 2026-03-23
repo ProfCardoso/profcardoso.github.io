@@ -60,11 +60,47 @@ def fonc(n):
 
 ```
 
-🖊️ 1) Que fait cet algorithme (à trouver sans essayer l'algorithme) ? Compléter la docstring et changer le nom de cette fonction. 
+🖊️ 1) Que fait cet algorithme (à trouver sans essayer l'algorithme) ? Compléter la docstring et changer le nom de cette fonction.
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+    <pre><code>
+    def deux_puissance_n(n):
+    '''
+    Fonction qui calcule la puissance n de 2
+
+    param n: (int) un entier positif ou nul
+    return (int)
+    '''
+        resultat = 1
+        i = 0
+        while i < n:
+            i = i + 1
+            resultat = resultat * 2
+        return resultat
+
+    </code></pre>
+  </div>
+</details>
 
 🖊️ 2) Quel est le variant convergeant de boucle pour cet algorithme.
 
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+    <p>n - i</p>
+  </div>
+</details>
+
 🖊️ 3) Trouver un invariant de boucle. On pourra écrire une relation entre les différentes variables.
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+    <p>resultat = 2^i</p>
+  </div>
+</details>
 
 ## Application à l'algorithme de recherche dichotomique
 
@@ -101,6 +137,13 @@ print(recherche_dicho(E,L))
 ### Terminaison de l'algorithme
 
 🖊️ Trouver un variant convergent de boucle pour montrer la terminaison de l'algorithme.
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+    <p>fin - debut</p>
+  </div>
+</details>
 
 ### Correction de l'algorithme
 

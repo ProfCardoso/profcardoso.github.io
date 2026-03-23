@@ -150,26 +150,26 @@ Un exemple possible expliqué ici : <a href="./exemple_application_algo_recherch
     <p>Voici le contenu qui s’affiche quand on clique sur la ligne ci-dessus.</p>
     <pre><code>
     def recherche_dicho(E,L):
-    '''
-    Recherche dichotomique d'un élément dans une liste d'entiers triée.
-    Renvoie la position de l'élément s'il est présent dans la liste.
-    Renvoie None si l'élément n'est pas présent dans la liste.
-    param L : (list) une liste d'entiers triés par ordre croissant
-    param E : (int) un entier
-    return : (int) position de l'entier ou -1
-    '''
-    debut = 0
-    fin = len(L)-1
-    milieu = (debut + fin) // 2
-    while (debut - fin) <= 0 :
-        if E > L[milieu]:
-            debut = milieu + 1
-        elif E < L[milieu]:
-            fin = milieu - 1
-        else :
-            return milieu
-        milieu = ( debut + fin ) // 2
-    return -1
+      '''
+      Recherche dichotomique d'un élément dans une liste d'entiers triée.
+      Renvoie la position de l'élément s'il est présent dans la liste.
+      Renvoie None si l'élément n'est pas présent dans la liste.
+      param L : (list) une liste d'entiers triés par ordre croissant
+      param E : (int) un entier
+      return : (int) position de l'entier ou -1
+      '''
+      debut = 0
+      fin = len(L)-1
+      milieu = (debut + fin) // 2
+      while (debut - fin) <= 0 :
+          if E > L[milieu]:
+              debut = milieu + 1
+          elif E < L[milieu]:
+              fin = milieu - 1
+          else :
+              return milieu
+          milieu = ( debut + fin ) // 2
+      return -1
     E = 64
     L = [3,5,9,10,14,21,30,33,34,36,47,49,50,63,65,66,68,72,75,81]
     print(recherche_dicho(E,L))

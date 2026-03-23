@@ -201,6 +201,10 @@ title: Cours de Première NSI
       <h3>Système d'exploitation</h3>
     </a>
 
+    <a class="boite" href="./os/archi_ordi.html">
+      <h3>Architecture d'un ordinateur</h3>
+    </a>
+
   </div>
 </div>
 
@@ -217,12 +221,24 @@ title: Cours de Première NSI
       <h3>Introduction Algorithme</h3>
     </a>
 
-    <a class="boite" href="./algo/dichotomie.html">
+    <a class="boite" href="./algo/dichotomie_correction.html">
       <h3>Recherche dans une liste</h3>
     </a>
     
     <a class="boite" href="./algo/terminaison.html">
       <h3>Preuve d'un algorithme</h3>
+    </a>
+
+  </div>
+</div>
+
+## Thème 10 : IHM et Web
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./web/base_web.html">
+      <h3>Base du Web</h3>
     </a>
 
   </div>
