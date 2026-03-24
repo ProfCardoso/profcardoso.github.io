@@ -12,9 +12,9 @@ title: Algorithme
 
 Lorsqu'on écrit un algorithme, trois questions fondamentales se posent :
 
-• **Est-ce qu'il se termine ?** => C'est ce que l'on appelle <span style="color: rgb(165,42,42);">la terminaison</span>. 
-• **Est-ce qu'il donne le résultats attendu ?** => C'est ce que l'on appelle <span style="color: rgb(165,42,42);">la correction</span>.
-• **Est-ce qu'il donne le résultat en utilisant des ressources (temps, mémoire...) raisonnables ?** => C'est ce que l'on appel <span style="color: rgb(165,42,42);">la complexité</span>.
+- **Est-ce qu'il se termine ?** => C'est ce que l'on appelle <span style="color: rgb(165,42,42);">la terminaison</span>. 
+- **Est-ce qu'il donne le résultats attendu ?** => C'est ce que l'on appelle <span style="color: rgb(165,42,42);">la correction</span>.
+- **Est-ce qu'il donne le résultat en utilisant des ressources (temps, mémoire...) raisonnables ?** => C'est ce que l'on appel <span style="color: rgb(165,42,42);">la complexité</span>.
 
 **Remarque :** Démontrer la terminaison et la correction d'un algorithme s'appelle faire la **preuve de cet algorithme.**
 
@@ -92,10 +92,6 @@ def recherche_dicho(E,L):
             return milieu
         milieu = ( debut + fin ) // 2
     return -1
-
-E = 64
-L = [3,5,9,10,14,21,30,33,34,36,47,49,50,63,65,66,68,72,75,81]
-print(recherche_dicho(E,L))
 ```
 
 ### Terminaison de l'algorithme
