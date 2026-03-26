@@ -241,8 +241,12 @@ title: Cours de Première NSI
       <h3>Base du Web</h3>
     </a>
 
-    <a class="boite" href="./web/base_html.html">
-      <h3>Html et CSS</h3>
+    <a class="boite-tp" href="./web/base_html.html">
+      <h3>TP : Html et CSS</h3>
+    </a>
+
+    <a class="boite-tp" href="./web/base_js.html">
+      <h3>TP : Javascript</h3>
     </a>
 
   </div>
@@ -439,9 +443,7 @@ title: Cours de Première NSI
   <div class="boites-lecons">
 
     <a class="boite-projet" href="./projet_2/liste_sujet_consignes.html">
-    <div >
       <h3> Jeu de société </h3>
-    </div>
     </a>
 
   </div>
@@ -475,6 +477,10 @@ title: Cours de Première NSI
     <div >
       <h3> Fiche révision : Base Python</h3>
     </div>
+    </a>
+
+    <a class="boite" href="./aide/langage_html.html">
+      <h3> Langage HTML </h3>
     </a>
 
   </div>
