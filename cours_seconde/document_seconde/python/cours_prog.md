@@ -276,6 +276,7 @@ for i in range(1, 6):
 La boucle while répète des instructions tant qu’une condition est vraie.
 
 #### Syntaxe
+
 ```python
 while condition:
     instructions
@@ -287,7 +288,7 @@ Exemple de boucle infinie
     <pre><code>
     while True:
         print("Boucle infinie !") 
-    </pre></code>
+    </code></pre>
 
 </div>
 
@@ -305,7 +306,51 @@ Exemple de boucle infinie
 mot_de_passe = "PYTHON"
 while ...
 ```
-> Bonus ⭐  Ajouter un compteur d’erreurs :
+> ### Bonus ⭐ : Ajouter un compteur d’erreurs :
 >
 > - Il s’incrémente de 1 à chaque erreur
 > - Au bout de 3 erreurs, afficher un message indiquant que le compte est bloqué
+
+## Les Fonctions
+
+### Définition
+
+Une fonction est un bloc de code nommé qui :
+
+- réalise une tâche précise
+- peut recevoir des paramètres (informations d’entrée)
+- peut renvoyer un résultat
+- peut être utilisée plusieurs fois dans un programme
+
+### Syntaxe
+
+```python
+def nom_de_la_fonction (paramètre(s)) :
+     instruction(s)
+return resultat   # Le return n’est pas obligatoire
+```
+
+**Exemple :**
+
+```python
+def carre(x):
+    return x * x
+resultat = carre(3)
+print(resultat)             # 9
+```
+
+### Applications :
+>
+> #### Exercice 1 : Sans return et sans paramètre
+>
+> 1. Écrire une fonction hello() qui affiche un message pour dire bonjour. 
+>
+> 2. Écrire le programme pour utiliser cette fonction, qui dit bonjour 10 fois.
+>
+> #### Exercice 2 : Avec return et 2 paramètres
+>
+> 1. Écrire une fonction addition(a, b) qui retourne la somme de deux 
+nombres. 
+>
+> 2. Écrire le programme pour utiliser cette fonction avec les nombres de votre 
+choix

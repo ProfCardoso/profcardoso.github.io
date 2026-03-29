@@ -91,13 +91,13 @@ title: Cours de Seconde SNT
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Pixels</a></h3>
-    </div>
+    <a class="boite" href="./photo_num/Cours_Photographie_Numerique.pdf" target="_blank">
+      <h3>Les Pixels</h3>
+    </a>
 
-    <div class="boite">
-      <h3>🚧 <a href="../travaux_exemples/en_travaux.html">Les Photosites</a></h3>
-    </div>
+    <a class="boite" href="./photo_num/photosite.html">
+      <h3>Les Photosites</h3>
+    </a>
     
     <a class="boite-tp" href="./photo_num/tp_traitement_image.html">
       <h3>TP : Traitement d'image</h3>
