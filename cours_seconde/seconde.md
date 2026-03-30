@@ -119,6 +119,10 @@ title: Cours de Seconde SNT
       <h3>Système embarqué : carte microbit</h3>
     </a>
 
+    <a class="boite-projet" href="./info_emb/maqueen.html">
+      <h3>Projet : Voiture Maqueen</h3>
+    </a>
+
   </div>
 </div>
 
