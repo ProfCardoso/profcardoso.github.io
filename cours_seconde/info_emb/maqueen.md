@@ -37,7 +37,7 @@ Pour installer le module sur Edupython :
 
 
 - Créez un dossier de travail `Maqueen` dans votre répertoire `SNT`
-- Téléchargez le module <a href="./maqueen.py">maqueen.zip</a> et décompressez-le dans votre dossier 'Maqueen'
+- Téléchargez le module <a href="./maqueen.py">maqueen.py</a> et enregistrez le dans votre dossier 'Maqueen'
 - Ouvrez Edupython, puis ouvrez le fichier `maqueen.py`
 
 
@@ -103,7 +103,7 @@ np.show()
 
 ## Projet
 
-Vous utiliserez Edupython pour écrire et sauvegarder votre code, mais <a href="python.microbit.org" target="_blank"> python.microbit.org</a> pour le télécharger sur la carte microbit à mettre dans la voiture Maqueen.
+Vous utiliserez Edupython pour écrire et sauvegarder votre code, mais <a href="https://python.microbit.org" target="_blank"> python.microbit.org</a> pour le télécharger sur la carte microbit à mettre dans la voiture Maqueen.
 
 ### Partie Code
 

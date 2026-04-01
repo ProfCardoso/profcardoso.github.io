@@ -2,6 +2,10 @@
 title : Le Web
 ---
 
+<link rel="stylesheet" href="../../assets/style.css" />
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 # Le Web
 
 ## Introduction
@@ -10,22 +14,20 @@ Le **Web (toile ou réseau)** désigne un **système donnant accès à un ensemb
 
 ## Repères historiques 
 
-- **1965 :** invention et programmation du concept d’hypertexte par Ted Nelson ; 
-- **1989 :** naissance au CERN par Tim Berners Lee ; 
-- **1993 :** mise dans le domaine public, disponibilité du premier navigateur Mosaic ; 
-- **1995 :** mise à disposition de technologies pour le développement de site Web 
-interactif (langage JavaScript) et dynamique (langage PHP) ; 
-- **2001 :** standardisation des pages grâce au DOM (Document Object Model) ; 
-- **2010 :** mise à disposition de technologies pour le développement d’applications sur 
-mobiles. 
+- **1965 :** invention et programmation du **concept d’hypertexte** par **Ted Nelson** ; 
+- **1989 :** naissance de l'hypertexte au **CERN** par **Tim Berners Lee**. Première <a href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank"> page web</a> au monde créé au CERN.
+- **1993 :** mise dans le domaine public, disponibilité du premier navigateur **Mosaic** ; 
+- **1995 :** mise à disposition de technologies pour le développement de site Web **interactif** (langage JavaScript) et **dynamique** (langage PHP) ; 
+- **2001 :** standardisation des pages grâce au **DOM** (Document Object Model) ; 
+- **2010 :** mise à disposition de technologies pour le développement d’applications sur mobiles. 
 
 ## Qu’est-ce qu’un ordinateur ?
 
 Un ordinateur est une machine électronique programmable.
 
-- Hardware : c’est la partie matérielle (machine) de l’ordinateur (carte mère, processeur, mémoire…).
-- Software : c’est la partie logicielle (programmable) de l’ordinateur (LibreOffice, Firefox…).
-- Système d’exploitation : est un logiciel qui fait le lien entre le software et l’hardware (Windows, MacOS, Linux…).
+- **Hardware** : c’est la partie matérielle (machine) de l’ordinateur (carte mère, processeur, mémoire…).
+- **Software** : c’est la partie logicielle (programmable) de l’ordinateur (LibreOffice, Firefox…).
+- **Système d’exploitation** : est un logiciel qui fait le lien entre le software et l’hardware (Windows, MacOS, Linux…).
 
 1) Pour chacun des éléments suivants indiquer s’il s’agit d’hardware, de software ou d’un système d’exploitation :
 
@@ -51,7 +53,7 @@ Documents
 	│	└── Fichier3.txt
 	└── Fichier1.txt
 ```
-L’origine de cette arborescence est appelée racine. Sous Windows la racine est `C:\` et sous Linux `/`.
+L’origine de cette arborescence est appelée **racine.** Sous Windows la racine est `C:\` et sous Linux `/`.
 
 2) Vérifier que vous possèdez bien un dossier SNT dans vos dossiers personnel.
 
@@ -59,7 +61,7 @@ L’origine de cette arborescence est appelée racine. Sous Windows la racine es
 
 Il est très important de faire des sauvegardes de son travail. Au lycée il est préférable (obligatoire) d'enregistrer dans votre répertoire de travail.
 
-Il est même plus prudent des sauvegarder sur plusieurs supports différents (clé USB, pearltrees, cloud…) vos fichiers importants. Voir l’histoire de <a href="https://cryptonaute.fr/bitcoins-perdus-a-tout-jamais-dans-une-decharge/" target="_blank"> James Howells</a>
+Il est même plus prudent de sauvegarder sur plusieurs supports différents (clé USB, pearltrees, cloud…) vos fichiers importants. Voir l’histoire de <a href="https://cryptonaute.fr/bitcoins-perdus-a-tout-jamais-dans-une-decharge/" target="_blank"> James Howells</a>
 
 ## Navigateurs
 

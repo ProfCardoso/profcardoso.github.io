@@ -126,6 +126,17 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+## Thème 5 : Le Web
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./web/web.html">
+      <h3>Base du Web</h3>
+    </a>
+  </div>
+</div>
+
 <!-- 
 ## Thème 4 : Les données structurées et leur traitement
 
