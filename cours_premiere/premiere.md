@@ -249,6 +249,18 @@ title: Cours de Première NSI
       <h3>TP : Javascript</h3>
     </a>
 
+    <a class="boite" href="./web/requete.html">
+      <h3>Client/Requete/Serveur</h3>
+    </a>
+
+    <a class="boite-tp" href="./web/php.html">
+      <h3>TP : PHP</h3>
+    </a>
+
+    <a class="boite-tp" href="./web/formulaire.html">
+      <h3>TP : Formulaire</h3>
+    </a>
+
   </div>
 </div>
 
@@ -444,6 +456,18 @@ title: Cours de Première NSI
 
     <a class="boite-projet" href="./projet_2/liste_sujet_consignes.html">
       <h3> Jeu de société </h3>
+    </a>
+
+  </div>
+</div>
+
+## Projet 3 : IHM
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite-projet" href="https://www.youtube.com/watch?v=VM3uXu1Dq4c">
+      <h3> Site Web : Ne pas cliquer, date de début semaine prochaine </h3>
     </a>
 
   </div>

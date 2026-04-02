@@ -134,6 +134,10 @@ title: Cours de Seconde SNT
     <a class="boite" href="./web/web.html">
       <h3>Base du Web</h3>
     </a>
+
+    <a class="boite" href="./web/moteur_de_recherche.html">
+      <h3> 🚧 Les moteurs de recherche 🚧</h3>
+    </a>
   </div>
 </div>
 

@@ -12,12 +12,10 @@ title: IHM et Web
 Nous avons déjà vu rapidement le fonctionnement en client/serveur du web avec l’envoi de requêtes au serveur par le client. Nous allons maintenant approfondir les choses.
 
 ## Client
-
-Un **client** est un ordinateur qui envoie une **requête** à un **serveur**. Cela peut être un utilisateur par l’intermédiaire d’un navigateur ou un programme (bot) qui envoie une requête. Nous nous intéressons ici seulement au protocole http.
+Un client est un ordinateur qui envoie une requête à un serveur. Cela peut être un utilisateur par l’intermédiaire d’un navigateur ou un programme (bot) qui envoie une requête. Nous nous intéressons ici seulement au protocole http.
 
 ## Requête
-
-Quand vous saisissez une **URL** dans un navigateur, il convertit cette URL en une requête et l’envoie vers le bon serveur.
+Quand vous saisissez une URL dans un navigateur, il convertit cette URL en une requête et l’envoie vers le bon serveur.
 
 Par exemple cette URL https://www.debian.org/intro/about sera transformée en cette requête :
 
@@ -43,15 +41,15 @@ Il existe beaucoup d’autres entêtes.
 > 1) Allez sur la page ci-dessus avec **Firefox** et notez cinq autres entêtes (seulement les noms) de la requête avec le moniteur réseau (`ctrl + shift + E`).
 >
 
-Nous avons vu la commande **GET** qui est la plus utilisée car elle demande simplement la ressource. Il existe également une commande **POST** pour envoyer des données au serveur mais nous verrons ceci en détail dans le prochain chapitre. La commande **HEAD** permet de ne demander que les entêtes pour faire des tests par exemple.
+Nous avons vu la commande GET qui est la plus utilisée car elle demande simplement la ressource. Il existe également une commande POST pour envoyer des données au serveur mais nous verrons ceci en détail dans le prochain chapitre. La commande HEAD permet de ne demander que les entêtes pour faire des tests par exemple.
 
 ## Serveur
 
-Un **serveur** est aussi un ordinateur. Il n’est pas nécessairement puissant : votre téléphone peut être un serveur, un ordinateur de plus de dix ans, un Raspberry Pi. L’ordinateur que vous utilisez actuellement est un serveur (nous l’utiliserons plus tard).
+Un serveur est aussi un ordinateur. Il n’est pas nécessairement puissant : votre téléphone peut être un serveur, un ordinateur de plus de dix ans, un Raspberry Pi. L’ordinateur que vous utilisez actuellement est un serveur (nous l’utiliserons plus tard).
 
-Il existe des ordinateurs spécialement conçus pour être des serveurs avec beaucoup (beaucoup) de mémoire et beaucoup de processeurs. Ces serveurs sont en général situés dans des datacenters, des bâtiments spéciaux climatisés avec une très bonne connexion internet.
+Il existe des ordinateurs spécialement conçus pour être des serveurs avec beaucoup (beaucoup) de mémoire et beaucoup de processeurs. Ces serveurs sont en général situés dans des datacenters, des bâtiments spéciaux climatisés avec une très bonne connexion internet :
 
-Les serveurs dans les **datacenters** peuvent être loués à des particuliers ou des entreprises.
+Les serveurs dans les datacenters peuvent être loués à des particuliers ou des entreprises.
 
 ### Activité
 >
@@ -109,6 +107,22 @@ Voici ce que vous devez retenir de ces échanges client/serveur :
 > - 403
 > - 500
 
+---
+
+> **Solutions**
+>
+> 3)
+> 
+> 4) gws
+>
+> 5) 
+>
+> - 200 : succès de la requête ;
+> - 404 : ressource non trouvée ;
+> - 410 : ressource définitivement supprimée;
+> - 403 : accès refusé ;
+> - 500 : erreurs serveur ;
+
 ## Serveur local
 
 Un serveur ne fournit pas nécessairement des page HTML « statiques ». Il peut **exécuter du code avant de fournir une page**. Ce code peut être du **Python ou du Java** par exemple. Nous utiliserons **PHP** car il est très répandu et reste assez simple d’utilisation.
@@ -142,20 +156,27 @@ Vous devez obtenir ceci :
 >
 > 6) Où est interprété ce fichier ? Par quel programme ?
 >
+---
+> **Solution**
+>
+> 6) Le fichier est interprété localement sur votre ordinateur par votre navigateur.
+> 
+
+
 
 👉 Revenez sur UwAmp, et cliquer sur le bouton "Navigateur www"
 
 Vous devez obtenir quelque chose qui ressemble à ceci :
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img style="margin: auto;" src="../../images/uwamp_navigateur.png" alt="Python" width="400" />
+  <img style="margin: auto;" src="../../images/uwamp.jpg" alt="Python" width="400" />
 </div>
 <br>
 
 👉 Cliquer sur votre dossier, vous devez obtenir quelque chose qui ressemble à ceci :
 
 <div style="display: flex; flex-direction:column;  text-align: center; ">
-  <img style="margin: auto;" src="../../images/navigateur_uwamp_2.png" alt="Python" width="400" />
+  <img style="margin: auto;" src="../../images/uwamp.jpg" alt="Python" width="400" />
 </div>
 <br>
 
@@ -164,12 +185,18 @@ Vous devez obtenir quelque chose qui ressemble à ceci :
 >
 > 7) Où est interprété ce fichier ? Par quel programme ?
 >
+---
+> **Solution**
+>
+> 7) Ce fichier est interprété par le serveur UwAmp.
+> 
 
 ### Premier script PHP
 
 👉 Ecrire le fichier PHP suivant avec un éditeur de texte (Visual Studio Code, ou Notepad++ ou autre) et l’enregistrer sous le nom `affichages.php` sur votre session.
 
 ```PHP
+
 <!DOCTYPE html>
 <html>
  <head>
@@ -191,12 +218,28 @@ echo "Ceci est un affichage écrit en PHP";
 >
 > 8) Qu'obtenez-vous ?
 >
+---
+> **Solution**
+>
+> 9) On voit le code du fichier.
+> Le navigateur ne sait pas interpréter un ficihier .php
+> 
 
 👉 Ouvrez votre fichier dans le serveur, en procédant comme précédemment pour copier votre fichier sur le serveur, et le lire sur le serveur.
 
 >
 > 9) Qu'obtenez-vous ?
 >
+---
+> **Solution**
+>
+> 7) 
+>
+```
+Ceci est un affichage écrit en HTML
+Ceci est un affichage écrit en PHP
+```
+> 
 
 ## Bilan
 

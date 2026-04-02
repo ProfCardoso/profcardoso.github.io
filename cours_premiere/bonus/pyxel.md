@@ -12,7 +12,7 @@ title: Représentation des nombres
 Pyxel est une bibliothèque Python qui permet de créer facilement des jeux vidéo rétro en pixel-art.
 Elle s’inspire des consoles 8 bits comme la NES ou la Game Boy.
 
-Vous pouvez retrouver la documentation et les différents projets existant ici : ![Pyxel](https://www.pyxelstudio.net/)
+Vous pouvez retrouver la documentation et les différents projets existant ici : <a href="https://www.pyxelstudio.net/"> Pyxel </a>
 
 
 ## La bibliothèque Pyxel
@@ -96,7 +96,7 @@ Le fichier de ressources créé peut être chargé en utilisant la fonction load
 
 Plusieurs créations sont libre d'accès et vous permettront de voir plus en détails le fonctionnement de la bibliothèque Pyxel.
 
-1. Testez plusieurs jeu/animations présentent sur la page github du créateur de Pyxel : ![Kitao](https://github.com/kitao/pyxel/blob/main/docs/README.fr.md) . Vous pouvez récuperer le code de ces projets Pyxel et comprendre le fonctionnement pour chacune.
+1. Testez plusieurs jeu/animations présentent sur la page github du créateur de Pyxel : <a href ="https://github.com/kitao/pyxel" >Kitao</a> . Vous pouvez récuperer le code de ces projets Pyxel et comprendre le fonctionnement pour chacune.
 
 2. Choisissez l'un de ce jeu/animation et modifiez le code pour que l'on puisse voir une nette différence entre l'original et le votre. Attention, cela ne doit pas bloquer le bon déroulement du jeu. 
 

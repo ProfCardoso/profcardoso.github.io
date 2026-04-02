@@ -11,6 +11,4 @@ title : Le Web
 
 ## URL
 
-## Moteurs de recherches
-
 ## HTTP vs HTTPS
