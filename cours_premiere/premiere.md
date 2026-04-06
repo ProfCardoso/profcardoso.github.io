@@ -245,11 +245,11 @@ title: Cours de Première NSI
       <h3>TP : Html et CSS</h3>
     </a>
 
-    <a class="boite-tp" href="./web/base_js.html">
+    <a class="boite-tp" href="./web/base_js_correction.html">
       <h3>TP : Javascript</h3>
     </a>
 
-    <a class="boite" href="./web/requete.html">
+    <a class="boite" href="./web/requete_correction.html">
       <h3>Client/Requete/Serveur</h3>
     </a>
 
@@ -466,8 +466,8 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite-projet" href="https://www.youtube.com/watch?v=VM3uXu1Dq4c">
-      <h3> Site Web : Ne pas cliquer, date de début semaine prochaine </h3>
+    <a class="boite-projet" href="./projet_3/liste_sujet_consignes.html">
+      <h3> Site Web : Ne pas cliquer, date de début Vendredi</h3>
     </a>
 
   </div>
