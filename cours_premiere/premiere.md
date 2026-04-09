@@ -467,7 +467,7 @@ title: Cours de Première NSI
   <div class="boites-lecons">
 
     <a class="boite-projet" href="./projet_3/liste_sujet_consignes.html">
-      <h3> Site Web : Ne pas cliquer, date de début Vendredi</h3>
+      <h3> Site Web </h3>
     </a>
 
   </div>

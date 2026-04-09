@@ -93,6 +93,85 @@ Ce document doit :
 
 Le site doit utiliser un **fichier CSS externe** et un **fichier JavaScript externe**.
 
+## Document de réponse
+
+Voici les attendus pour le document de réponse à fournir
+
+### Explications
+
+Dans cette partie, vous devez :
+
+- présenter le thème de votre site web,
+- expliquer le but du site (à quoi sert-il ? pour qui ?),
+- décrire les différentes pages réalisées,
+- expliquer vos choix d’IHM (organisation, couleurs, navigation, lisibilité).
+
+👉 On attend un texte structuré montrant que vous avez réfléchi à l’interface et à l’utilisateur.
+
+### Intéractions
+
+Dans cette partie, vous devez :
+
+- décrire les fonctionnalités JavaScript mises en place,
+- expliquer ce que fait chaque interaction,
+- préciser en quoi cela améliore l’expérience utilisateur.
+
+Exemples attendus :
+
+- vérification de formulaire,
+- affichage dynamique,
+- changement de style,
+- messages d’erreur ou de confirmation.
+
+👉 Il ne suffit pas de dire “on a utilisé JavaScript”, il faut expliquer son rôle.
+
+### Formulaire
+
+Dans cette partie, vous devez :
+
+- décrire le formulaire créé (champs présents),
+- expliquer comment les données sont envoyées (GET ou POST),
+- expliquer comment elles sont traitées en PHP,
+- préciser si les données sont enregistrées (et comment),
+- décrire le résultat affiché à l’utilisateur.
+
+### Utilisations de l'IA
+
+Dans cette partie, vous devez :
+
+- expliquer comment vous avez utilisé l’IA (aide, correction, explication…),
+- préciser ce que vous avez compris,
+- indiquer ce que vous avez modifié ou adapté,
+- montrer que vous êtes restés acteurs de votre projet.
+
+👉 Il est important d’être honnête et de montrer un usage réfléchi. Les recherches faites sans IA ne sont pas à préciser.
+
+
+### Difficultés rencontrées
+
+Dans cette partie, vous devez :
+
+- identifier les problèmes rencontrés (techniques ou organisationnels),
+- expliquer pourquoi c’était difficile,
+- décrire comment vous avez résolu ces difficultés.
+
+Exemples :
+
+- erreurs de code,
+- compréhension du fonctionnement client/serveur,
+- organisation du travail en groupe,
+- mise en page CSS.
+
+👉 On attend une réflexion sur votre travail, pas seulement une liste de problèmes.
+
+## Oral ( Vendredi 17 avril )
+
+- **5 minutes de présentation**
+    - pour présenter la page (but, thème, etc)
+    - pour montrer l'interactivité
+    - montrer le formulaire
+- **5 minutes de questions**
+
 
 ## Contraintes techniques
 
@@ -112,3 +191,4 @@ projet_site/
 └── Document_de_reponse.odt (docx,...)
 ```
 
+Il devra être rendu sur Pearltrees au maximum **jeudi 16 avril** sous la forme d'un **fichier .zip** .
