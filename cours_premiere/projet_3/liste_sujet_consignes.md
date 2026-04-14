@@ -4,7 +4,7 @@ title: Projet Python
 
 <link rel="stylesheet" href="../../assets/style.css" />
 
-# Projet Python : Site Web
+# Projet 3 : Site Web
 
 ## Contexte du projet
 
@@ -69,7 +69,7 @@ Le formulaire doit permettre à l’utilisateur de saisir des informations, par 
 - avis
 - questionnaire
 
-Il devra contenir au moins 4 champs différents, par exemple :
+Il devra contenir au moins 3 champs différents, par exemple :
 
 - champ texte
 - email
