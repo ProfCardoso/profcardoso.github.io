@@ -55,6 +55,7 @@ Les listes se font grâce aux balises `<ul>` ou `<ol>`. Les éléments d’une l
 >
 > Saisissez le code suivant dans votre page :
 >
+
 ```html
 <ul>
     <li>un élément</li>
@@ -109,6 +110,7 @@ Pour appliquer un style à un élément il faut écrire des instructions dans la
 > 👉 Travail à faire n° 5 :
 >
 > Ajoutez le code suivant dans la fenêtre CSS et décrire ce qu’il se passe :
+
 ```css
 h1 {
     text-align: center;
