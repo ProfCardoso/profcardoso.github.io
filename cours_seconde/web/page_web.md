@@ -21,6 +21,7 @@ Si vous possèdez un éditeur de fichier, comme **Visual Studio Code**  ou **Not
 >
 > Ouvrir le navigateur, la page de jsfiddle.net et copier le code suivant dans la partie html.
 > 
+
 ```html
 <h1>Mon titre</h1>
 <h2>Un sous-titre</h2>
