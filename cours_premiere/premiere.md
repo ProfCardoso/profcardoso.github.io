@@ -261,6 +261,10 @@ title: Cours de Première NSI
       <h3>TP : Formulaire</h3>
     </a>
 
+    <a class="boite" href="./os/systeme_emb.html">
+      <h3>IHM et système embarqué</h3>
+    </a>
+
   </div>
 </div>
 
