@@ -150,7 +150,7 @@ title: Cours de Seconde SNT
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./donnee_struc/web.html">
+    <a class="boite" href="./donnee_struc/donnee_struc.html">
       <h3>Les données structurées</h3>
     </a>
 
