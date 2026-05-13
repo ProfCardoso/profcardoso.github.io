@@ -145,6 +145,18 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+## Thème 5 : Les données structurées et leur traitement
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./donnee_struc/web.html">
+      <h3>Les données structurées</h3>
+    </a>
+
+  </div>
+</div>
+
 <!-- 
 ## Thème 4 : Les données structurées et leur traitement
 

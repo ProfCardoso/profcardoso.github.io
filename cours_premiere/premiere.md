@@ -273,7 +273,7 @@ title: Cours de Première NSI
 <div class="cours-section">
   <div class="boites-lecons">
 
-    <a class="boite" href="./reseau/reseau.html">
+    <a class="boite" href="./reseau/reseau_correction.html">
       <h3>Réseau</h3>
     </a>
 
