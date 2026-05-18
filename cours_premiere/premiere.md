@@ -201,7 +201,7 @@ title: Cours de Première NSI
       <h3>Système d'exploitation</h3>
     </a>
 
-    <a class="boite" href="./os/archi_ordi.html">
+    <a class="boite" href="./os/machine_von_new.html">
       <h3>Architecture d'un ordinateur</h3>
     </a>
 

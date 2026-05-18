@@ -183,8 +183,8 @@ Son cycle de fonctionnement comporte 3 étapes :
 
 ### Jeu d'instructions
 
-| c0 | c1 c2 | Mnémonique | Instruction à réaliser |
-|:---:|:---:|:---:|:---:|
+| c0 | c1c2 | Mnémonique | Instruction à réaliser |
+|:---:|:------:|:---:|:---:|
 | 0 | addr | LDA | Copie le mot mémoire d’adresse `addr` dans le registre A |
 | 1 | addr | LDB | Copie le mot mémoire d’adresse `addr` dans le registre B |
 | 2 | addr | STR | Copie le contenu du registre R dans le mot mémoire d’adresse `addr` |
