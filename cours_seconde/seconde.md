@@ -154,6 +154,10 @@ title: Cours de Seconde SNT
       <h3>Les données structurées</h3>
     </a>
 
+    <a class="boite-tp" href="./donnee_struc/manip_donnee.html">
+      <h3>TP : Parcours Algoréa</h3>
+    </a>
+
   </div>
 </div>
 
