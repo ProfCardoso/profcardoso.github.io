@@ -17,15 +17,20 @@ Un algorithme glouton résout un problème étape par étape. À chaque étape i
 
 Étant donné un système de monnaie, comment rendre une somme donnée avec le nombre minimal de pièces et de billets ?
 
-*Exemple avec le système monétaire européen ( pièces et billets )* :   
+### Exemple avec le système monétaire européen ( pièces et billets )   
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/monnaie_europeenne.png" alt="monnaie" width="800" />
+</div>
+<br>
 
 Pour rendre 6 €, les combinaisons possibles sont :
 
-• 1 billet de 5 € et 1 pièce de 1 € ;
+- 1 billet de 5 € et 1 pièce de 1 € ;
 
-• 3 pièces de 2 € ;
+- 3 pièces de 2 € ;
 
-• 6 pièces de 1 € ;
+- 6 pièces de 1 € ;
 
 Le rendu avec le nombre minimal de pièce ou billets est le premier.
 
@@ -108,7 +113,7 @@ La méthode gloutonne consiste à découper le problème en étapes successives 
 
 ## D'autre problèmes très ... gloutons
 
-### optimisation de la visite d'un parc d'attraction (sans ordinateur)
+### Optimisation de la visite d'un parc d'attraction (sans ordinateur)
 
 Vous visitez un parc d'attractions proposant des spectacles à différents horaires. Voici les horaires des différents spectacles :
 
