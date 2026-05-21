@@ -36,7 +36,7 @@ Le rendu avec le nombre minimal de pièce ou billets est le premier.
 
 ## Activité débranché
 
-### Modélisation du problème
+### Modélisation du problème du rendu de monnaie
 
 Durant les grandes vacances, vous effectuez un petit boulot au sein d'une épicerie de quartier en tant que caissier-ière. Votre mission, encaisser les clients, et donc il vous arrive parfois de devoir rendre la monnaie.  
 Vous utilisez la caisse enregistreuse pour savoir le montant exact à rendre, malheureusement, cette caisse ne vous dit pas quelles sont les pièces à utiliser pour atteindre la somme à rendre en un minimum de pièces.

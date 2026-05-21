@@ -17,22 +17,26 @@ Un algorithme glouton résout un problème étape par étape. À chaque étape i
 
 Étant donné un système de monnaie, comment rendre une somme donnée avec le nombre minimal de pièces et de billets ?
 
-*Exemple avec le système monétaire européen ( pièces et billets )* :   
+### Exemple avec le système monétaire européen ( pièces et billets )   
+
+<div style="display: flex; flex-direction:column;  text-align: center; ">
+  <img style="margin: auto;" src="../../images/monnaie_europeenne.png" alt="monnaie" width="800" />
+</div>
+<br>
 
 Pour rendre 6 €, les combinaisons possibles sont :
 
-• 1 billet de 5 € et 1 pièce de 1 € ;
+- 1 billet de 5 € et 1 pièce de 1 € ;
 
-• 3 pièces de 2 € ;
+- 3 pièces de 2 € ;
 
-• 6 pièces de 1 € ;
+- 6 pièces de 1 € ;
 
 Le rendu avec le nombre minimal de pièce ou billets est le premier.
 
 ## Activité débranché
 
-### Modélisation du problème
-
+### Modélisation du problème du rendu de monnaie
 Durant les grandes vacances, vous effectuez un petit boulot au sein d'une épicerie de quartier en tant que caissier-ière. Votre mission, encaisser les clients, et donc il vous arrive parfois de devoir rendre la monnaie.  
 Vous utilisez la caisse enregistreuse pour savoir le montant exact à rendre, malheureusement, cette caisse ne vous dit pas quelles sont les pièces à utiliser pour atteindre la somme à rendre en un minimum de pièces.
 
