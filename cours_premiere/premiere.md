@@ -229,6 +229,10 @@ title: Cours de Première NSI
       <h3>Preuve d'un algorithme</h3>
     </a>
 
+    <a class="boite-tp" href="./algo/glouton.html">
+      <h3>TP : Glouton</h3>
+    </a>
+
   </div>
 </div>
 

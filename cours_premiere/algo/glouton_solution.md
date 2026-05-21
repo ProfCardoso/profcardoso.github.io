@@ -70,6 +70,23 @@ La combinaison retenue sera présentée sous la forme d'une liste dont la somme 
 
 💻 Proposer une fonction qui prend le montant à rendre et le système monétaire en paramètre et renvoie la combinaison optimale.
 
+```python
+def rendu_monnaie(montant, systeme):
+    rendu = []
+
+    for piece in systeme:
+        while montant >= piece:
+            rendu.append(piece)
+            montant = montant - piece
+
+    return rendu
+
+systeme_euro = [200, 100, 50, 20, 10, 5, 2, 1]
+
+print(rendu_monnaie(287, systeme_euro))
+
+```
+
 ### Pour allez plus loin !
 
 Considérons le système monétaire constitué des trois pièces suivantes : 1, 3 et 4.
