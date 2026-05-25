@@ -233,6 +233,14 @@ title: Cours de Première NSI
       <h3>TP : Glouton</h3>
     </a>
 
+    <a class="boite-tp" href="./algo/tri_boite.html">
+      <h3>TP : Tri de boite</h3>
+    </a>
+
+    <a class="boite" href="./algo/tri.html">
+      <h3>Tri de liste</h3>
+    </a>
+
   </div>
 </div>
 
