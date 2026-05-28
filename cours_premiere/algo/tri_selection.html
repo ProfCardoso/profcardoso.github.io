@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tri par selection</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Noto+Serif');
+        body {
+            margin: 20px;
+            font-size:16px;
+            font-family: Helvetica,Arial,sans-serif;
+        }
+        h1 {
+            font-size: 280%;
+            text-align: center;
+            text-shadow: 2px 2px 3px #333;
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 160%;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 2px 2px 3px #333;
+            margin-top: 0;
+            margin-bottom: 3em;
+        }
+        #infos {
+            font-size: 100%;
+            font-style: italic;
+            text-align: center;
+            margin-top:2em;
+            color:#069;
+        }
+        #affichage {
+            position: relative;
+            width: 440px;
+            height: 150px;
+            margin: auto;
+            font-weight: bold;
+        }
+        #c0, #c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9 {
+            position: absolute;
+            text-align: center;
+            font-size: 1em;
+            width: 1.2em;
+            height: 1.2em;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            border-radius: 6px;
+            background-color: #eeeeee;
+            padding:0.1em 0.2em 0.3em 0.2em;
+        }
+        #fleche {
+            position: absolute;
+            text-align: center;
+            font-size: 1em;
+            width: 1.2em;
+            height: 1.2em;
+            visibility: hidden;
+            top: 60px;
+            padding:0 0.2em 0 0.2em;
+            color: grey;
+        }
+        #point {
+            position: absolute;
+            text-align: center;
+            font-size: 1em;
+            width: 1.2em;
+            height: 1.2em;
+            visibility: hidden;
+            top: 103px;
+            padding:0 0.2em 0 0.2em;
+            color: blue;
+        }
+
+        #commandes, #commandes_tableau {
+            text-align: center;
+            width: 440px;
+            margin: auto;
+        }
+
+        button {
+            font-size: 100%;
+            border-radius: 0.5em;
+            cursor: pointer;
+
+        }
+        :focus {
+            outline: none;
+        }
+        .non_trié {
+            color: grey;
+        }
+        .trié {
+            color:black;
+        }
+        .echange {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tri par selection</h1>
+    <h2>Du plus grand au plus petit</h2>
+    <div id="commandes_tableau">
+        <button id="tab_trie">Liste triée</button> <button id="tab_aleatoire">Liste aléatoire</button> <button id="tab_non_trie">Liste triée à l'envers</button>
+    </div>
+    <div id="infos">&nbsp;</div>
+    <div id="affichage">
+        <div id="c0"></div>
+        <div id="c1"></div>
+        <div id="c2"></div>
+        <div id="c3"></div>
+        <div id="c4"></div>
+        <div id="c5"></div>
+        <div id="c6"></div>
+        <div id="c7"></div>
+        <div id="c8"></div>
+        <div id="c9"></div>
+        <div id="fleche">🠷</div>
+        <div id="point">•</div>
+    </div>
+    <div id="commandes">
+        <button id="automatique">Demarrer</button> <button id="suite">Suite</button>
+    </div>
+
+    <script>
+        const delta = 500;
+        var play;
+        var tab = [];
+        var next_fct;
+
+        var i;
+        var pos_max;
+
+        // Initialisation à l'ouverture de la page
+        for (let i=0;i<10;i++) {
+            document.querySelector("#c"+i).style.left = (i * 45) + "px";
+            document.querySelector("#c"+i).style.top = "80px";
+            document.querySelector("#c"+i).className = "non_trié"
+        }
+        document.querySelector("#automatique").style.visibility = "hidden";
+        document.querySelector("#suite").style.visibility = "hidden";
+        play = false;
+        pos_max = 0;
+
+        function suite(fonction) {
+            if (play) {
+                setTimeout(fonction, delta)
+            } else {
+                next_fct = fonction;
+                document.querySelector("#suite").onclick = next_fct;
+            }
+        }
+
+        function initialise() {
+            // Réinitialiser toute l'interface
+            for (let i=0;i<10;i++) {
+                document.querySelector("#c"+i).className = "non_trié"
+                document.querySelector("#c"+i).style.borderColor = "transparent";
+            }
+            document.querySelector("#commandes_tableau").style.visibility = "visible";
+            document.querySelector("#infos").innerHTML = "&nbsp;";
+            document.querySelector("#fleche").style.visibility = "hidden";
+            document.querySelector("#point").style.visibility = "hidden";
+            document.querySelector("#automatique").innerHTML = "Automatique";
+            document.querySelector("#automatique").style.visibility = "visible";
+            document.querySelector("#suite").style.visibility = "visible";
+            play = false;
+            i = -1;
+            suite(forI_test);
+        }
+
+        function affiche() {
+            // Affiche le contenu du tableau
+            //
+            for (let i=0;i<10;i++) {
+                document.querySelector("#c"+i).innerHTML = tab[i];
+            }
+        }
+
+        function forI_test() {
+            i += 1;
+            //
+            if (i < tab.length - 1) {
+                //
+                document.querySelector("#infos").style.color = "grey";
+                document.querySelector("#infos").innerHTML = "Début de la recherche du maximum dans la partie non triée";
+                document.querySelector("#fleche").style.color = "grey";
+                document.querySelector("#fleche").style.visibility = "visible";
+                document.querySelector("#c"+i).className = "echange";
+                document.querySelector("#fleche").style.left = (i * 45) + "px";
+                j = i;
+                pos_max = i
+                suite(forJ_test)
+            } else {
+                document.querySelector("#fleche").style.left = (i * 45) + "px";
+                document.querySelector("#infos").style.color = "black";
+                document.querySelector("#infos").innerHTML = "Le dernier élément est automatiquement trié";
+                document.querySelector("#c"+(i)).className = "trié";
+                suite(fin);
+            }
+        }
+
+        function forJ_test() {
+            //document.querySelector("#c"+pos_max).className = "non_trié";
+            //document.querySelector("#c"+j).className = "non_trié";
+            j += 1
+            document.querySelector("#point").style.visibility = "visible";
+            document.querySelector("#point").style.left = (j * 45) + "px";
+            if (j < tab.length) {
+                document.querySelector("#c"+pos_max).style.borderColor = "blue";
+                document.querySelector("#c"+j).style.borderColor = "blue";
+                document.querySelector("#infos").style.color = "blue";
+                document.querySelector("#infos").innerHTML = "Comparaison"
+                suite(forJ_contenu)
+            } else {
+                document.querySelector("#infos").style.color = "red"
+                document.querySelector("#infos").innerHTML = "Echange";
+                document.querySelector("#c"+i).style.borderColor = "red";
+                document.querySelector("#c"+pos_max).style.borderColor = "red";
+                document.querySelector("#point").style.visibility = "hidden";
+                suite(echange);
+            }
+        }
+
+        function echange() {
+            document.querySelector("#c"+pos_max).className = "non_trié";
+            temp = tab[pos_max];
+            tab[pos_max] = tab[i];
+            tab[i] = temp;
+            affiche()
+            document.querySelector("#c"+i).style.borderColor = "transparent";
+            document.querySelector("#c"+pos_max).style.borderColor = "transparent";
+            document.querySelector("#c"+i).className = "trié";
+            document.querySelector("#infos").style.color = "black";
+            document.querySelector("#infos").innerHTML = "Un élément de plus de trié";
+            document.querySelector("#fleche").style.color = "black";
+            suite(forI_test);
+        }
+
+
+
+        function forJ_contenu() {
+            //
+            document.querySelector("#c"+pos_max).style.borderColor = "transparent";
+            document.querySelector("#c"+j).style.borderColor = "transparent";
+            //
+            if (tab[j] > tab[pos_max]) {
+                document.querySelector("#c"+pos_max).className = "non_trié";
+                pos_max = j;
+                document.querySelector("#infos").innerHTML = "Nouveau maximum";
+                document.querySelector("#c"+pos_max).className = "echange";
+            } else {
+                document.querySelector("#infos").style.color = "grey"
+                document.querySelector("#infos").innerHTML = " Rien ";
+            }
+
+            suite(forJ_test);
+        }
+
+        function fin() {
+            // Le tri est fini
+            document.querySelector("#commandes_tableau").style.visibility = "visible";
+            document.querySelector("#infos").innerHTML = "&nbsp;";
+            document.querySelector("#fleche").style.visibility = "hidden";
+            document.querySelector("#automatique").style.visibility = "hidden";
+            document.querySelector("#suite").style.visibility = "hidden";
+        }
+
+        document.querySelector("#automatique").addEventListener("click", function() {
+            if (play == false) {
+                play = true;
+                document.querySelector("#commandes_tableau").style.visibility = "hidden";
+                document.querySelector("#automatique").innerHTML = "Mettre en pause";
+                document.querySelector("#suite").style.visibility = "hidden";
+                next_fct();
+            } else {
+                play = false;
+                document.querySelector("#commandes_tableau").style.visibility = "visible";
+                document.querySelector("#automatique").innerHTML = "Automatique";
+                document.querySelector("#suite").style.visibility = "visible";
+                document.querySelector("#suite").onclick = next_fct;
+            }
+        });
+
+        document.querySelector("#tab_trie").addEventListener("click", function() {
+            for (let i=0;i<10;i++) {
+                tab[i] = Math.ceil(Math.random()*50);
+            }
+            for (let i=1;i<tab.length;i++) {
+                let p = i - 1;
+                let elt = tab[i];
+                while (elt > tab[p] && p >= 0) {
+                    tab[p+1] = tab[p];
+                    p = p - 1;
+                }
+                tab[p+1] = elt;
+            }
+            initialise();
+            affiche();
+        });
+
+        document.querySelector("#tab_aleatoire").addEventListener("click", function() {
+            for (let i=0;i<10;i++) {
+                tab[i] = Math.ceil(Math.random()*50);
+            }
+            initialise();
+            affiche();
+        });
+
+        document.querySelector("#tab_non_trie").addEventListener("click", function() {
+            for (let i=0;i<10;i++) {
+                tab[i] = Math.ceil(Math.random()*50);
+            }
+            for (let i=1;i<tab.length;i++) {
+                let p = i - 1;
+                let elt = tab[i];
+                while (elt < tab[p] && p >= 0) {
+                    tab[p+1] = tab[p];
+                    p = p - 1;
+                }
+                tab[p+1] = elt;
+            }
+            initialise();
+            affiche();
+        });
+
+    </script>
+
+</body>
+</html>

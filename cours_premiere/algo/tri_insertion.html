@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tri par insertion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Noto+Serif');
+        body {
+            margin: 20px;
+            font-size:16px;
+            font-family: Helvetica,Arial,sans-serif;
+        }
+        h1 {
+            font-size: 280%;
+            text-align: center;
+            text-shadow: 2px 2px 3px #333;
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 160%;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 2px 2px 3px #333;
+            margin-top: 0;
+            margin-bottom: 3em;
+        }
+        #infos {
+            font-size: 100%;
+            font-style: italic;
+            text-align: center;
+            margin-top:2em;
+            color:#069;
+        }
+        #affichage {
+            position: relative;
+            width: 440px;
+            height: 150px;
+            margin: auto;
+            font-weight: bold;
+        }
+        #c0, #c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9 {
+            position: absolute;
+            text-align: center;
+            font-size: 1em;
+            width: 1.2em;
+            height: 1.2em;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            border-radius: 6px;
+            background-color: #eeeeee;
+            padding:0.1em 0.2em 0.3em 0.2em;
+        }
+        #elt {
+            position: absolute;
+            text-align: center;
+            font-size: 1em;
+            width: 1.2em;
+            height: 1.2em;
+            visibility: hidden;
+            top: 30px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: transparent;
+            border-radius: 6px;
+            background-color: #eeeeee;
+            padding:0.1em 0.2em 0.3em 0.2em;
+        }
+        #commandes, #commandes_tableau {
+            text-align: center;
+            width: 440px;
+            margin: auto;
+        }
+        button {
+            font-size: 100%;
+            border-radius: 0.5em;
+            cursor: pointer;
+
+        }
+        :focus {
+            outline: none;
+        }
+        .non_trié {
+            color: grey;
+        }
+        .trié {
+            color:black;
+        }
+        .fantome {
+            color: #fff9f9;
+        }
+        .rouge {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tri par insertion</h1>
+    <h2>Du plus grand au plus petit</h2>
+    <div id="commandes_tableau">
+        <button id="tab_trie">Liste triée</button> <button id="tab_aleatoire">Liste aléatoire</button> <button id="tab_non_trie">Liste triée à l'envers</button>
+    </div>
+    <div id="infos">&nbsp;</div>
+    <div id="affichage">
+        <div id="c0"></div>
+        <div id="c1"></div>
+        <div id="c2"></div>
+        <div id="c3"></div>
+        <div id="c4"></div>
+        <div id="c5"></div>
+        <div id="c6"></div>
+        <div id="c7"></div>
+        <div id="c8"></div>
+        <div id="c9"></div>
+        <div id="elt"></div>
+    </div>
+    <div id="commandes">
+        <button id="demarrer">Demarrer</button> <button id="suite">Suite</button>
+    </div>
+
+    <script>
+        const delta = 500;
+        var play;
+        var tab = [];
+        var next_fct;
+
+        var i;
+        var p;
+        var elt;
+
+        // Initialisation à l'ouverture de la page
+        for (let i=0;i<10;i++) {
+            document.querySelector("#c"+i).style.left = (i * 45) + "px";
+            document.querySelector("#c"+i).style.top = "80px";
+            document.querySelector("#c"+i).className = "non_trié"
+        }
+        document.querySelector("#demarrer").style.visibility = "hidden";
+        document.querySelector("#suite").style.visibility = "hidden";
+        play = false;
+
+        function suite(fonction) {
+            if (play) {
+                setTimeout(fonction, delta)
+            } else {
+                next_fct = fonction;
+                document.querySelector("#suite").onclick = next_fct;
+            }
+        }
+
+
+        function initialise() {
+            for (let i=0;i<10;i++) {
+                document.querySelector("#c"+i).className = "non_trié"
+                document.querySelector("#c"+i).style.borderColor = "transparent";
+            }
+            document.querySelector("#commandes_tableau").style.visibility = "visible";
+            document.querySelector("#elt").style.visibility = "hidden";
+            document.querySelector("#elt").style.borderColor = "transparent";
+            document.querySelector("#demarrer").innerHTML = "Automatique";
+            document.querySelector("#demarrer").style.visibility = "hidden";
+            document.querySelector("#demarrer").style.visibility = "visible";
+            document.querySelector("#suite").style.visibility = "visible";
+            play = false;
+            next_fct = demarre;
+            document.querySelector("#suite").onclick = next_fct;
+        }
+
+        function affiche() {
+            for (let i=0;i<10;i++) {
+                document.querySelector("#c"+i).innerHTML = tab[i];
+            }
+        }
+
+        function demarre() {
+            console.log('demarre')
+            document.querySelector("#c0").className = "trié";
+            i = 0;
+            p = 0;
+            for_increment();
+        }
+
+        function for_increment() {
+            i += 1;
+            if (i < tab.length) {
+                suite(for_contenu)
+            } else {
+                suite(fin);
+            }
+        }
+
+        function for_contenu() {
+            document.querySelector("#c"+(p+1)).className = "trié";
+            p = i - 1;
+            elt = tab[i];
+            // Extraction de l'élément
+            document.querySelector("#elt").innerHTML = elt;
+            document.querySelector("#elt").style.left = i*45 + "px";
+            document.querySelector("#elt").style.visibility = "visible";
+            document.querySelector("#elt").className = "rouge";
+            document.querySelector("#infos").innerHTML = "Extraction de l'élément";
+            document.querySelector("#infos").style.color = "red";
+            document.querySelector("#c"+i).className = "trié";
+            document.querySelector("#c"+i).className = "fantome";
+            suite(comparaison)
+        }
+
+        function comparaison() {
+            document.querySelector("#infos").innerHTML = "&nbsp;";
+            if (p >= 0) {
+                document.querySelector("#infos").innerHTML = "Comparaison";
+                document.querySelector("#infos").style.color = "blue";
+                document.querySelector("#elt").style.borderColor = "blue";
+                document.querySelector("#c"+p).style.borderColor = "blue";
+                suite(while_test)
+            } else {
+                while_test();
+            }
+
+        }
+
+        function while_test() {
+            if (p >= 0) {
+                document.querySelector("#elt").style.borderColor = "transparent";
+                document.querySelector("#c"+p).style.borderColor = "transparent";
+            }
+            if (elt > tab[p] && p >= 0) {
+                while_test_vrai();
+            } else {
+                while_test_faux();
+            }
+        }
+
+        function while_test_vrai() {
+            // Décalage du contenu de la cellule
+            document.querySelector("#infos").innerHTML = "Décalage";
+            document.querySelector("#infos").style.color = "black";
+            document.querySelector("#c"+p).className = "fantome";
+            document.querySelector("#c"+(p+1)).className = "trié";
+            tab[p+1] = tab[p];
+            p = p-1;
+            affiche();
+            suite(comparaison);
+        }
+
+        function while_test_faux() {
+            // Placement dans le tableau de l'élément mis de côté
+            document.querySelector("#infos").innerHTML = "Replacement";
+            document.querySelector("#infos").style.color = "black";
+            tab[p+1] = elt;
+            document.querySelector("#elt").className = "fantome";
+            document.querySelector("#c"+(p+1)).className = "rouge";
+            affiche();
+            for_increment();
+        }
+
+        function fin() {
+            // Le tri est fini
+            document.querySelector("#commandes_tableau").style.visibility = "visible";
+            document.querySelector("#infos").innerHTML ="&nbsp;"
+            document.querySelector("#demarrer").style.visibility = "hidden";
+            document.querySelector("#suite").style.visibility = "hidden";
+            document.querySelector("#c"+(p+1)).className = "trié";
+            document.querySelector("#elt").style.visibility = "hidden";
+        }
+
+        document.querySelector("#demarrer").addEventListener("click", function() {
+            if (play == false) {
+                play = true;
+                document.querySelector("#commandes_tableau").style.visibility = "hidden";
+                document.querySelector("#demarrer").innerHTML = "Mettre en pause";
+                document.querySelector("#suite").style.visibility = "hidden";
+                next_fct();
+            } else {
+                play = false;
+                document.querySelector("#commandes_tableau").style.visibility = "visible";
+                document.querySelector("#demarrer").innerHTML = "Automatique";
+                document.querySelector("#suite").style.visibility = "visible";
+                document.querySelector("#suite").onclick = next_fct;
+            }
+        });
+
+        document.querySelector("#suite").onclick = for_increment;
+
+        document.querySelector("#tab_trie").addEventListener("click", function() {
+            for (let i=0;i<10;i++) {
+                tab[i] = Math.ceil(Math.random()*50);
+            }
+            for (let i=1;i<tab.length;i++) {
+                let p = i - 1;
+                let elt = tab[i];
+                while (elt > tab[p] && p >= 0) {
+                    tab[p+1] = tab[p];
+                    p = p - 1;
+                }
+                tab[p+1] = elt;
+            }
+            initialise();
+            affiche();
+        });
+
+        document.querySelector("#tab_aleatoire").addEventListener("click", function() {
+            for (let i=0;i<10;i++) {
+                tab[i] = Math.ceil(Math.random()*50);
+            }
+            initialise();
+            affiche();
+        });
+
+        document.querySelector("#tab_non_trie").addEventListener("click", function() {
+            for (let i=0;i<10;i++) {
+                tab[i] = Math.ceil(Math.random()*50);
+            }
+            for (let i=1;i<tab.length;i++) {
+                let p = i - 1;
+                let elt = tab[i];
+                while (elt < tab[p] && p >= 0) {
+                    tab[p+1] = tab[p];
+                    p = p - 1;
+                }
+                tab[p+1] = elt;
+            }
+            initialise();
+            affiche();
+        });
+
+    </script>
+
+</body>
+</html>

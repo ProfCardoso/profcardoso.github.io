@@ -5,19 +5,113 @@ title : Algorithmique
 <link rel="stylesheet" href="../../assets/style.css" />
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-# 🚧 Page en construction 🚧
+# Les tris
 
-Cette section du site est en cours de création.  
-Merci de revenir plus tard pour consulter le contenu !
+## Tri par sélection
 
----
+L'algorithme de tri par sélection est un algorithme classique qui permettent de trier une liste.
 
-<div style="text-align: center;">
-  <img src="https://media.giphy.com/media/3o6ZsY8GgF5yBeMLDi/giphy.gif" alt="Travaux en cours" width="400" />
-</div>
+### Principe
 
----
+Lien : <a href="./tri_selection.html" target="_blank" >Visualisation du principe du tri par selection</a>
 
->
-> 📌 Astuce : tu peux explorer les autres leçons déjà disponibles via le [menu principal](../index.html).
->
+### Algorithme
+
+🖊️ Repérer les actions qui sont répétées.
+
+🖥️ Proposer une fonction qui prend une liste en paramètre et modifie cette liste pour qu'à la fin de l'exécution de la fonction la liste soit triée par ordre croissant.
+
+🖥️ Compléter avec le programme principal qui permet de tester la fonction avec une liste de 20 nombres entiers choisis aléatoirement entre 0 et 99.
+
+### Terminaison de l'algorithme
+
+🖊️ Démontrer la terminaison de l'algorithme.
+
+### Correction de l'algorithme
+
+🖊️ Proposer un invariant pour chacune des deux boucles.
+
+### Coût
+
+🖊️ Pour quelle configuration de liste l'algorithme fait-il le moins de comparaison ? Dans ce cas combien en fait-il ?
+
+🖊️ Pour quelle configuration de liste l'algorithme fait-il le plus de comparaison ? Dans ce cas, combien en fait-il ?
+
+## Tri par insertion
+
+L'algorithme de tri par sélection est un algorithme classique qui permettent de trier une liste.
+
+### Principe
+
+Lien : <a href="./tri_insertion.html" target="_blank" >Visualisation du principe du tri par insertion</a>
+
+### Algorithme
+
+🖊️ Repérer les actions qui sont répétées.
+
+🖥️ Proposer une fonction qui prend une liste en paramètre et modifie cette liste pour qu'à la fin de l'exécution de la fonction la liste soit triée par ordre croissant.
+
+🖥️ Compléter avec le programme principal qui permet de tester la fonction avec une liste de 20 nombres entiers choisis aléatoirement entre 0 et 99.
+
+### Terminaison de l'algorithme
+
+🖊️ Démontrer la terminaison de l'algorithme.
+
+### Correction de l'algorithme
+
+🖊️ Proposer un invariant pour chacune des deux boucles.
+
+### Coût
+
+🖊️ Pour quelle configuration de liste l'algorithme fait-il le moins de comparaison ? Dans ce cas combien en fait-il ?
+
+🖊️ Pour quelle configuration de liste l'algorithme fait-il le plus de comparaison ? Dans ce cas, combien en fait-il ?
+
+## D'autre tris 
+
+### Tri à bulles (du plus grand au plus petit)
+
+Fonctionnement :
+
+- L’algorithme parcourt la liste et compare les éléments consécutifs. Lorsque deux éléments consécutifs ne sont pas dans l’ordre, ils sont échangés.
+
+- Après un premier parcours complet de la liste, le plus petit élément est forcément en fin de la liste, à sa position définitive.
+
+- On parcourt la liste à nouveau, en s’arrêtant à l’avant-dernier élément.
+
+- Après ce deuxième parcours, les deux plus petits éléments sont à leur positions définitives.
+
+- ...
+
+Il faut donc répéter les parcours de la liste, jusqu’à ce que tous les éléments soient à leurs positions définitives.
+
+🖥️ Travail à faire : Proposer un programme qui trie une liste suivant la méthode du tri à bulles.
+
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
+  <div style="margin-top: 10px;">
+    <pre><code>
+      from random import randint
+      def tri_bulle(liste):
+          """
+          Trie la liste dans l'ordre décroissant
+          """
+          a_trouve_echange = True
+          i_max = len(liste)-1
+          while a_trouve_echange and i_max > 1 :
+              a_trouve_echange = False
+              for j in range(0, i_max):
+                  if liste[j] < liste[j+1]:
+                      liste[j], liste[j+1] = liste[j+1], liste[j]
+                      a_trouve_echange = True
+              i_max = i_max - 1
+      # ==== Programme principal ====
+      L = [randint(0,50) for _ in range(20)]
+      print(L)
+      tri_bulle(L)
+      print(L)
+    </code></pre>
+  </div>
+</details>
+
