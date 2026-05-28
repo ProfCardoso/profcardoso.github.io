@@ -87,31 +87,3 @@ Il faut donc répéter les parcours de la liste, jusqu’à ce que tous les él�
 
 🖥️ Travail à faire : Proposer un programme qui trie une liste suivant la méthode du tri à bulles.
 
-
-<details>
-  <summary style="cursor: pointer; font-weight: bold;"><u>Solution</u></summary>
-  <div style="margin-top: 10px;">
-    <pre><code>
-      from random import randint
-      def tri_bulle(liste):
-          """
-          Trie la liste dans l'ordre décroissant
-          """
-          a_trouve_echange = True
-          i_max = len(liste)-1
-          while a_trouve_echange and i_max > 1 :
-              a_trouve_echange = False
-              for j in range(0, i_max):
-                  if liste[j] < liste[j+1]:
-                      liste[j], liste[j+1] = liste[j+1], liste[j]
-                      a_trouve_echange = True
-              i_max = i_max - 1
-      # ==== Programme principal ====
-      L = [randint(0,50) for _ in range(20)]
-      print(L)
-      tri_bulle(L)
-      print(L)
-    </code></pre>
-  </div>
-</details>
-
