@@ -161,6 +161,18 @@ title: Cours de Seconde SNT
   </div>
 </div>
 
+## Thème 6 : Les données structurées et leur traitement
+
+<div class="cours-section">
+  <div class="boites-lecons">
+
+    <a class="boite" href="./gps/gps.html">
+      <h3>Géolocalisation par satellites</h3>
+    </a>
+  </div>
+</div>
+
+
 <!-- 
 ## Thème 4 : Les données structurées et leur traitement
 

@@ -237,8 +237,12 @@ title: Cours de Première NSI
       <h3>TP : Tri de boite</h3>
     </a>
 
-    <a class="boite" href="./algo/tri.html">
+    <a class="boite" href="./algo/tri_soluce.html">
       <h3>Tri de liste</h3>
+    </a>
+
+    <a class="boite" href="./algo/knn.html">
+      <h3>Algorithme des k plus proches voisins</h3>
     </a>
 
   </div>
